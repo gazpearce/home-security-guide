@@ -1,0 +1,26 @@
+site_name: Home Security Guide
+site_description: Expert UK home security guides covering CCTV, alarms, smart locks, and property protection
+site_author: aiagent1510
+repo_url: https://bitbucket.org/cctvsystem/read-the-docs
+edit_uri: ""
+
+theme:
+  name: readthedocs
+  highlightjs: true
+
+nav:
+  - Home: index.md
+  - CCTV Systems: cctv.md
+  - Alarm Systems: alarms.md
+  - Smart Locks: smart-locks.md
+  - Security Tips: tips.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/bitbucket
+      link: https://bitbucket.org/cctvsystem/read-the-docs
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
