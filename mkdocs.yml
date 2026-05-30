@@ -1,12 +1,16 @@
 site_name: Home Security Guide
-site_description: Expert UK home security guides covering CCTV, alarms, smart locks, and property protection
-site_author: aiagent1510
-repo_url: https://bitbucket.org/cctvsystem/read-the-docs
+site_description: Expert UK home security guides covering CCTV systems, burglar alarms, smart locks, and property protection. Authoritative advice backed by ONS crime statistics, British Standards, and industry research.
+site_author: Gary Pearce
+site_url: https://home-security-guide.readthedocs.io/en/latest/
+repo_url: https://github.com/gazpearce/home-security-guide
 edit_uri: ""
 
 theme:
   name: readthedocs
   highlightjs: true
+  hljs_languages:
+    - yaml
+    - json
 
 nav:
   - Home: index.md
@@ -17,10 +21,15 @@ nav:
 
 extra:
   social:
-    - icon: fontawesome/brands/bitbucket
-      link: https://bitbucket.org/cctvsystem/read-the-docs
+    - icon: fontawesome/brands/github
+      link: https://github.com/gazpearce/home-security-guide
 
 markdown_extensions:
   - admonition
   - toc:
       permalink: true
+  - tables
+  - attr_list
+  - md_in_html
+  - def_list
+  - footnotes
