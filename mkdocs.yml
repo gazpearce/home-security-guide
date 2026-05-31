@@ -33,6 +33,16 @@ nav:
     - Data Cabling Termination Guide: data-cabling/08-data-cabling-termination-guide.md
     - Data Cabling Testing and Certification Guide: data-cabling/09-data-cabling-testing-and-certification-guide.md
     - Whole-Home Structured Cabling Design: data-cabling/10-whole-home-structured-cabling-design.md
+    - Cat6 vs Cat6a Cable Guide: data-cabling/11-cat6-vs-cat6a-cable-guide.md
+    - External Weatherproof Data Cabling: data-cabling/12-external-weatherproof-data-cabling.md
+    - Underfloor Data Cabling Installation: data-cabling/13-underfloor-data-cabling-installation.md
+    - Data Cabling for New Build Homes: data-cabling/14-data-cabling-for-new-build-homes.md
+    - Shielded vs Unshielded Data Cable: data-cabling/15-shielded-vs-unshielded-data-cable.md
+    - Data Cabling Tools Complete Guide: data-cabling/16-data-cabling-tools-complete-guide.md
+    - Ethernet Cable Colour Coding Guide: data-cabling/17-ethernet-cable-colour-coding-guide.md
+    - Data Cabling for Flats and Apartments: data-cabling/18-data-cabling-for-flats-and-apartments.md
+    - Network Rack and Cabinet Installation: data-cabling/19-network-rack-and-cabinet-installation.md
+    - Data Cabling Testing Standards UK: data-cabling/20-data-cabling-testing-standards-uk.md
   - TV Wall Mounting:
     - Overview: tv-mounting.md
     - Fixed TV Mount Installation Guide: tv-mounting/01-fixed-tv-mount-installation-guide.md
@@ -55,6 +65,16 @@ nav:
     - TV Mounting On Plasterboard Walls: tv-mounting/18-tv-mounting-on-plasterboard-walls.md
     - TV Mounting On Dot-Dab Plasterboard: tv-mounting/19-tv-mounting-on-dot-dab-plasterboard.md
     - TV Cable Concealment Complete Guide: tv-mounting/20-tv-cable-concealment-complete-guide.md
+    - TV Mounting for Corner Positions: tv-mounting/21-tv-mounting-for-corner-positions.md
+    - TV Mounting for Rental Properties: tv-mounting/22-tv-mounting-for-rental-properties.md
+    - Outdoor TV Mounting Guide UK: tv-mounting/23-outdoor-tv-mounting-guide-uk.md
+    - TV Mounting with Soundbar Integration: tv-mounting/24-tv-mounting-with-soundbar-integration.md
+    - TV Mount Height Calculator Guide: tv-mounting/25-tv-mount-height-calculator-guide.md
+    - TV Mounting on Sloping Ceilings: tv-mounting/26-tv-mounting-on-sloping-ceilings.md
+    - Cable-in-Wall TV Mounting Guide: tv-mounting/27-cable-in-wall-tv-mounting-guide.md
+    - TV Mounting for Home Cinema Projectors: tv-mounting/28-tv-mounting-for-home-cinema-projectors.md
+    - TV Mounting on Brick Fireplace Surrounds: tv-mounting/29-tv-mounting-on-brick-fireplace-surrounds.md
+    - TV Mounting on Thermalite Aerated Blocks: tv-mounting/30-tv-mounting-on-thermalite-aerated-blocks.md
   - Starlink:
     - Overview: starlink.md
     - Starlink Gen 3 Setup Guide UK: starlink/01-starlink-gen-3-setup-guide-uk.md
@@ -77,6 +97,16 @@ nav:
     - Starlink Ethernet Adapter Setup: starlink/18-starlink-ethernet-adapter-setup.md
     - Starlink Performance In UK Weather: starlink/19-starlink-performance-in-uk-weather.md
     - Starlink Firmware And Software Updates: starlink/20-starlink-firmware-and-software-updates.md
+    - Starlink VoIP and Phone Service Setup UK: starlink/21-starlink-voip-and-phone-service-setup-uk.md
+    - Starlink VPN Configuration Guide: starlink/22-starlink-vpn-configuration-guide.md
+    - Starlink Power Consumption and Solar Setup: starlink/23-starlink-power-consumption-and-solar-setup.md
+    - Starlink Gaming Performance Guide UK: starlink/24-starlink-gaming-performance-guide-uk.md
+    - Starlink for Caravan and Motorhome UK: starlink/25-starlink-for-caravan-and-motorhome-uk.md
+    - Starlink Business Plan UK Guide: starlink/26-starlink-business-plan-uk-guide.md
+    - Starlink Obstruction Map and 3D Mounting: starlink/27-starlink-obstruction-map-and-3d-mounting.md
+    - Starlink WiFi Security Best Practices: starlink/28-starlink-wifi-security-best-practices.md
+    - Starlink Cable Management and Concealment: starlink/29-starlink-cable-management-and-concealment.md
+    - Starlink Network Switch Configuration Guide: starlink/30-starlink-network-switch-configuration-guide.md
   - Smart Home: smart-home.md
 
 extra:
