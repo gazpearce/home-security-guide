@@ -6,11 +6,15 @@ repo_url: https://github.com/gazpearce/home-security-guide
 edit_uri: ""
 
 theme:
-  name: readthedocs
-  highlightjs: true
-  hljs_languages:
-    - yaml
-    - json
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+  palette:
+    primary: indigo
+    accent: indigo
 
 nav:
   - Home: index.md
@@ -69,6 +73,7 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/gazpearce/home-security-guide
+      name: GitHub
 
 markdown_extensions:
   - admonition
@@ -79,3 +84,11 @@ markdown_extensions:
   - md_in_html
   - def_list
   - footnotes
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
