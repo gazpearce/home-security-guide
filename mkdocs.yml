@@ -85,6 +85,9 @@ extra:
       link: https://github.com/gazpearce/home-security-guide
       name: GitHub
 
+extra_javascript:
+  - extra/collapse-nav.js
+
 markdown_extensions:
   - admonition
   - toc:
