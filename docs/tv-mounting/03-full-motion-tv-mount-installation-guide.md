@@ -1,4 +1,9 @@
-﻿# Full Motion TV Mount Installation Guide
+﻿---
+description: >-
+  A full motion articulating TV mount extends from the wall, swivels left and right, and tilts up and down for maximum viewing flexibility. This guide covers arm types, weight ratings, and UK-specific installation for corner positions and open-plan spaces.
+---
+
+# Full Motion TV Mount Installation Guide
 
 A full motion articulating TV mount extends from the wall, swivels left and right, and tilts up and down for maximum viewing flexibility. This guide covers arm types, weight ratings, and UK-specific installation for corner positions and open-plan spaces.
 
@@ -45,8 +50,21 @@ Wall strength is paramount for full motion mounts because the extended arm lever
 <dd>Most allow a soundbar bracket to attach below the TV. Alternatively wall-mount the soundbar separately. Check the soundbar does not obstruct downward tilt when mounted together.</dd>
 
 <dt>What is the main trade-off with full motion?</dt>
-<dd>Depth 50-100mm retracted vs 15-30mm for fixed, price £40-£180 vs £15-£50, and more complex installation. The flexibility is significant for open-plan UK homes and corner positions.</dd>
+<dd>Depth 50-100mm retracted vs 15-30mm for fixed, price £40-£180 vs £15-£50, and more complex installation. The flexibility is significant for open-plan UK homes and corner positions. For more information see our <a href="01-fixed-tv-mount-installation-guide.md">Fixed TV Mount Installation Guide</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Full Motion TV Mount Installation Guide",
+  "description": "A full motion articulating TV mount extends from the wall, swivels left and right, and tilts up and down for maximum viewing flexibility. This guide covers arm types, weight ratings, and UK-specific installation for corner positions and open-plan spaces.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -98,13 +116,17 @@ Wall strength is paramount for full motion mounts because the extended arm lever
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [tv-mounting Overview](../tv-mounting/)
+- [tv-mounting Overview](../tv-mounting.md)
 - [Fixed TV Mount Installation Guide](01-fixed-tv-mount-installation-guide.md)
 - [TV Mounting for Corner Positions](16-tv-mounting-in-corner-positions.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [Information Commissioner's Office](https://ico.org.uk/).
 

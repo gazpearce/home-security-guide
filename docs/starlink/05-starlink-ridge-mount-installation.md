@@ -1,4 +1,9 @@
-﻿# Starlink Ridge Mount Installation
+﻿---
+description: >-
+  A ridge mount allows you to attach your Starlink dish to the roof ridge tiles for the highest possible position. This guide covers ridge mount selection, installation on UK roof types, and weatherproofing.
+---
+
+# Starlink Ridge Mount Installation
 
 A ridge mount allows you to attach your Starlink dish to the roof ridge tiles for the highest possible position. This guide covers ridge mount selection, installation on UK roof types, and weatherproofing.
 
@@ -45,8 +50,21 @@ Step 1: Identify roof construction. UK roofs use ridge tiles (clay or concrete) 
 <dd>Properly installed ridge mounts with sealed penetrations will not damage the roof. Use a ridge tile flashing kit to weatherproof the junction. Check the installation annually for leaks.</dd>
 
 <dt>What size pipe does a Starlink ridge mount use?</dt>
-<dd>The Starlink pipe adapter fits 48mm (1.5 NPT) pipe or use an adapter. Most ridge mounts include a 300-500mm pipe section of correct diameter. Pipe length determines dish height above the ridge.</dd>
+<dd>The Starlink pipe adapter fits 48mm (1.5 NPT) pipe or use an adapter. Most ridge mounts include a 300-500mm pipe section of correct diameter. Pipe length determines dish height above the ridge. For more information see our <a href="06-starlink-pivot-mount-installation.md">Starlink Pivot Mount Installation</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Starlink Ridge Mount Installation",
+  "description": "A ridge mount allows you to attach your Starlink dish to the roof ridge tiles for the highest possible position. This guide covers ridge mount selection, installation on UK roof types, and weatherproofing.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -98,13 +116,17 @@ Step 1: Identify roof construction. UK roofs use ridge tiles (clay or concrete) 
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [starlink Overview](../starlink/)
+- [starlink Overview](../starlink.md)
 - [Starlink Pivot Mount Installation](06-starlink-pivot-mount-installation.md)
 - [Starlink Flashing Mount Installation](07-starlink-flashing-mount-installation.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [Royal Society for the Prevention of Accidents](https://www.rospa.com/).
 

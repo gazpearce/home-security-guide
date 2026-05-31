@@ -1,4 +1,9 @@
-﻿# Fixed TV Mount Installation Guide
+﻿---
+description: >-
+  A fixed TV mount holds the TV 15-30mm from the wall for a sleek, floating appearance. This guide covers mount selection, wall preparation, drilling, bracket fitting, and safety checks following UK building regulations and BS 7671 wiring standards.
+---
+
+# Fixed TV Mount Installation Guide
 
 A fixed TV mount holds the TV 15-30mm from the wall for a sleek, floating appearance. This guide covers mount selection, wall preparation, drilling, bracket fitting, and safety checks following UK building regulations and BS 7671 wiring standards.
 
@@ -45,8 +50,21 @@ Step 1: Identify wall construction using a stud finder or tap test. UK brick wal
 <dd>Yes — many fixed mounts include a soundbar bracket or allow the TV to sit higher to accommodate a soundbar underneath. Alternatively mount the soundbar separately on the wall below the TV.</dd>
 
 <dt>Is professional installation worth it for a fixed mount?</dt>
-<dd>Professional installation (£80-£180) is recommended for unusual wall types, TVs over 65 inches, or if you lack the correct tools. Most installers provide a 12-month guarantee on their work.</dd>
+<dd>Professional installation (£80-£180) is recommended for unusual wall types, TVs over 65 inches, or if you lack the correct tools. Most installers provide a 12-month guarantee on their work. For more information see our <a href="02-tilting-tv-mount-installation-guide.md">Tilting TV Mount Installation Guide</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Fixed TV Mount Installation Guide",
+  "description": "A fixed TV mount holds the TV 15-30mm from the wall for a sleek, floating appearance. This guide covers mount selection, wall preparation, drilling, bracket fitting, and safety checks following UK building regulations and BS 7671 wiring standards.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -98,13 +116,17 @@ Step 1: Identify wall construction using a stud finder or tap test. UK brick wal
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [tv-mounting Overview](../tv-mounting/)
+- [tv-mounting Overview](../tv-mounting.md)
 - [Tilting TV Mount Installation Guide](02-tilting-tv-mount-installation-guide.md)
 - [Full Motion TV Mount Installation Guide](03-full-motion-tv-mount-installation-guide.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [British Standards Institution (BSI)](https://www.bsigroup.com/en-GB/).
 

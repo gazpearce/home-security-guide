@@ -1,4 +1,9 @@
-﻿# TV Mounting for 65 Inch TVs
+﻿---
+description: >-
+  65 inch TVs are the fastest growing segment in UK home entertainment weighing 22-28kg. This guide covers the specific requirements for mounting these heavier TVs including weight distribution, VESA patterns, and installation considerations.
+---
+
+# TV Mounting for 65 Inch TVs
 
 65 inch TVs are the fastest growing segment in UK home entertainment weighing 22-28kg. This guide covers the specific requirements for mounting these heavier TVs including weight distribution, VESA patterns, and installation considerations.
 
@@ -45,8 +50,21 @@ Installation requires two people due to size and weight. Step 1: Decide on TV po
 <dd>Fixed or tilting mounts are the most secure for 65-inch TVs. Full motion mounts need careful selection -- choose a heavy-duty dual-arm model rated at least 2x the TV weight at full extension.</dd>
 
 <dt>What wall fixings do I need for a 65 inch TV on brick?</dt>
-<dd>Use M10 resin anchors or expanding shield anchors for brick walls. Minimum 80mm depth into solid brick. Fischer UX 10x50mm wall plugs with 8mm coach screws work but resin anchors provide extra safety margin.</dd>
+<dd>Use M10 resin anchors or expanding shield anchors for brick walls. Minimum 80mm depth into solid brick. Fischer UX 10x50mm wall plugs with 8mm coach screws work but resin anchors provide extra safety margin. For more information see our <a href="13-tv-mounting-for-55-inch-tvs.md">TV Mounting for 55 Inch TVs</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "TV Mounting for 65 Inch TVs",
+  "description": "65 inch TVs are the fastest growing segment in UK home entertainment weighing 22-28kg. This guide covers the specific requirements for mounting these heavier TVs including weight distribution, VESA patterns, and installation considerations.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -98,13 +116,17 @@ Installation requires two people due to size and weight. Step 1: Decide on TV po
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [tv-mounting Overview](../tv-mounting/)
+- [tv-mounting Overview](../tv-mounting.md)
 - [TV Mounting for 55 Inch TVs](13-tv-mounting-for-55-inch-tvs.md)
 - [TV Mounting for 75-85 Inch TVs](15-tv-mounting-for-75-85-inch-tvs.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [UK Government Building Regulations](https://www.gov.uk/government/collections/building-regulations-approved-documents).
 

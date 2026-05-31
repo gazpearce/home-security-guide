@@ -1,4 +1,9 @@
-﻿# Starlink Mini Setup Guide UK
+﻿---
+description: >-
+  The Starlink Mini is a portable compact dish for UK users who need internet on the go. This guide covers Mini hardware differences, setup process, power options, and UK-specific usage scenarios.
+---
+
+# Starlink Mini Setup Guide UK
 
 The Starlink Mini is a portable compact dish for UK users who need internet on the go. This guide covers Mini hardware differences, setup process, power options, and UK-specific usage scenarios.
 
@@ -45,8 +50,21 @@ Step 1: Choose a location with clear sky view northward. Step 2: For temporary s
 <dd>No, the Mini has a built-in WiFi router integrated into the dish body. No separate router unit is needed. WiFi range is approximately 30 metres from the dish.</dd>
 
 <dt>What Starlink Mini accessories are available?</dt>
-<dd>Mini pipe adapter Â£44 for pole mounting, Mini wall mount Â£49 for wall mounting, 12V power cable kit Â£35, and vehicle mount for roof installation on campervans.</dd>
+<dd>Mini pipe adapter Â£44 for pole mounting, Mini wall mount Â£49 for wall mounting, 12V power cable kit Â£35, and vehicle mount for roof installation on campervans. For more information see our <a href="01-starlink-gen-3-setup-guide-uk.md">Starlink Gen 3 Setup Guide UK</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Starlink Mini Setup Guide UK",
+  "description": "The Starlink Mini is a portable compact dish for UK users who need internet on the go. This guide covers Mini hardware differences, setup process, power options, and UK-specific usage scenarios.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -98,13 +116,17 @@ Step 1: Choose a location with clear sky view northward. Step 2: For temporary s
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [starlink Overview](../starlink/)
+- [starlink Overview](../starlink.md)
 - [Starlink Gen 3 Setup Guide UK](01-starlink-gen-3-setup-guide-uk.md)
 - [Starlink App Installation Walkthrough](03-starlink-app-installation-walkthrough.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [National Security Inspectorate](https://nsi.org.uk/).
 

@@ -1,4 +1,9 @@
-﻿# Ceiling TV Mount Installation Guide
+﻿---
+description: >-
+  Ceiling TV mounts suspend the television from the ceiling using a vertical pole or drop-down mechanism — ideal when wall mounting is impractical, in rental properties where wall drilling is restricted, or for space optimisation.
+---
+
+# Ceiling TV Mount Installation Guide
 
 Ceiling TV mounts suspend the television from the ceiling using a vertical pole or drop-down mechanism — ideal when wall mounting is impractical, in rental properties where wall drilling is restricted, or for space optimisation.
 
@@ -45,8 +50,21 @@ Step 1: Locate ceiling joists with a stud finder and mark positions. Step 2: Cut
 <dd>Most tenancy agreements prohibit drilling into joists. Tension-fit clamps between floor and ceiling exist but are less secure and suitable only for TVs up to 32 inches.</dd>
 
 <dt>What tools for ceiling mount installation?</dt>
-<dd>Essential: stud finder, drill with wood and masonry bits, socket wrench set, spirit level, tape measure, tall ladder, and a helper. A TV lift assist tool is highly recommended.</dd>
+<dd>Essential: stud finder, drill with wood and masonry bits, socket wrench set, spirit level, tape measure, tall ladder, and a helper. A TV lift assist tool is highly recommended. For more information see our <a href="18-tv-mounting-for-rental-properties.md">TV Mounting for Rental Properties</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Ceiling TV Mount Installation Guide",
+  "description": "Ceiling TV mounts suspend the television from the ceiling using a vertical pole or drop-down mechanism — ideal when wall mounting is impractical, in rental properties where wall drilling is restricted, or for space optimisation.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -98,13 +116,17 @@ Step 1: Locate ceiling joists with a stud finder and mark positions. Step 2: Cut
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [tv-mounting Overview](../tv-mounting/)
+- [tv-mounting Overview](../tv-mounting.md)
 - [TV Mounting for Rental Properties](18-tv-mounting-for-rental-properties.md)
 - [TV Mounting on Sloping Ceilings](40-tv-mounting-on-sloping-ceilings.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [Electrical Safety First](https://www.electricalsafetyfirst.org.uk/).
 

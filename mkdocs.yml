@@ -21,7 +21,18 @@ nav:
   - Alarm Systems: alarms.md
   - Smart Locks: smart-locks.md
   - Security Tips: tips.md
-  - Data Cabling: data-cabling.md
+  - Data Cabling:
+    - Overview: data-cabling.md
+    - Home Office Data Cabling Guide: data-cabling/01-home-office-data-cabling-guide.md
+    - TV and Streaming Data Cabling Guide: data-cabling/02-tv-and-streaming-data-cabling-guide.md
+    - CCTV Camera Data Cabling Guide: data-cabling/03-cctv-camera-data-cabling-guide.md
+    - WiFi Access Point Data Cabling Guide: data-cabling/04-wifi-access-point-data-cabling-guide.md
+    - Gaming Setup Data Cabling Guide: data-cabling/05-gaming-setup-data-cabling-guide.md
+    - Smart Home Hub Data Cabling Guide: data-cabling/06-smart-home-hub-data-cabling-guide.md
+    - Patch Panel Installation Guide: data-cabling/07-patch-panel-installation-guide.md
+    - Data Cabling Termination Guide: data-cabling/08-data-cabling-termination-guide.md
+    - Data Cabling Testing and Certification Guide: data-cabling/09-data-cabling-testing-and-certification-guide.md
+    - Whole-Home Structured Cabling Design: data-cabling/10-whole-home-structured-cabling-design.md
   - TV Wall Mounting:
     - Overview: tv-mounting.md
     - Fixed TV Mount Installation Guide: tv-mounting/01-fixed-tv-mount-installation-guide.md

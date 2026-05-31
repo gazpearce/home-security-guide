@@ -1,4 +1,9 @@
-﻿# TV Mounting Tools and Equipment Guide
+﻿---
+description: >-
+  A comprehensive guide to tools and equipment needed for TV mounting in UK homes. From drills and bits to stud finders and cable management, this covers everything needed for a professional installation.
+---
+
+# TV Mounting Tools and Equipment Guide
 
 A comprehensive guide to tools and equipment needed for TV mounting in UK homes. From drills and bits to stud finders and cable management, this covers everything needed for a professional installation.
 
@@ -45,8 +50,21 @@ For cable management: brush wall plates (Â£5-Â£12 each), mini trunking (D-li
 <dd>Screwfix and Toolstation are the best for fixings and drills. B&Q for general hardware. Amazon UK for TV lift handles and right-angle adapters. Halfords for torque wrenches.</dd>
 
 <dt>What tools do I need for plasterboard TV mounting?</dt>
-<dd>Stud finder, cavity fixing tool (Gripit tool Â£15 from Screwfix), drill with 3mm bit, tape measure, pencil, and level. The Gripit plasterboard fixing kit includes the tool and fixings.</dd>
+<dd>Stud finder, cavity fixing tool (Gripit tool Â£15 from Screwfix), drill with 3mm bit, tape measure, pencil, and level. The Gripit plasterboard fixing kit includes the tool and fixings. For more information see our <a href="16-tv-mounting-safety-checklist.md">TV Mounting Safety Checklist</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "TV Mounting Tools and Equipment Guide",
+  "description": "A comprehensive guide to tools and equipment needed for TV mounting in UK homes. From drills and bits to stud finders and cable management, this covers everything needed for a professional installation.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -98,13 +116,17 @@ For cable management: brush wall plates (Â£5-Â£12 each), mini trunking (D-li
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [tv-mounting Overview](../tv-mounting/)
+- [tv-mounting Overview](../tv-mounting.md)
 - [TV Mounting Safety Checklist](16-tv-mounting-safety-checklist.md)
 - [Concrete Wall TV Mounting Guide](09-concrete-wall-tv-mounting-guide.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [British Standards Institution (BSI)](https://www.bsigroup.com/en-GB/).
 

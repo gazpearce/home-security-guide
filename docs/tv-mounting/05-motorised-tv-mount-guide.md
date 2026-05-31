@@ -1,4 +1,9 @@
-﻿# Motorised TV Mount Guide
+﻿---
+description: >-
+  Motorised TV mounts use electric motors to move the TV between positions — extending, retracting, swivelling, and tilting via remote control, smartphone app, or voice command. This guide covers types, installation requirements, and UK specifics.
+---
+
+# Motorised TV Mount Guide
 
 Motorised TV mounts use electric motors to move the TV between positions — extending, retracting, swivelling, and tilting via remote control, smartphone app, or voice command. This guide covers types, installation requirements, and UK specifics.
 
@@ -45,8 +50,21 @@ Motorised mounts require a mains power supply for the motor unit. Most include a
 <dd>Quality motorised mounts operate at 25-40 dB, comparable to a quiet conversation. Budget mounts can be noticeably louder at 45-55 dB. Check noise specifications before purchasing for bedroom installations.</dd>
 
 <dt>Can motorised mounts be used outdoors?</dt>
-<dd>Outdoor-rated motorised mounts exist but are rare and expensive. Standard motorised mounts are not weatherproof. For outdoor TVs use a manual full-motion mount and cover the TV when not in use.</dd>
+<dd>Outdoor-rated motorised mounts exist but are rare and expensive. Standard motorised mounts are not weatherproof. For outdoor TVs use a manual full-motion mount and cover the TV when not in use. For more information see our <a href="01-fixed-tv-mount-installation-guide.md">Fixed TV Mount Installation Guide</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Motorised TV Mount Guide",
+  "description": "Motorised TV mounts use electric motors to move the TV between positions — extending, retracting, swivelling, and tilting via remote control, smartphone app, or voice command. This guide covers types, installation requirements, and UK specifics.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -98,13 +116,17 @@ Motorised mounts require a mains power supply for the motor unit. Most include a
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [tv-mounting Overview](../tv-mounting/)
+- [tv-mounting Overview](../tv-mounting.md)
 - [Fixed TV Mount Installation Guide](01-fixed-tv-mount-installation-guide.md)
 - [Full Motion TV Mount Installation Guide](03-full-motion-tv-mount-installation-guide.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [Royal Society for the Prevention of Accidents](https://www.rospa.com/).
 

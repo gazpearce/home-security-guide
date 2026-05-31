@@ -1,4 +1,9 @@
-﻿# Starlink Obstruction Check Guide
+﻿---
+description: >-
+  Obstructions are the most common cause of Starlink service interruptions in the UK. This guide covers how to use the obstruction check tool, interpret results, and choose the best installation location for reliable service.
+---
+
+# Starlink Obstruction Check Guide
 
 Obstructions are the most common cause of Starlink service interruptions in the UK. This guide covers how to use the obstruction check tool, interpret results, and choose the best installation location for reliable service.
 
@@ -45,8 +50,21 @@ The app shows results as a heat map of the sky with obstruction locations marked
 <dd>Use a pole mount or ridge mount to raise the dish above tree height. The Starlink app obstruction check helps find the minimum height needed. A 3-5m pole mount can clear most UK garden obstructions.</dd>
 
 <dt>How accurate is the Starlink app obstruction check?</dt>
-<dd>The AR obstruction check is fairly accurate but shows all visible sky rather than just the active satellite path. Expect actual obstruction impact to be slightly lower than the app suggests.</dd>
+<dd>The AR obstruction check is fairly accurate but shows all visible sky rather than just the active satellite path. Expect actual obstruction impact to be slightly lower than the app suggests. For more information see our <a href="01-starlink-gen-3-setup-guide-uk.md">Starlink Gen 3 Setup Guide UK</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Starlink Obstruction Check Guide",
+  "description": "Obstructions are the most common cause of Starlink service interruptions in the UK. This guide covers how to use the obstruction check tool, interpret results, and choose the best installation location for reliable service.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -98,13 +116,17 @@ The app shows results as a heat map of the sky with obstruction locations marked
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [starlink Overview](../starlink/)
+- [starlink Overview](../starlink.md)
 - [Starlink Gen 3 Setup Guide UK](01-starlink-gen-3-setup-guide-uk.md)
 - [Starlink Ridge Mount Installation](05-starlink-ridge-mount-installation.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [Electrical Safety First](https://www.electricalsafetyfirst.org.uk/).
 

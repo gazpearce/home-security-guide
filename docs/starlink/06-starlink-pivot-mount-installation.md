@@ -1,4 +1,9 @@
-﻿# Starlink Pivot Mount Installation
+﻿---
+description: >-
+  A pivot mount allows you to mount your Starlink dish on a wall and tilt it northward for best satellite reception. This guide covers pivot mount types, wall attachment, and UK wall type considerations.
+---
+
+# Starlink Pivot Mount Installation
 
 A pivot mount allows you to mount your Starlink dish on a wall and tilt it northward for best satellite reception. This guide covers pivot mount types, wall attachment, and UK wall type considerations.
 
@@ -45,8 +50,21 @@ Step 1: Choose the installation location. The pivot mount is typically mounted o
 <dd>Yes, the official Starlink pivot mount works with both Gen 3 and Mini dishes. The dish pipe adapter attaches to the pivot arm end. Third-party mounts should specify Starlink compatibility.</dd>
 
 <dt>How do I weatherproof a Starlink pivot mount installation?</dt>
-<dd>Use stainless steel fixings rated for exterior use. Apply exterior silicone sealant to all wall penetration points. Use weatherproof cable connectors and create a drip loop before cable entry.</dd>
+<dd>Use stainless steel fixings rated for exterior use. Apply exterior silicone sealant to all wall penetration points. Use weatherproof cable connectors and create a drip loop before cable entry. For more information see our <a href="05-starlink-ridge-mount-installation.md">Starlink Ridge Mount Installation</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Starlink Pivot Mount Installation",
+  "description": "A pivot mount allows you to mount your Starlink dish on a wall and tilt it northward for best satellite reception. This guide covers pivot mount types, wall attachment, and UK wall type considerations.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -98,13 +116,17 @@ Step 1: Choose the installation location. The pivot mount is typically mounted o
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [starlink Overview](../starlink/)
+- [starlink Overview](../starlink.md)
 - [Starlink Ridge Mount Installation](05-starlink-ridge-mount-installation.md)
 - [Starlink Wall Mount Installation](09-starlink-wall-mount-installation.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [UK Government Building Regulations](https://www.gov.uk/government/collections/building-regulations-approved-documents).
 

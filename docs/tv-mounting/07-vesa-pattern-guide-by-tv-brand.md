@@ -1,4 +1,9 @@
-﻿# VESA Pattern Guide by TV Brand
+﻿---
+description: >-
+  VESA is the standard hole pattern on the back of TVs where wall mounts attach. This guide provides VESA patterns for major UK TV brands including LG, Samsung, Sony, Panasonic, Philips, Hisense, and TCL, plus measurement and compatibility advice.
+---
+
+# VESA Pattern Guide by TV Brand
 
 VESA is the standard hole pattern on the back of TVs where wall mounts attach. This guide provides VESA patterns for major UK TV brands including LG, Samsung, Sony, Panasonic, Philips, Hisense, and TCL, plus measurement and compatibility advice.
 
@@ -45,8 +50,21 @@ Method 1: Check the TV user manual under specifications. VESA pattern is usually
 <dd>Samsung Frame TVs use 200x200mm for 43-50 inch models and 400x400mm for 55-75 inch models. Frame TVs are designed for ultra-slim wall mounting so choose a flush mount no deeper than 15mm.</dd>
 
 <dt>How do I measure VESA pattern myself?</dt>
-<dd>Measure the horizontal distance between left and right mounting holes in mm, then the vertical distance between top and bottom holes. For example a 400x400mm pattern measures 400mm across and 400mm down. Round to the nearest standard pattern.</dd>
+<dd>Measure the horizontal distance between left and right mounting holes in mm, then the vertical distance between top and bottom holes. For example a 400x400mm pattern measures 400mm across and 400mm down. Round to the nearest standard pattern. For more information see our <a href="01-fixed-tv-mount-installation-guide.md">Fixed TV Mount Installation Guide</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "VESA Pattern Guide by TV Brand",
+  "description": "VESA is the standard hole pattern on the back of TVs where wall mounts attach. This guide provides VESA patterns for major UK TV brands including LG, Samsung, Sony, Panasonic, Philips, Hisense, and TCL, plus measurement and compatibility advice.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -98,13 +116,17 @@ Method 1: Check the TV user manual under specifications. VESA pattern is usually
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [tv-mounting Overview](../tv-mounting/)
+- [tv-mounting Overview](../tv-mounting.md)
 - [Fixed TV Mount Installation Guide](01-fixed-tv-mount-installation-guide.md)
 - [TV Wall Mount Weight Ratings Explained](25-tv-wall-mount-weight-ratings-explained.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [Which?](https://www.which.co.uk/).
 

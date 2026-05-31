@@ -1,4 +1,9 @@
-﻿# Starlink Firmware and Software Updates
+﻿---
+description: >-
+  Starlink dishes and routers receive automatic firmware updates that improve performance, add features, and fix issues. This guide covers update frequency, what updates change, scheduling options, and how to force or manage updates.
+---
+
+# Starlink Firmware and Software Updates
 
 Starlink dishes and routers receive automatic firmware updates that improve performance, add features, and fix issues. This guide covers update frequency, what updates change, scheduling options, and how to force or manage updates.
 
@@ -46,8 +51,21 @@ Starlink firmware updates have introduced significant features over the past yea
 <dd>Updates are scheduled for late night hours (2am-5am) to minimise disruption. The dish and router reboot during the update causing 2-5 minutes of downtime. If your dish is powered off at night the update will apply when it powers back on.</dd>
 
 <dt>Will a firmware update change my Starlink speeds?</dt>
-<dd>Firmware updates can affect speeds. Most updates maintain or improve speeds through optimisations like improved beamforming. Occasionally an update may temporarily reduce speeds as the dish recalibrates. This typically normalises within 24-48 hours.</dd>
+<dd>Firmware updates can affect speeds. Most updates maintain or improve speeds through optimisations like improved beamforming. Occasionally an update may temporarily reduce speeds as the dish recalibrates. This typically normalises within 24-48 hours. For more information see our <a href="19-starlink-performance-in-uk-weather.md">Starlink Performance in UK Weather</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Starlink Firmware and Software Updates",
+  "description": "Starlink dishes and routers receive automatic firmware updates that improve performance, add features, and fix issues. This guide covers update frequency, what updates change, scheduling options, and how to force or manage updates.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -99,13 +117,17 @@ Starlink firmware updates have introduced significant features over the past yea
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [starlink Overview](../starlink/)
+- [starlink Overview](../starlink.md)
 - [Starlink Performance in UK Weather](19-starlink-performance-in-uk-weather.md)
 - [Starlink Ethernet Adapter Setup](18-starlink-ethernet-adapter-setup.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [Electrical Safety First](https://www.electricalsafetyfirst.org.uk/).
 

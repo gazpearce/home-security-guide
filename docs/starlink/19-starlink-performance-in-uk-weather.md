@@ -1,4 +1,9 @@
-﻿# Starlink Performance in UK Weather
+﻿---
+description: >-
+  Understand how UK weather conditions affect Starlink satellite internet performance. This guide covers rain fade, snow impact, wind effects, cloud cover, and seasonal variation based on UK usage data and user reports.
+---
+
+# Starlink Performance in UK Weather
 
 Understand how UK weather conditions affect Starlink satellite internet performance. This guide covers rain fade, snow impact, wind effects, cloud cover, and seasonal variation based on UK usage data and user reports.
 
@@ -48,8 +53,21 @@ Winter (December-February) is the most challenging season for Starlink in the UK
 <dd>Winter months see 2-5% lower average speeds due to more frequent precipitation. Spring and autumn offer the best performance. The impact is minor and most users do not notice seasonal variation during normal use.</dd>
 
 <dt>Should I worry about lightning strikes on my Starlink dish?</dt>
-<dd>Lightning risk to Starlink dishes is very low but follow standard UK lightning safety. Install surge protection on the power line and Ethernet cable. Disconnect during severe thunderstorms if you want maximum protection.</dd>
+<dd>Lightning risk to Starlink dishes is very low but follow standard UK lightning safety. Install surge protection on the power line and Ethernet cable. Disconnect during severe thunderstorms if you want maximum protection. For more information see our <a href="20-starlink-firmware-and-software-updates.md">Starlink Firmware and Software Updates</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Starlink Performance in UK Weather",
+  "description": "Understand how UK weather conditions affect Starlink satellite internet performance. This guide covers rain fade, snow impact, wind effects, cloud cover, and seasonal variation based on UK usage data and user reports.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -101,13 +119,17 @@ Winter (December-February) is the most challenging season for Starlink in the UK
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [starlink Overview](../starlink/)
+- [starlink Overview](../starlink.md)
 - [Starlink Firmware and Software Updates](20-starlink-firmware-and-software-updates.md)
 - [Starlink Mesh Network Setup UK](17-starlink-mesh-network-setup-uk.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [Information Commissioner's Office](https://ico.org.uk/).
 

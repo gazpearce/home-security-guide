@@ -1,4 +1,9 @@
-﻿# TV Cable Concealment Complete Guide
+﻿---
+description: >-
+  Hide unsightly TV cables for a clean floating TV look. This guide covers trunking, in-wall routing, brush plates, and professional cable management solutions for UK homes and rented properties.
+---
+
+# TV Cable Concealment Complete Guide
 
 Hide unsightly TV cables for a clean floating TV look. This guide covers trunking, in-wall routing, brush plates, and professional cable management solutions for UK homes and rented properties.
 
@@ -45,8 +50,21 @@ Surface trunking method: 1. Measure cable run from behind TV to socket location.
 <dd>32x16mm trunking fits 3-4 standard HDMI cables plus power. 20x10mm fits 1-2 HDMI cables. Measure your cable bundle thickness before buying. Right-angle adapters reduce HDMI plug size by half.</dd>
 
 <dt>How do I conceal cables when the socket is on the opposite side of the room?</dt>
-<dd>Use longer surface trunking along the skirting board then up to the TV position. D-line corner joints allow neat direction changes. Or use a wireless HDMI extender from Â£50 though these have compression artefacts.</dd>
+<dd>Use longer surface trunking along the skirting board then up to the TV position. D-line corner joints allow neat direction changes. Or use a wireless HDMI extender from Â£50 though these have compression artefacts. For more information see our <a href="12-tv-mounting-above-a-fireplace.md">TV Mounting Above a Fireplace</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "TV Cable Concealment Complete Guide",
+  "description": "Hide unsightly TV cables for a clean floating TV look. This guide covers trunking, in-wall routing, brush plates, and professional cable management solutions for UK homes and rented properties.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -98,13 +116,17 @@ Surface trunking method: 1. Measure cable run from behind TV to socket location.
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [tv-mounting Overview](../tv-mounting/)
+- [tv-mounting Overview](../tv-mounting.md)
 - [TV Mounting Above a Fireplace](12-tv-mounting-above-a-fireplace.md)
 - [Full Motion TV Mount Installation Guide](03-full-motion-tv-mount-installation-guide.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [Electrical Safety First](https://www.electricalsafetyfirst.org.uk/).
 

@@ -1,4 +1,9 @@
-﻿# TV Mounting Above a Fireplace
+﻿---
+description: >-
+  Mounting a TV above a fireplace is a popular UK living room arrangement but requires careful planning. This guide covers heat management, viewing height, cable concealment, and mount selection for UK fireplace installations.
+---
+
+# TV Mounting Above a Fireplace
 
 Mounting a TV above a fireplace is a popular UK living room arrangement but requires careful planning. This guide covers heat management, viewing height, cable concealment, and mount selection for UK fireplace installations.
 
@@ -45,8 +50,21 @@ The TV centre above a fireplace typically sits at 140-170cm from the floor, whic
 <dd>Never route cables through the flue area of gas or wood-burning fires. Heat will damage cables and create a fire risk. Always route cables to the side of the fireplace using trunking.</dd>
 
 <dt>Is it safe to mount a TV above an electric fireplace?</dt>
-<dd>Yes, electric fires produce the least upward heat. Maintain at least 75mm clearance. Check the temperature with the fire on maximum for 30 minutes before final installation. Most UK electric fires are safe for TV mounting.</dd>
+<dd>Yes, electric fires produce the least upward heat. Maintain at least 75mm clearance. Check the temperature with the fire on maximum for 30 minutes before final installation. Most UK electric fires are safe for TV mounting. For more information see our <a href="02-tilting-tv-mount-installation-guide.md">Tilting TV Mount Installation Guide</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "TV Mounting Above a Fireplace",
+  "description": "Mounting a TV above a fireplace is a popular UK living room arrangement but requires careful planning. This guide covers heat management, viewing height, cable concealment, and mount selection for UK fireplace installations.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -98,13 +116,17 @@ The TV centre above a fireplace typically sits at 140-170cm from the floor, whic
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [tv-mounting Overview](../tv-mounting/)
+- [tv-mounting Overview](../tv-mounting.md)
 - [Tilting TV Mount Installation Guide](02-tilting-tv-mount-installation-guide.md)
 - [TV Cable Concealment Complete Guide](20-tv-cable-concealment-complete-guide.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [Electrical Safety First](https://www.electricalsafetyfirst.org.uk/).
 

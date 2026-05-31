@@ -1,4 +1,9 @@
-﻿# Concrete Wall TV Mounting Guide
+﻿---
+description: >-
+  Concrete walls provide the strongest possible TV mounting surface but require specialist tools and fixings. This guide covers concrete wall identification, SDS drilling techniques, resin anchor and shield anchor selection, and UK building regulations for concrete wall mounting.
+---
+
+# Concrete Wall TV Mounting Guide
 
 Concrete walls provide the strongest possible TV mounting surface but require specialist tools and fixings. This guide covers concrete wall identification, SDS drilling techniques, resin anchor and shield anchor selection, and UK building regulations for concrete wall mounting.
 
@@ -45,8 +50,21 @@ Step 1: Mark bracket position with TV centre at 105-115cm from floor using a las
 <dd>Standard wall plates have fixing points 200-400mm apart horizontally and 100-200mm vertically. Use all available fixing points. A minimum of four fixings is recommended for TVs over 32 inches.</dd>
 
 <dt>What is the correct torque for concrete wall TV mount fixings?</dt>
-<dd>M8 resin anchors require 15-20 Nm. M10 require 25-35 Nm. Use a torque wrench. Overtightening can strip the resin bond or snap the threaded rod. For sleeve anchors follow manufacturer specifications typically 10-15 Nm.</dd>
+<dd>M8 resin anchors require 15-20 Nm. M10 require 25-35 Nm. Use a torque wrench. Overtightening can strip the resin bond or snap the threaded rod. For sleeve anchors follow manufacturer specifications typically 10-15 Nm. For more information see our <a href="08-brick-wall-tv-mounting-guide.md">Brick Wall TV Mounting Guide</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Concrete Wall TV Mounting Guide",
+  "description": "Concrete walls provide the strongest possible TV mounting surface but require specialist tools and fixings. This guide covers concrete wall identification, SDS drilling techniques, resin anchor and shield anchor selection, and UK building regulations for concrete wall mounting.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -98,13 +116,17 @@ Step 1: Mark bracket position with TV centre at 105-115cm from floor using a las
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [tv-mounting Overview](../tv-mounting/)
+- [tv-mounting Overview](../tv-mounting.md)
 - [Brick Wall TV Mounting Guide](08-brick-wall-tv-mounting-guide.md)
 - [TV Mounting Tools and Equipment Guide](17-tv-mounting-tools-and-equipment-guide.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [British Standards Institution (BSI)](https://www.bsigroup.com/en-GB/).
 

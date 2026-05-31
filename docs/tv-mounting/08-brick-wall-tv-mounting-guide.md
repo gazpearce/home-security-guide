@@ -1,4 +1,9 @@
-﻿# Brick Wall TV Mounting Guide
+﻿---
+description: >-
+  Brick walls are the most common UK wall type for TV mounting. This guide covers fixing selection, drilling techniques, and weight considerations for brick wall mounting.
+---
+
+# Brick Wall TV Mounting Guide
 
 Brick walls are the most common UK wall type for TV mounting. This guide covers fixing selection, drilling techniques, and weight considerations for brick wall mounting.
 
@@ -45,8 +50,21 @@ Use masonry anchor bolts with the correct SDS drill bit. Fischer UX wall plugs 1
 <dd>Cavity insulation does not affect mounting if fixings reach the block inner leaf. Use cavity wall fixings with long sleeves or resin-injected anchors.</dd>
 
 <dt>Can I mount on single-skin brick?</dt>
-<dd>Yes for garages and outbuildings with resin anchors penetrating 50mm+ into brick. Assess wall structure for TVs over 32 inch.</dd>
+<dd>Yes for garages and outbuildings with resin anchors penetrating 50mm+ into brick. Assess wall structure for TVs over 32 inch. For more information see our <a href="11-concrete-wall-tv-mounting-guide.md">Concrete Wall TV Mounting Guide</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Brick Wall TV Mounting Guide",
+  "description": "Brick walls are the most common UK wall type for TV mounting. This guide covers fixing selection, drilling techniques, and weight considerations for brick wall mounting.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -98,13 +116,17 @@ Use masonry anchor bolts with the correct SDS drill bit. Fischer UX wall plugs 1
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [tv-mounting Overview](../tv-mounting/)
+- [tv-mounting Overview](../tv-mounting.md)
 - [Concrete Wall TV Mounting Guide](11-concrete-wall-tv-mounting-guide.md)
 - [Stud Wall TV Mounting Guide](09-stud-wall-tv-mounting-guide.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [Ofcom](https://www.ofcom.org.uk/).
 

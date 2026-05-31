@@ -1,4 +1,9 @@
-﻿# TV Mounting Safety Checklist
+﻿---
+description: >-
+  A comprehensive safety checklist for TV mounting covering wall assessment, fixing selection, installation verification, and ongoing maintenance. Use this before, during, and after every UK TV mounting installation.
+---
+
+# TV Mounting Safety Checklist
 
 A comprehensive safety checklist for TV mounting covering wall assessment, fixing selection, installation verification, and ongoing maintenance. Use this before, during, and after every UK TV mounting installation.
 
@@ -45,8 +50,21 @@ During installation: 1. Pilot holes drilled to correct depth (50-60mm brick, 40m
 <dd>Yes. UK child safety regulations (BS EN 16120) recommend securing all TVs regardless of mounting method. Even a mounted TV can fall if the mount fails. Use a TV safety tether as backup measure.</dd>
 
 <dt>Can I reuse TV mount fixings after removing the TV?</dt>
-<dd>No, replace wall plugs and fixings each time you remove and reinstall. Wall plugs can be damaged on removal and may not grip as securely a second time. New fixings cost only a few pounds.</dd>
+<dd>No, replace wall plugs and fixings each time you remove and reinstall. Wall plugs can be damaged on removal and may not grip as securely a second time. New fixings cost only a few pounds. For more information see our <a href="11-tv-wall-mount-weight-ratings-explained.md">TV Wall Mount Weight Ratings Explained</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "TV Mounting Safety Checklist",
+  "description": "A comprehensive safety checklist for TV mounting covering wall assessment, fixing selection, installation verification, and ongoing maintenance. Use this before, during, and after every UK TV mounting installation.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -98,13 +116,17 @@ During installation: 1. Pilot holes drilled to correct depth (50-60mm brick, 40m
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [tv-mounting Overview](../tv-mounting/)
+- [tv-mounting Overview](../tv-mounting.md)
 - [TV Wall Mount Weight Ratings Explained](11-tv-wall-mount-weight-ratings-explained.md)
 - [TV Mounting Tools and Equipment Guide](17-tv-mounting-tools-and-equipment-guide.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [Ofcom](https://www.ofcom.org.uk/).
 

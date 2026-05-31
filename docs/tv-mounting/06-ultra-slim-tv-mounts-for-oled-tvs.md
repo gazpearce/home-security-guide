@@ -1,4 +1,9 @@
-﻿# Ultra-Slim TV Mounts for OLED TVs
+﻿---
+description: >-
+  Ultra-slim TV mounts hold the television just 10-15mm from the wall, creating a picture-frame appearance ideal for thin OLED and QD-OLED TVs. This guide covers compatibility, installation considerations, and UK-specific recommendations.
+---
+
+# Ultra-Slim TV Mounts for OLED TVs
 
 Ultra-slim TV mounts hold the television just 10-15mm from the wall, creating a picture-frame appearance ideal for thin OLED and QD-OLED TVs. This guide covers compatibility, installation considerations, and UK-specific recommendations.
 
@@ -45,8 +50,21 @@ Installation follows standard wall mounting procedure but with critical differen
 <dd>Ultra-slim mounts leave no room for a soundbar behind the TV. Mount the soundbar separately on the wall below the TV or use a soundbar bracket that attaches to the TV\'s bottom edge.</dd>
 
 <dt>Are ultra-slim mounts compatible with QD-OLED TVs?</dt>
-<dd>Yes — QD-OLED TVs from Sony and Samsung use the same VESA patterns as standard OLEDs. The weight is similar. Ensure the mount supports the specific VESA pattern and TV weight. Samsung QD-OLEDs use 300x300mm for 55-65 inch.</dd>
+<dd>Yes — QD-OLED TVs from Sony and Samsung use the same VESA patterns as standard OLEDs. The weight is similar. Ensure the mount supports the specific VESA pattern and TV weight. Samsung QD-OLEDs use 300x300mm for 55-65 inch. For more information see our <a href="01-fixed-tv-mount-installation-guide.md">Fixed TV Mount Installation Guide</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Ultra-Slim TV Mounts for OLED TVs",
+  "description": "Ultra-slim TV mounts hold the television just 10-15mm from the wall, creating a picture-frame appearance ideal for thin OLED and QD-OLED TVs. This guide covers compatibility, installation considerations, and UK-specific recommendations.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -98,13 +116,17 @@ Installation follows standard wall mounting procedure but with critical differen
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [tv-mounting Overview](../tv-mounting/)
+- [tv-mounting Overview](../tv-mounting.md)
 - [Fixed TV Mount Installation Guide](01-fixed-tv-mount-installation-guide.md)
 - [TV Mounting for 55 Inch TVs](27-tv-mounting-for-55-inch-tvs.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [UK Government Building Regulations](https://www.gov.uk/government/collections/building-regulations-approved-documents).
 

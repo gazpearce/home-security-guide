@@ -1,4 +1,9 @@
-﻿# Starlink Gen 3 Setup Guide UK
+﻿---
+description: >-
+  Complete guide to setting up your Starlink Gen 3 dish in the UK. Covers unboxing, hardware assembly, cable routing, the Starlink app setup process, and initial activation for UK subscribers.
+---
+
+# Starlink Gen 3 Setup Guide UK
 
 Complete guide to setting up your Starlink Gen 3 dish in the UK. Covers unboxing, hardware assembly, cable routing, the Starlink app setup process, and initial activation for UK subscribers.
 
@@ -45,8 +50,21 @@ Step 1: Download the Starlink app from the UK App Store or Google Play Store. St
 <dd>Typical UK Starlink speeds are 100-200Mbps download and 10-20Mbps upload. Speeds vary by time of day and local congestion. Latency is 20-40ms suitable for video calls and online gaming.</dd>
 
 <dt>Can I use the Gen 3 dish without the Starlink router?</dt>
-<dd>Yes, the Gen 3 dish works with third-party routers but needs the Starlink app to configure Bypass Mode. Gen 3 router has built-in Ethernet so no separate Ethernet adapter is needed.</dd>
+<dd>Yes, the Gen 3 dish works with third-party routers but needs the Starlink app to configure Bypass Mode. Gen 3 router has built-in Ethernet so no separate Ethernet adapter is needed. For more information see our <a href="02-starlink-mini-setup-guide-uk.md">Starlink Mini Setup Guide UK</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Starlink Gen 3 Setup Guide UK",
+  "description": "Complete guide to setting up your Starlink Gen 3 dish in the UK. Covers unboxing, hardware assembly, cable routing, the Starlink app setup process, and initial activation for UK subscribers.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -98,13 +116,17 @@ Step 1: Download the Starlink app from the UK App Store or Google Play Store. St
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [starlink Overview](../starlink/)
+- [starlink Overview](../starlink.md)
 - [Starlink Mini Setup Guide UK](02-starlink-mini-setup-guide-uk.md)
 - [Starlink Obstruction Check Guide](04-starlink-obstruction-check-guide.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [British Standards Institution (BSI)](https://www.bsigroup.com/en-GB/).
 

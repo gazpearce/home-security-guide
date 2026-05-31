@@ -1,4 +1,9 @@
-﻿# Starlink Cable Weatherproofing Guide
+﻿---
+description: >-
+  Protect your Starlink cable connections from UK weather with proper weatherproofing techniques. This guide covers connector sealing, cable protection, UV protection, and winter preparation.
+---
+
+# Starlink Cable Weatherproofing Guide
 
 Protect your Starlink cable connections from UK weather with proper weatherproofing techniques. This guide covers connector sealing, cable protection, UV protection, and winter preparation.
 
@@ -45,8 +50,21 @@ Before winter: inspect all cable weatherproofing for cracks or gaps. Re-apply si
 <dd>Dielectric grease (silicone grease) prevents corrosion on electrical connectors. Apply a thin layer to the connector pins before mating. It is especially important in coastal UK areas with salt spray.</dd>
 
 <dt>Can I use standard silicone sealant for Starlink weatherproofing?</dt>
-<dd>Yes, use exterior-grade silicone sealant for wall entries and cable glands. Dow Corning 785 or CT1 are good UK choices. Ensure it is suitable for the surface type (brick, plastic, metal).</dd>
+<dd>Yes, use exterior-grade silicone sealant for wall entries and cable glands. Dow Corning 785 or CT1 are good UK choices. Ensure it is suitable for the surface type (brick, plastic, metal). For more information see our <a href="12-starlink-cable-routing-through-walls.md">Starlink Cable Routing Through Walls</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Starlink Cable Weatherproofing Guide",
+  "description": "Protect your Starlink cable connections from UK weather with proper weatherproofing techniques. This guide covers connector sealing, cable protection, UV protection, and winter preparation.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -98,13 +116,17 @@ Before winter: inspect all cable weatherproofing for cracks or gaps. Re-apply si
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [starlink Overview](../starlink/)
+- [starlink Overview](../starlink.md)
 - [Starlink Cable Routing Through Walls](12-starlink-cable-routing-through-walls.md)
 - [Starlink Drip Loop Installation](14-starlink-drip-loop-installation.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [Royal Society for the Prevention of Accidents](https://www.rospa.com/).
 

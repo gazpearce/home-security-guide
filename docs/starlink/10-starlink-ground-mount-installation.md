@@ -1,4 +1,9 @@
-﻿# Starlink Ground Mount Installation
+﻿---
+description: >-
+  A ground mount installs your Starlink dish on a short pole or base at ground level. This guide covers ground mount types, concrete base requirements, animal protection, and UK garden installation considerations.
+---
+
+# Starlink Ground Mount Installation
 
 A ground mount installs your Starlink dish on a short pole or base at ground level. This guide covers ground mount types, concrete base requirements, animal protection, and UK garden installation considerations.
 
@@ -45,8 +50,21 @@ For pedestal ground mount: 1. Choose a garden location with clear northward sky 
 <dd>The concrete base must be below the frost line. In the UK the frost line is typically 300-450mm. Pour the base at least 400mm deep to prevent frost heave during winter.</dd>
 
 <dt>Can I use a ground mount temporarily for Starlink Mini?</dt>
-<dd>Yes, the Starlink Mini can be placed on a table or portable stand in the garden temporarily. For permanent Mini ground mounting use a Mini-specific pedestal mount from third-party suppliers.</dd>
+<dd>Yes, the Starlink Mini can be placed on a table or portable stand in the garden temporarily. For permanent Mini ground mounting use a Mini-specific pedestal mount from third-party suppliers. For more information see our <a href="08-starlink-pole-mount-installation.md">Starlink Pole Mount Installation</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Starlink Ground Mount Installation",
+  "description": "A ground mount installs your Starlink dish on a short pole or base at ground level. This guide covers ground mount types, concrete base requirements, animal protection, and UK garden installation considerations.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -98,13 +116,17 @@ For pedestal ground mount: 1. Choose a garden location with clear northward sky 
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [starlink Overview](../starlink/)
+- [starlink Overview](../starlink.md)
 - [Starlink Pole Mount Installation](08-starlink-pole-mount-installation.md)
 - [Starlink Obstruction Check Guide](04-starlink-obstruction-check-guide.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [National Security Inspectorate](https://nsi.org.uk/).
 

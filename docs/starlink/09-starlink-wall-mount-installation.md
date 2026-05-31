@@ -1,4 +1,9 @@
-﻿# Starlink Wall Mount Installation
+﻿---
+description: >-
+  A wall mount attaches your Starlink dish directly to the house wall for a clean secure installation. This guide covers wall mount types, UK wall type fixings, height positioning, and cable routing.
+---
+
+# Starlink Wall Mount Installation
 
 A wall mount attaches your Starlink dish directly to the house wall for a clean secure installation. This guide covers wall mount types, UK wall type fixings, height positioning, and cable routing.
 
@@ -45,8 +50,21 @@ Step 1: Choose the optimal wall position. North-facing wall is best. Use the Sta
 <dd>Run the cable along the wall using exterior-rated cable clips. Drill through the wall at a slight downward angle using a cable gland to seal the entry. Route inside to the router location.</dd>
 
 <dt>Does the Starlink wall mount work on cavity walls?</dt>
-<dd>Yes but fixings must only penetrate the outer brick leaf (approximately 100mm). Do not drill through the cavity into the inner leaf. Use suitable cavity wall fixings stopping at 75mm depth.</dd>
+<dd>Yes but fixings must only penetrate the outer brick leaf (approximately 100mm). Do not drill through the cavity into the inner leaf. Use suitable cavity wall fixings stopping at 75mm depth. For more information see our <a href="06-starlink-pivot-mount-installation.md">Starlink Pivot Mount Installation</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Starlink Wall Mount Installation",
+  "description": "A wall mount attaches your Starlink dish directly to the house wall for a clean secure installation. This guide covers wall mount types, UK wall type fixings, height positioning, and cable routing.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -98,13 +116,17 @@ Step 1: Choose the optimal wall position. North-facing wall is best. Use the Sta
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [starlink Overview](../starlink/)
+- [starlink Overview](../starlink.md)
 - [Starlink Pivot Mount Installation](06-starlink-pivot-mount-installation.md)
 - [Starlink Cable Routing Through Walls](12-starlink-cable-routing-through-walls.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [British Standards Institution (BSI)](https://www.bsigroup.com/en-GB/).
 

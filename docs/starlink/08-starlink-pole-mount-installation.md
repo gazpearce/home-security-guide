@@ -1,4 +1,9 @@
-﻿# Starlink Pole Mount Installation
+﻿---
+description: >-
+  A pole mount provides a versatile freestanding installation for Starlink dishes. This guide covers pole mount types, concrete base requirements, UK ground conditions, and installation procedure for gardens and open areas.
+---
+
+# Starlink Pole Mount Installation
 
 A pole mount provides a versatile freestanding installation for Starlink dishes. This guide covers pole mount types, concrete base requirements, UK ground conditions, and installation procedure for gardens and open areas.
 
@@ -45,8 +50,21 @@ For ground spike installation: 1. Choose a location with clear northward sky vie
 <dd>The Starlink pipe adapter fits 48mm (1.5 NPT) and 42.4mm (1.5 inch) pipe. Most UK Starlink pole mounts use 48mm pipe. Check your adapter before buying the pole.</dd>
 
 <dt>How do I prevent the Starlink pole mount from rusting?</dt>
-<dd>Use galvanised steel poles for rust resistance. Aluminium does not rust but can corrode in coastal environments. Stainless steel is best for coastal UK locations. Apply anti-corrosion paint annually.</dd>
+<dd>Use galvanised steel poles for rust resistance. Aluminium does not rust but can corrode in coastal environments. Stainless steel is best for coastal UK locations. Apply anti-corrosion paint annually. For more information see our <a href="10-starlink-ground-mount-installation.md">Starlink Ground Mount Installation</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Starlink Pole Mount Installation",
+  "description": "A pole mount provides a versatile freestanding installation for Starlink dishes. This guide covers pole mount types, concrete base requirements, UK ground conditions, and installation procedure for gardens and open areas.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -98,13 +116,17 @@ For ground spike installation: 1. Choose a location with clear northward sky vie
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [starlink Overview](../starlink/)
+- [starlink Overview](../starlink.md)
 - [Starlink Ground Mount Installation](10-starlink-ground-mount-installation.md)
 - [Starlink Flashing Mount Installation](07-starlink-flashing-mount-installation.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [Ofcom](https://www.ofcom.org.uk/).
 

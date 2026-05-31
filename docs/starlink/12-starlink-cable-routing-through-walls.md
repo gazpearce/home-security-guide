@@ -1,4 +1,9 @@
-﻿# Starlink Cable Routing Through Walls
+﻿---
+description: >-
+  Guide to routing Starlink cables through UK house walls for a clean weatherproof installation. Covers wall drilling, cable glands, interior routing, and maintaining the Starlink cable warranty.
+---
+
+# Starlink Cable Routing Through Walls
 
 Guide to routing Starlink cables through UK house walls for a clean weatherproof installation. Covers wall drilling, cable glands, interior routing, and maintaining the Starlink cable warranty.
 
@@ -45,8 +50,21 @@ Step 1: Choose the entry point location. Inside the house the cable should emerg
 <dd>Yes but use armoured cable or run it through 20mm conduit buried at 300mm depth. Standard Starlink cable is not rated for direct burial. Use exterior-rated Cat6 extension if running beyond 15m.</dd>
 
 <dt>Does drilling for Starlink cable affect my UK home damp proofing?</dt>
-<dd>If you drill through a cavity wall the hole can bridge the cavity and allow damp ingress. Use a cavity wall sleeve or duct and seal both sides with silicone. Keep the hole at least 300mm above ground level.</dd>
+<dd>If you drill through a cavity wall the hole can bridge the cavity and allow damp ingress. Use a cavity wall sleeve or duct and seal both sides with silicone. Keep the hole at least 300mm above ground level. For more information see our <a href="09-starlink-wall-mount-installation.md">Starlink Wall Mount Installation</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Starlink Cable Routing Through Walls",
+  "description": "Guide to routing Starlink cables through UK house walls for a clean weatherproof installation. Covers wall drilling, cable glands, interior routing, and maintaining the Starlink cable warranty.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -98,13 +116,17 @@ Step 1: Choose the entry point location. Inside the house the cable should emerg
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [starlink Overview](../starlink/)
+- [starlink Overview](../starlink.md)
 - [Starlink Wall Mount Installation](09-starlink-wall-mount-installation.md)
 - [Starlink Drip Loop Installation](14-starlink-drip-loop-installation.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [Electrical Safety First](https://www.electricalsafetyfirst.org.uk/).
 

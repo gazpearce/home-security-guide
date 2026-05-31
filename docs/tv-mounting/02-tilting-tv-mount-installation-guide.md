@@ -1,4 +1,9 @@
-﻿# Tilting TV Mount Installation Guide
+﻿---
+description: >-
+  A tilting TV mount allows the screen to angle downward by 10-15 degrees, essential for installations above eye level such as above a fireplace or in bedrooms. This guide covers tilting mount selection, height calculation, and UK wall type installation.
+---
+
+# Tilting TV Mount Installation Guide
 
 A tilting TV mount allows the screen to angle downward by 10-15 degrees, essential for installations above eye level such as above a fireplace or in bedrooms. This guide covers tilting mount selection, height calculation, and UK wall type installation.
 
@@ -45,8 +50,21 @@ Determine the correct TV height first — measure from floor to TV centre. For a
 <dd>A properly adjusted tilt improves viewing by directing the screen toward viewers. Optimal tilt is when the screen is perpendicular to the viewer\'s line of sight. Over-tilting causes colour washout on LCD TVs.</dd>
 
 <dt>Are tilting mounts suitable for corners?</dt>
-<dd>Tilting mounts alone lack swivel so they are not ideal for corners. Use a full-motion articulating mount for corner installations. A tilting mount works in corners only if the TV is on a flat wall section.</dd>
+<dd>Tilting mounts alone lack swivel so they are not ideal for corners. Use a full-motion articulating mount for corner installations. A tilting mount works in corners only if the TV is on a flat wall section. For more information see our <a href="01-fixed-tv-mount-installation-guide.md">Fixed TV Mount Installation Guide</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Tilting TV Mount Installation Guide",
+  "description": "A tilting TV mount allows the screen to angle downward by 10-15 degrees, essential for installations above eye level such as above a fireplace or in bedrooms. This guide covers tilting mount selection, height calculation, and UK wall type installation.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -98,13 +116,17 @@ Determine the correct TV height first — measure from floor to TV centre. For a
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [tv-mounting Overview](../tv-mounting/)
+- [tv-mounting Overview](../tv-mounting.md)
 - [Fixed TV Mount Installation Guide](01-fixed-tv-mount-installation-guide.md)
 - [Full Motion TV Mount Installation Guide](03-full-motion-tv-mount-installation-guide.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [National Security Inspectorate](https://nsi.org.uk/).
 

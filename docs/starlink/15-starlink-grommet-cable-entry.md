@@ -1,4 +1,9 @@
-﻿# Starlink Grommet Cable Entry
+﻿---
+description: >-
+  A grommet cable entry provides a clean weatherproof way to route the Starlink cable through walls, windows, or existing openings. This guide covers grommet types, installation methods, and UK-specific considerations.
+---
+
+# Starlink Grommet Cable Entry
 
 A grommet cable entry provides a clean weatherproof way to route the Starlink cable through walls, windows, or existing openings. This guide covers grommet types, installation methods, and UK-specific considerations.
 
@@ -45,8 +50,21 @@ Window grommet installation: 1. Clean the window frame and window edge. 2. Cut t
 <dd>Some larger grommets accommodate multiple cables. Choose a 2-slot or 3-slot grommet if you need to pass TV aerial or other cables alongside the Starlink cable.</dd>
 
 <dt>How do I weatherproof a brick grommet installation?</dt>
-<dd>Apply exterior-grade silicone sealant around the exterior flange where it meets the brick surface. Ensure the grommet has a rubber compression seal around the cable. Check the seal annually for UV degradation.</dd>
+<dd>Apply exterior-grade silicone sealant around the exterior flange where it meets the brick surface. Ensure the grommet has a rubber compression seal around the cable. Check the seal annually for UV degradation. For more information see our <a href="12-starlink-cable-routing-through-walls.md">Starlink Cable Routing Through Walls</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Starlink Grommet Cable Entry",
+  "description": "A grommet cable entry provides a clean weatherproof way to route the Starlink cable through walls, windows, or existing openings. This guide covers grommet types, installation methods, and UK-specific considerations.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -98,13 +116,17 @@ Window grommet installation: 1. Clean the window frame and window edge. 2. Cut t
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [starlink Overview](../starlink/)
+- [starlink Overview](../starlink.md)
 - [Starlink Cable Routing Through Walls](12-starlink-cable-routing-through-walls.md)
 - [Starlink Cable Weatherproofing Guide](13-starlink-cable-weatherproofing-guide.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [Which?](https://www.which.co.uk/).
 

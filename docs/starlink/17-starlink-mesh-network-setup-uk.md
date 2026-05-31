@@ -1,4 +1,9 @@
-﻿# Starlink Mesh Network Setup UK
+﻿---
+description: >-
+  Extend your Starlink WiFi coverage across the entire home using Starlink mesh nodes. This guide covers node placement, setup via the Starlink app, coverage areas, and wired backhaul options for whole-home connectivity.
+---
+
+# Starlink Mesh Network Setup UK
 
 Extend your Starlink WiFi coverage across the entire home using Starlink mesh nodes. This guide covers node placement, setup via the Starlink app, coverage areas, and wired backhaul options for whole-home connectivity.
 
@@ -43,8 +48,21 @@ Step 1: Purchase mesh nodes from the Starlink shop (allow 1-2 weeks for delivery
 <dd>Starlink mesh nodes should be placed within 15 metres of the main router for optimal wireless backhaul. The app shows the link quality between nodes. Move nodes closer if the connection is poor.</dd>
 
 <dt>Will mesh nodes reduce my Starlink speed?</dt>
-<dd>Wireless mesh nodes reduce throughput by approximately 30-50% per hop due to WiFi overhead. Wired backhaul eliminates this reduction. For best performance use wired backhaul or place nodes for line-of-sight connection.</dd>
+<dd>Wireless mesh nodes reduce throughput by approximately 30-50% per hop due to WiFi overhead. Wired backhaul eliminates this reduction. For best performance use wired backhaul or place nodes for line-of-sight connection. For more information see our <a href="18-starlink-ethernet-adapter-setup.md">Starlink Ethernet Adapter Setup</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Starlink Mesh Network Setup UK",
+  "description": "Extend your Starlink WiFi coverage across the entire home using Starlink mesh nodes. This guide covers node placement, setup via the Starlink app, coverage areas, and wired backhaul options for whole-home connectivity.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -96,13 +114,17 @@ Step 1: Purchase mesh nodes from the Starlink shop (allow 1-2 weeks for delivery
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [starlink Overview](../starlink/)
+- [starlink Overview](../starlink.md)
 - [Starlink Ethernet Adapter Setup](18-starlink-ethernet-adapter-setup.md)
 - [Starlink Performance in UK Weather](19-starlink-performance-in-uk-weather.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [British Standards Institution (BSI)](https://www.bsigroup.com/en-GB/).
 

@@ -1,4 +1,9 @@
-﻿# TV Mounting on Dot-Dab Plasterboard
+﻿---
+description: >-
+  Dot-dab plasterboard is a common UK wall construction where plasterboard is adhesive-fixed directly to blockwork. This is the most challenging UK wall type for TV mounting requiring specific fixings and techniques.
+---
+
+# TV Mounting on Dot-Dab Plasterboard
 
 Dot-dab plasterboard is a common UK wall construction where plasterboard is adhesive-fixed directly to blockwork. This is the most challenging UK wall type for TV mounting requiring specific fixings and techniques.
 
@@ -45,8 +50,21 @@ Step 1: Identify dot-dab construction by tapping -- it sounds hollow over dab ga
 <dd>Tap the wall -- a solid sound indicates direct contact, a hollow sound indicates a gap. A distinct pattern of vertical solid lines every 400-600mm where adhesive dabs are with hollow sounding sections between.</dd>
 
 <dt>What TV weight is safe on dot-dab walls?</dt>
-<dd>With proper Gripit dot-dab fixings a TV up to 30kg is safe. For heavier TVs use resin anchors through plasterboard into the block. Never rely on the plasterboard alone in dot-dab construction.</dd>
+<dd>With proper Gripit dot-dab fixings a TV up to 30kg is safe. For heavier TVs use resin anchors through plasterboard into the block. Never rely on the plasterboard alone in dot-dab construction. For more information see our <a href="18-tv-mounting-on-plasterboard-walls.md">TV Mounting on Plasterboard Walls</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "TV Mounting on Dot-Dab Plasterboard",
+  "description": "Dot-dab plasterboard is a common UK wall construction where plasterboard is adhesive-fixed directly to blockwork. This is the most challenging UK wall type for TV mounting requiring specific fixings and techniques.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -98,13 +116,17 @@ Step 1: Identify dot-dab construction by tapping -- it sounds hollow over dab ga
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [tv-mounting Overview](../tv-mounting/)
+- [tv-mounting Overview](../tv-mounting.md)
 - [TV Mounting on Plasterboard Walls](18-tv-mounting-on-plasterboard-walls.md)
 - [Brick Wall TV Mounting Guide](08-brick-wall-tv-mounting-guide.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [Information Commissioner's Office](https://ico.org.uk/).
 

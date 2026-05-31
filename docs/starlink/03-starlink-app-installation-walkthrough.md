@@ -1,4 +1,9 @@
-﻿# Starlink App Installation Walkthrough
+﻿---
+description: >-
+  The Starlink app is essential for setting up and managing your Starlink connection. This walkthrough covers downloading, account creation, the guided setup process, and all key app features for UK users.
+---
+
+# Starlink App Installation Walkthrough
 
 The Starlink app is essential for setting up and managing your Starlink connection. This walkthrough covers downloading, account creation, the guided setup process, and all key app features for UK users.
 
@@ -45,8 +50,21 @@ The app has five main sections. Dashboard: real-time connection status, signal q
 <dd>The app requires iOS 14+ or Android 8+. Most modern UK smartphones are compatible. The AR obstruction check needs a phone with gyroscope and camera which all recent phones have.</dd>
 
 <dt>How do I run an obstruction check on the Starlink app?</dt>
-<dd>Go to Settings > Obstructions > Check for Obstructions. Hold your phone where the dish will be located. Slowly rotate 360 degrees keeping the phone level. The app builds a 3D sky model.</dd>
+<dd>Go to Settings > Obstructions > Check for Obstructions. Hold your phone where the dish will be located. Slowly rotate 360 degrees keeping the phone level. The app builds a 3D sky model. For more information see our <a href="01-starlink-gen-3-setup-guide-uk.md">Starlink Gen 3 Setup Guide UK</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Starlink App Installation Walkthrough",
+  "description": "The Starlink app is essential for setting up and managing your Starlink connection. This walkthrough covers downloading, account creation, the guided setup process, and all key app features for UK users.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -98,13 +116,17 @@ The app has five main sections. Dashboard: real-time connection status, signal q
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [starlink Overview](../starlink/)
+- [starlink Overview](../starlink.md)
 - [Starlink Gen 3 Setup Guide UK](01-starlink-gen-3-setup-guide-uk.md)
 - [Starlink Obstruction Check Guide](04-starlink-obstruction-check-guide.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [Information Commissioner's Office](https://ico.org.uk/).
 

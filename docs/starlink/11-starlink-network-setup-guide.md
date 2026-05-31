@@ -1,4 +1,9 @@
-﻿# Starlink Network Setup Guide
+﻿---
+description: >-
+  Complete guide to configuring your Starlink home network in the UK. Covers router settings, WiFi configuration, Ethernet setup, mesh networking, and advanced network options for optimal performance.
+---
+
+# Starlink Network Setup Guide
 
 Complete guide to configuring your Starlink home network in the UK. Covers router settings, WiFi configuration, Ethernet setup, mesh networking, and advanced network options for optimal performance.
 
@@ -45,8 +50,21 @@ Bypass Mode: Disables the Starlink router routing functions allowing use of a th
 <dd>The Gen 3 LAN port is gigabit Ethernet. Real-world throughput is 100-200Mbps matching Starlink service speeds. WiFi 6 on 5GHz provides up to 600Mbps locally between internal network devices.</dd>
 
 <dt>Does Starlink work with UK smart home devices?</dt>
-<dd>Yes, most UK smart home devices work with Starlink. The 2.4GHz band supports IoT devices. Some devices may need the 2.4GHz band only enabled initially for setup then switched back to automatic.</dd>
+<dd>Yes, most UK smart home devices work with Starlink. The 2.4GHz band supports IoT devices. Some devices may need the 2.4GHz band only enabled initially for setup then switched back to automatic. For more information see our <a href="01-starlink-gen-3-setup-guide-uk.md">Starlink Gen 3 Setup Guide UK</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Starlink Network Setup Guide",
+  "description": "Complete guide to configuring your Starlink home network in the UK. Covers router settings, WiFi configuration, Ethernet setup, mesh networking, and advanced network options for optimal performance.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -98,13 +116,17 @@ Bypass Mode: Disables the Starlink router routing functions allowing use of a th
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [starlink Overview](../starlink/)
+- [starlink Overview](../starlink.md)
 - [Starlink Gen 3 Setup Guide UK](01-starlink-gen-3-setup-guide-uk.md)
 - [Starlink Bypass Mode Setup](16-starlink-bypass-mode-setup.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [Information Commissioner's Office](https://ico.org.uk/).
 

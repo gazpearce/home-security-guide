@@ -1,4 +1,9 @@
-﻿# TV Mounting for 55 Inch TVs
+﻿---
+description: >-
+  55 inch TVs typically weigh 16-20kg and use 300x300mm or 400x400mm VESA patterns. This guide covers mount selection, wall type considerations, and installation specifics for this most popular UK TV size.
+---
+
+# TV Mounting for 55 Inch TVs
 
 55 inch TVs typically weigh 16-20kg and use 300x300mm or 400x400mm VESA patterns. This guide covers mount selection, wall type considerations, and installation specifics for this most popular UK TV size.
 
@@ -45,8 +50,21 @@
 <dd>Most 55-inch LED LCD TVs weigh 16-18kg. OLED 55-inch TVs weigh 15-17kg. Check exact weight in the product manual or on the Currys/John Lewis product page under specifications.</dd>
 
 <dt>Do I need special fixings for a 55 inch TV on plasterboard?</dt>
-<dd>Yes, plasterboard alone cannot support a 55-inch TV. Use Gripit cavity fixings (UK brand, Â£15 from Screwfix). Each Gripit holds up to 35kg in 12.5mm plasterboard -- four provide 140kg total capacity.</dd>
+<dd>Yes, plasterboard alone cannot support a 55-inch TV. Use Gripit cavity fixings (UK brand, Â£15 from Screwfix). Each Gripit holds up to 35kg in 12.5mm plasterboard -- four provide 140kg total capacity. For more information see our <a href="14-tv-mounting-for-65-inch-tvs.md">TV Mounting for 65 Inch TVs</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "TV Mounting for 55 Inch TVs",
+  "description": "55 inch TVs typically weigh 16-20kg and use 300x300mm or 400x400mm VESA patterns. This guide covers mount selection, wall type considerations, and installation specifics for this most popular UK TV size.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -98,13 +116,17 @@
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [tv-mounting Overview](../tv-mounting/)
+- [tv-mounting Overview](../tv-mounting.md)
 - [TV Mounting for 65 Inch TVs](14-tv-mounting-for-65-inch-tvs.md)
 - [TV Mounting for 75-85 Inch TVs](15-tv-mounting-for-75-85-inch-tvs.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [Royal Society for the Prevention of Accidents](https://www.rospa.com/).
 

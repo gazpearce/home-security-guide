@@ -1,4 +1,9 @@
-﻿# Starlink Ethernet Adapter Setup
+﻿---
+description: >-
+  The Starlink Ethernet adapter adds wired LAN ports to your Starlink system for faster, more reliable connections to desktop PCs, gaming consoles, and network switches. This guide covers installation, bypass mode preparation, and network configuration.
+---
+
+# Starlink Ethernet Adapter Setup
 
 The Starlink Ethernet adapter adds wired LAN ports to your Starlink system for faster, more reliable connections to desktop PCs, gaming consoles, and network switches. This guide covers installation, bypass mode preparation, and network configuration.
 
@@ -44,8 +49,21 @@ Once the Ethernet adapter is connected follow these steps. Step 1: Connect a Cat
 <dd>The official Starlink Ethernet adapter costs £25 and is available from the Starlink shop (shop.starlink.com). Delivery to UK addresses typically takes 1-2 weeks. Third-party adapters on Amazon UK are not officially supported.</dd>
 
 <dt>Does the Ethernet adapter support PoE?</dt>
-<dd>No - the Starlink Ethernet adapter does not support Power over Ethernet. The Starlink dish receives power via proprietary PoE from the router or power supply brick, not through the Ethernet adapter.</dd>
+<dd>No - the Starlink Ethernet adapter does not support Power over Ethernet. The Starlink dish receives power via proprietary PoE from the router or power supply brick, not through the Ethernet adapter. For more information see our <a href="17-starlink-mesh-network-setup-uk.md">Starlink Mesh Network Setup UK</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Starlink Ethernet Adapter Setup",
+  "description": "The Starlink Ethernet adapter adds wired LAN ports to your Starlink system for faster, more reliable connections to desktop PCs, gaming consoles, and network switches. This guide covers installation, bypass mode preparation, and network configuration.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -97,13 +115,17 @@ Once the Ethernet adapter is connected follow these steps. Step 1: Connect a Cat
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [starlink Overview](../starlink/)
+- [starlink Overview](../starlink.md)
 - [Starlink Mesh Network Setup UK](17-starlink-mesh-network-setup-uk.md)
 - [Starlink Firmware and Software Updates](20-starlink-firmware-and-software-updates.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [National Security Inspectorate](https://nsi.org.uk/).
 

@@ -1,4 +1,9 @@
-﻿# TV Mounting for 75-85 Inch TVs
+﻿---
+description: >-
+  75 to 85 inch TVs are the largest consumer TVs available weighing 30-45kg. This guide covers heavy-duty mount selection, wall structural assessment, multi-person installation, and professional installation recommendations for UK homes.
+---
+
+# TV Mounting for 75-85 Inch TVs
 
 75 to 85 inch TVs are the largest consumer TVs available weighing 30-45kg. This guide covers heavy-duty mount selection, wall structural assessment, multi-person installation, and professional installation recommendations for UK homes.
 
@@ -45,8 +50,21 @@
 <dd>Expect to pay Â£80-Â£200 for a certified heavy-duty fixed mount for 85-inch TVs. Premium brands like Premier Mounts and Sanus cost Â£100-Â£200. B-Tech heavy-duty tilt for 75 inch costs Â£45 from Screwfix.</dd>
 
 <dt>Do I need an SDS drill for 75-85 inch TV installation?</dt>
-<dd>Yes. 75-85 inch TVs need M12 resin anchors drilled to 100mm depth. An SDS Max drill with a 14mm carbide bit is required. Hire from HSS Hire or Jewson for Â£40 per day.</dd>
+<dd>Yes. 75-85 inch TVs need M12 resin anchors drilled to 100mm depth. An SDS Max drill with a 14mm carbide bit is required. Hire from HSS Hire or Jewson for Â£40 per day. For more information see our <a href="14-tv-mounting-for-65-inch-tvs.md">TV Mounting for 65 Inch TVs</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "TV Mounting for 75-85 Inch TVs",
+  "description": "75 to 85 inch TVs are the largest consumer TVs available weighing 30-45kg. This guide covers heavy-duty mount selection, wall structural assessment, multi-person installation, and professional installation recommendations for UK homes.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -98,13 +116,17 @@
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [tv-mounting Overview](../tv-mounting/)
+- [tv-mounting Overview](../tv-mounting.md)
 - [TV Mounting for 65 Inch TVs](14-tv-mounting-for-65-inch-tvs.md)
 - [TV Wall Mount Weight Ratings Explained](11-tv-wall-mount-weight-ratings-explained.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [Which?](https://www.which.co.uk/).
 

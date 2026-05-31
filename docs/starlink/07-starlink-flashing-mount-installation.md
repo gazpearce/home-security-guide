@@ -1,4 +1,9 @@
-﻿# Starlink Flashing Mount Installation
+﻿---
+description: >-
+  A flashing mount provides a roof-penetrating installation for Starlink dishes with integrated weatherproof flashing. This guide covers flashing mount types, roof pitch compatibility, and waterproof installation on UK roofs.
+---
+
+# Starlink Flashing Mount Installation
 
 A flashing mount provides a roof-penetrating installation for Starlink dishes with integrated weatherproof flashing. This guide covers flashing mount types, roof pitch compatibility, and waterproof installation on UK roofs.
 
@@ -45,8 +50,21 @@ Step 1: Select the roof location. North-facing roof pitch is ideal. Check for cl
 <dd>Yes, incorrect flashing installation is the most common cause of roof leaks from dish mounts. Always seal with butyl sealant and check after heavy rain. Lead flashing must be dressed properly to the tile profile.</dd>
 
 <dt>What is the difference between a flashing mount and a ridge mount?</dt>
-<dd>A flashing mount penetrates the roof slope while a ridge mount attaches to the roof ridge. Flashing mounts are less visible but ridge mounts provide a higher position. Flashing mounts are easier to weatherproof.</dd>
+<dd>A flashing mount penetrates the roof slope while a ridge mount attaches to the roof ridge. Flashing mounts are less visible but ridge mounts provide a higher position. Flashing mounts are easier to weatherproof. For more information see our <a href="05-starlink-ridge-mount-installation.md">Starlink Ridge Mount Installation</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Starlink Flashing Mount Installation",
+  "description": "A flashing mount provides a roof-penetrating installation for Starlink dishes with integrated weatherproof flashing. This guide covers flashing mount types, roof pitch compatibility, and waterproof installation on UK roofs.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -98,13 +116,17 @@ Step 1: Select the roof location. North-facing roof pitch is ideal. Check for cl
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [starlink Overview](../starlink/)
+- [starlink Overview](../starlink.md)
 - [Starlink Ridge Mount Installation](05-starlink-ridge-mount-installation.md)
 - [Starlink Pole Mount Installation](08-starlink-pole-mount-installation.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [Which?](https://www.which.co.uk/).
 

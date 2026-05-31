@@ -1,4 +1,9 @@
-﻿# TV Wall Mount Weight Ratings Explained
+﻿---
+description: >-
+  Understanding TV mount weight ratings is essential for safe installation. This guide covers static vs dynamic load, safety factors, VESA compatibility, and how to calculate the correct mount for your TV in UK homes.
+---
+
+# TV Wall Mount Weight Ratings Explained
 
 Understanding TV mount weight ratings is essential for safe installation. This guide covers static vs dynamic load, safety factors, VESA compatibility, and how to calculate the correct mount for your TV in UK homes.
 
@@ -45,8 +50,21 @@ Step 1: Find your TV weight from manufacturer specifications. Step 2: Add 2-3kg 
 <dd>Check the model number on the back of the TV and search on the manufacturer website. John Lewis and Currys product pages list TV weights in specifications. Most 55-inch LED TVs weigh 16-20kg without the stand.</dd>
 
 <dt>Are cheap TV mounts from Amazon UK safe?</dt>
-<dd>Check for GS or TUV certification marks. Many budget mounts lack independent testing. Reputable budget brands like VonHaus and B-Tech offer certified mounts from Â£15 at Amazon UK. Avoid unbranded mounts with no certification.</dd>
+<dd>Check for GS or TUV certification marks. Many budget mounts lack independent testing. Reputable budget brands like VonHaus and B-Tech offer certified mounts from Â£15 at Amazon UK. Avoid unbranded mounts with no certification. For more information see our <a href="07-vesa-pattern-guide-by-tv-brand.md">VESA Pattern Guide by TV Brand</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "TV Wall Mount Weight Ratings Explained",
+  "description": "Understanding TV mount weight ratings is essential for safe installation. This guide covers static vs dynamic load, safety factors, VESA compatibility, and how to calculate the correct mount for your TV in UK homes.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -98,13 +116,17 @@ Step 1: Find your TV weight from manufacturer specifications. Step 2: Add 2-3kg 
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [tv-mounting Overview](../tv-mounting/)
+- [tv-mounting Overview](../tv-mounting.md)
 - [VESA Pattern Guide by TV Brand](07-vesa-pattern-guide-by-tv-brand.md)
 - [TV Mounting Safety Checklist](16-tv-mounting-safety-checklist.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [Information Commissioner's Office](https://ico.org.uk/).
 

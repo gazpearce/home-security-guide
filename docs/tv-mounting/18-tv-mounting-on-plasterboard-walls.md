@@ -1,4 +1,9 @@
-﻿# TV Mounting on Plasterboard Walls
+﻿---
+description: >-
+  Plasterboard walls can support a TV with the correct cavity fixings. This guide covers plasterboard thickness testing, fixing selection, weight limits, and installation techniques for UK plasterboard walls.
+---
+
+# TV Mounting on Plasterboard Walls
 
 Plasterboard walls can support a TV with the correct cavity fixings. This guide covers plasterboard thickness testing, fixing selection, weight limits, and installation techniques for UK plasterboard walls.
 
@@ -45,8 +50,21 @@ Several cavity fixing types are available for TV mounting on plasterboard. Sprin
 <dd>Check the board thickness by looking at an edge or drilling a small test hole. 12.5mm standard board with Gripit fixings holds up to 35kg per fixing. Older 9.5mm board is not suitable for TV mounting.</dd>
 
 <dt>Should I always mount into studs behind plasterboard?</dt>
-<dd>It is the strongest option. Use a stud finder to locate studs. If the wall plate aligns with stud positions use M8 coach screws into studs plus Gripit fixings for any off-stud fixing points.</dd>
+<dd>It is the strongest option. Use a stud finder to locate studs. If the wall plate aligns with stud positions use M8 coach screws into studs plus Gripit fixings for any off-stud fixing points. For more information see our <a href="19-tv-mounting-on-dot-dab-plasterboard.md">TV Mounting on Dot-Dab Plasterboard</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "TV Mounting on Plasterboard Walls",
+  "description": "Plasterboard walls can support a TV with the correct cavity fixings. This guide covers plasterboard thickness testing, fixing selection, weight limits, and installation techniques for UK plasterboard walls.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -98,13 +116,17 @@ Several cavity fixing types are available for TV mounting on plasterboard. Sprin
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [tv-mounting Overview](../tv-mounting/)
+- [tv-mounting Overview](../tv-mounting.md)
 - [TV Mounting on Dot-Dab Plasterboard](19-tv-mounting-on-dot-dab-plasterboard.md)
 - [Stud Wall TV Mounting Guide](10-stud-wall-tv-mounting-guide.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [National Security Inspectorate](https://nsi.org.uk/).
 

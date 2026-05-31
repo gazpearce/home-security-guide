@@ -1,4 +1,9 @@
-﻿# Starlink Bypass Mode Setup
+﻿---
+description: >-
+  Bypass mode turns off the Starlink router routing and WiFi functions allowing you to use your own router with the Starlink dish. This guide covers when to use bypass mode, setup steps, and UK network considerations.
+---
+
+# Starlink Bypass Mode Setup
 
 Bypass mode turns off the Starlink router routing and WiFi functions allowing you to use your own router with the Starlink dish. This guide covers when to use bypass mode, setup steps, and UK network considerations.
 
@@ -45,8 +50,21 @@ Step 1: Connect your third-party router to the Starlink Gen 3 router LAN port us
 <dd>No, the Gen 3 router has a built-in LAN port. You only need a standard Cat6 Ethernet cable to connect your router. Gen 2 dishes need the separate Starlink Ethernet adapter (Â£29).</dd>
 
 <dt>Which UK routers work best with Starlink bypass mode?</dt>
-<dd>Asus, TP-Link, Ubiquiti, and Google Nest routers work well with Starlink bypass. Avoid ISP-branded routers (BT, Sky, Virgin) as they may have incompatible VLAN tagging or PPPoE requirements.</dd>
+<dd>Asus, TP-Link, Ubiquiti, and Google Nest routers work well with Starlink bypass. Avoid ISP-branded routers (BT, Sky, Virgin) as they may have incompatible VLAN tagging or PPPoE requirements. For more information see our <a href="11-starlink-network-setup-guide.md">Starlink Network Setup Guide</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Starlink Bypass Mode Setup",
+  "description": "Bypass mode turns off the Starlink router routing and WiFi functions allowing you to use your own router with the Starlink dish. This guide covers when to use bypass mode, setup steps, and UK network considerations.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -98,13 +116,17 @@ Step 1: Connect your third-party router to the Starlink Gen 3 router LAN port us
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [starlink Overview](../starlink/)
+- [starlink Overview](../starlink.md)
 - [Starlink Network Setup Guide](11-starlink-network-setup-guide.md)
 - [Starlink Gen 3 Setup Guide UK](01-starlink-gen-3-setup-guide-uk.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [Ofcom](https://www.ofcom.org.uk/).
 

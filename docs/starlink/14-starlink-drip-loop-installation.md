@@ -1,4 +1,9 @@
-﻿# Starlink Drip Loop Installation
+﻿---
+description: >-
+  A drip loop is a simple but essential cable technique that prevents rainwater from running along your Starlink cable into the house. This guide covers drip loop design, installation, and UK weather considerations.
+---
+
+# Starlink Drip Loop Installation
 
 A drip loop is a simple but essential cable technique that prevents rainwater from running along your Starlink cable into the house. This guide covers drip loop design, installation, and UK weather considerations.
 
@@ -45,8 +50,21 @@ Step 1: Before feeding the cable through the wall measure the distance from the 
 <dd>While not explicitly required by UK Building Regulations it is recommended good practice and follows the principle of weatherproof cable entries as outlined in BS 7671 wiring regulations for exterior installations.</dd>
 
 <dt>Do I need a drip loop if the cable enters through a soffit?</dt>
-<dd>Yes, form a horizontal drip loop if vertical space is limited. The loop allows water to drip off before reaching the entry point. Ensure the loop is below the soffit level.</dd>
+<dd>Yes, form a horizontal drip loop if vertical space is limited. The loop allows water to drip off before reaching the entry point. Ensure the loop is below the soffit level. For more information see our <a href="12-starlink-cable-routing-through-walls.md">Starlink Cable Routing Through Walls</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Starlink Drip Loop Installation",
+  "description": "A drip loop is a simple but essential cable technique that prevents rainwater from running along your Starlink cable into the house. This guide covers drip loop design, installation, and UK weather considerations.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -98,13 +116,17 @@ Step 1: Before feeding the cable through the wall measure the distance from the 
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [starlink Overview](../starlink/)
+- [starlink Overview](../starlink.md)
 - [Starlink Cable Routing Through Walls](12-starlink-cable-routing-through-walls.md)
 - [Starlink Cable Weatherproofing Guide](13-starlink-cable-weatherproofing-guide.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [UK Government Building Regulations](https://www.gov.uk/government/collections/building-regulations-approved-documents).
 

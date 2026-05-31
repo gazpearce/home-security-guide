@@ -1,4 +1,9 @@
-﻿# Stud Wall TV Mounting Guide
+﻿---
+description: >-
+  Stud walls (timber or metal frame) are common in modern UK homes and conversions. This guide covers locating studs, selecting fixings, and safely mounting a TV on stud walls with correct weight distribution across multiple studs.
+---
+
+# Stud Wall TV Mounting Guide
 
 Stud walls (timber or metal frame) are common in modern UK homes and conversions. This guide covers locating studs, selecting fixings, and safely mounting a TV on stud walls with correct weight distribution across multiple studs.
 
@@ -45,8 +50,21 @@ Step 1: Locate studs using a stud finder and mark both edges. Mark the centre li
 <dd>Yes but with caution. Full motion arms multiply force on fixings. Only mount on timber studs (not metal) and use a spreader bar across at least two studs. Limit to 20kg TVs.</dd>
 
 <dt>How do I find studs in a UK stud wall?</dt>
-<dd>Use a quality electronic stud finder with deep scan like Franklin Sensors ProSensor 710 (Â£45 from Amazon UK). Tap the wall -- studs produce a solid sound, hollow areas are between. Confirm with a fine probe wire.</dd>
+<dd>Use a quality electronic stud finder with deep scan like Franklin Sensors ProSensor 710 (Â£45 from Amazon UK). Tap the wall -- studs produce a solid sound, hollow areas are between. Confirm with a fine probe wire. For more information see our <a href="18-tv-mounting-on-plasterboard-walls.md">TV Mounting on Plasterboard Walls</a>.</dd>
 </dl>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Stud Wall TV Mounting Guide",
+  "description": "Stud walls (timber or metal frame) are common in modern UK homes and conversions. This guide covers locating studs, selecting fixings, and safely mounting a TV on stud walls with correct weight distribution across multiple studs.",
+  "author": { "@type": "Person", "name": "Gary Pearce" },
+  "publisher": { "@type": "Organization", "name": "Home Security Guide" },
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31"
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -98,13 +116,17 @@ Step 1: Locate studs using a stud finder and mark both edges. Mark the centre li
 
 ---
 
-*Last updated: May 2026.*
+*Last updated: 2026-05-31.*
 
 ---
 
 ## Related Guides
 
-- [tv-mounting Overview](../tv-mounting/)
+- [tv-mounting Overview](../tv-mounting.md)
 - [TV Mounting on Plasterboard Walls](18-tv-mounting-on-plasterboard-walls.md)
 - [TV Wall Mount Weight Ratings Explained](11-tv-wall-mount-weight-ratings-explained.md)
+
+### External Resources
+
+For further information consult authority guidelines at the [National Security Inspectorate](https://nsi.org.uk/).
 
