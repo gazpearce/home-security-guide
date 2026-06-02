@@ -17,7 +17,7 @@ VESA patterns are expressed as width x height in millimetres. LG OLED TVs from 2
 
 ## How to Check Your VESA Pattern
 
-Method 1: Check the TV user manual under specifications. VESA pattern is usually listed as Wall Mount or VESA. Method 2: Measure the distance between the four threaded holes on the back of the TV — measure horizontal centre-to-centre then vertical. Method 3: Look up your TV model on the manufacturer website. UK retailers like John Lewis and Richer Sounds list VESA patterns in specifications. If your TV has a non-standard VESA pattern or non-standard thread size, universal adapter brackets are available. These consist of vertical rails that attach to the TV and allow mount brackets to slide horizontally. Universal adapters add 10-20mm to mount depth and cost £10-£25. Common thread sizes are M4 (small TVs under 32 inch), M6 (most 32-65 inch), and M8 (large TVs 65+ inch). Check thread depth — screws must penetrate at least 5 full turns into the TV.
+Method 1: Check the TV user manual under specifications. VESA pattern is usually listed as Wall Mount or VESA. Method 2: Measure the distance between the four threaded holes on the back of the TV   measure horizontal centre-to-centre then vertical. Method 3: Look up your TV model on the manufacturer website. UK retailers like John Lewis and Richer Sounds list VESA patterns in specifications. If your TV has a non-standard VESA pattern or non-standard thread size, universal adapter brackets are available. These consist of vertical rails that attach to the TV and allow mount brackets to slide horizontally. Universal adapters add 10-20mm to mount depth and cost £10-£25. Common thread sizes are M4 (small TVs under 32 inch), M6 (most 32-65 inch), and M8 (large TVs 65+ inch). Check thread depth   screws must penetrate at least 5 full turns into the TV.
 
 ---
 
@@ -38,13 +38,13 @@ Method 1: Check the TV user manual under specifications. VESA pattern is usually
 <dl>
 
 <dt>What if my TV has no VESA holes?</dt>
-<dd>Almost all flat-screen TVs have VESA holes. If yours does not — possible on very old models or non-standard designs — universal adapter brackets with clamping mechanisms are available. Alternatively use a TV table stand.</dd>
+<dd>Almost all flat-screen TVs have VESA holes. If yours does not   possible on very old models or non-standard designs   universal adapter brackets with clamping mechanisms are available. Alternatively use a TV table stand.</dd>
 
 <dt>Can I use spacers with VESA screws?</dt>
-<dd>Yes — most mounts include spacers to clear protruding connections on the TV back. Use spacers if the mount brackets touch any part of the TV besides the VESA surface. Never overtighten spacers as this can damage the TV chassis.</dd>
+<dd>Yes   most mounts include spacers to clear protruding connections on the TV back. Use spacers if the mount brackets touch any part of the TV besides the VESA surface. Never overtighten spacers as this can damage the TV chassis.</dd>
 
 <dt>Are VESA patterns standardised across brands?</dt>
-<dd>VESA is a standardised specification — any mount with the correct pattern and weight rating works with any TV brand matching that pattern. However some brands use recessed VESA points requiring longer screws or extended spacers.</dd>
+<dd>VESA is a standardised specification   any mount with the correct pattern and weight rating works with any TV brand matching that pattern. However some brands use recessed VESA points requiring longer screws or extended spacers.</dd>
 
 <dt>What size VESA does a Samsung Frame TV use?</dt>
 <dd>Samsung Frame TVs use 200x200mm for 43-50 inch models and 400x400mm for 55-75 inch models. Frame TVs are designed for ultra-slim wall mounting so choose a flush mount no deeper than 15mm.</dd>
@@ -76,7 +76,7 @@ Method 1: Check the TV user manual under specifications. VESA pattern is usually
       "name": "What if my TV has no VESA holes?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Almost all flat-screen TVs have VESA holes. If yours does not — possible on very old models or non-standard designs — universal adapter brackets with clamping mechanisms are available. Alternatively use a TV table stand."
+        "text": "Almost all flat-screen TVs have VESA holes. If yours does not   possible on very old models or non-standard designs   universal adapter brackets with clamping mechanisms are available. Alternatively use a TV table stand."
       }
     },
     {
@@ -84,7 +84,7 @@ Method 1: Check the TV user manual under specifications. VESA pattern is usually
       "name": "Can I use spacers with VESA screws?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes — most mounts include spacers to clear protruding connections on the TV back. Use spacers if the mount brackets touch any part of the TV besides the VESA surface. Never overtighten spacers as this can damage the TV chassis."
+        "text": "Yes   most mounts include spacers to clear protruding connections on the TV back. Use spacers if the mount brackets touch any part of the TV besides the VESA surface. Never overtighten spacers as this can damage the TV chassis."
       }
     },
     {
@@ -92,7 +92,7 @@ Method 1: Check the TV user manual under specifications. VESA pattern is usually
       "name": "Are VESA patterns standardised across brands?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "VESA is a standardised specification — any mount with the correct pattern and weight rating works with any TV brand matching that pattern. However some brands use recessed VESA points requiring longer screws or extended spacers."
+        "text": "VESA is a standardised specification   any mount with the correct pattern and weight rating works with any TV brand matching that pattern. However some brands use recessed VESA points requiring longer screws or extended spacers."
       }
     },
     {

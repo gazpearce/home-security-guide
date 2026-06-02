@@ -20,7 +20,28 @@ nav:
   - CCTV Systems: cctv.md
   - Alarm Systems: alarms.md
   - Smart Locks: smart-locks.md
-  - Security Tips: tips.md
+  - Security Tips:
+    - Overview: tips.md
+    - Holiday Home Security Checklist UK: tips/01-holiday-home-security-checklist-uk.md
+    - Shed and Garage Security Guide: tips/02-shed-and-garage-security-guide.md
+    - Student Housing Security Guide: tips/03-student-housing-security-guide.md
+    - Night-Time Home Security Routine: tips/04-night-time-home-security-routine.md
+    - Door Lock British Standards Guide: tips/05-door-lock-british-standards-guide.md
+    - Window Lock Fitting Guide: tips/06-window-lock-fitting-guide.md
+    - PIR Security Lighting Guide: tips/07-pir-security-lighting-guide.md
+    - Key Safe Installation Guide UK: tips/08-key-safe-installation-guide-uk.md
+    - Letterbox Security Guide: tips/09-letterbox-security-guide.md
+    - Side Gate Security Guide: tips/10-side-gate-security-guide.md
+    - Home Office Security Guide UK: tips/11-home-office-security-guide-uk.md
+    - Security Landscaping Guide: tips/12-security-landscaping-guide.md
+    - Smart Home Security Hub Guide: tips/13-smart-home-security-hub-guide.md
+    - Multi-Occupancy Security Guide: tips/14-multi-occupancy-security-guide.md
+    - Dog Security Deterrent Guide: tips/15-dog-security-deterrent-guide.md
+    - Security Window Sticker Guide: tips/16-security-window-sticker-guide.md
+    - Emergency Security Plan Guide: tips/17-emergency-security-plan-guide.md
+    - Fence Security Guide UK: tips/18-fence-security-guide-uk.md
+    - Smoke and CO Alarm Integration Guide: tips/19-smoke-and-co-alarm-integration-guide.md
+    - Home Security Audit Checklist: tips/20-home-security-audit-checklist.md
   - Data Cabling:
     - Overview: data-cabling.md
     - Home Office Data Cabling Guide: data-cabling/01-home-office-data-cabling-guide.md

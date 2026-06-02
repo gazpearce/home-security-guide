@@ -39,10 +39,10 @@ Step 1: Purchase mesh nodes from the Starlink shop (allow 1-2 weeks for delivery
 <dd>For a typical 3-bedroom UK home (80-100 sq m), one mesh node is usually sufficient. For larger homes (150+ sq m) or homes with thick stone walls, two to three mesh nodes may be needed. Use the Starlink app coverage map to identify dead zones.</dd>
 
 <dt>Can I use third-party mesh systems with Starlink?</dt>
-<dd>Yes — enable Bypass Mode on the Starlink router and connect your own mesh system (e.g. Google Nest, TP-Link Deco, Netgear Orbi) via the Ethernet adapter. This often provides more features than Starlink's mesh nodes.</dd>
+<dd>Yes   enable Bypass Mode on the Starlink router and connect your own mesh system (e.g. Google Nest, TP-Link Deco, Netgear Orbi) via the Ethernet adapter. This often provides more features than Starlink's mesh nodes.</dd>
 
 <dt>Does Starlink mesh support wired backhaul?</dt>
-<dd>Yes — Starlink mesh nodes support wired Ethernet backhaul. Connect the mesh node to your network using the Starlink Ethernet adapter or a network switch. Wired backhaul provides the highest throughput and lowest latency.</dd>
+<dd>Yes   Starlink mesh nodes support wired Ethernet backhaul. Connect the mesh node to your network using the Starlink Ethernet adapter or a network switch. Wired backhaul provides the highest throughput and lowest latency.</dd>
 
 <dt>What is the range between Starlink mesh nodes?</dt>
 <dd>Starlink mesh nodes should be placed within 15 metres of the main router for optimal wireless backhaul. The app shows the link quality between nodes. Move nodes closer if the connection is poor.</dd>
@@ -82,7 +82,7 @@ Step 1: Purchase mesh nodes from the Starlink shop (allow 1-2 weeks for delivery
       "name": "Can I use third-party mesh systems with Starlink?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes — enable Bypass Mode on the Starlink router and connect your own mesh system (e.g. Google Nest, TP-Link Deco, Netgear Orbi) via the Ethernet adapter. This often provides more features than Starlink's mesh nodes."
+        "text": "Yes   enable Bypass Mode on the Starlink router and connect your own mesh system (e.g. Google Nest, TP-Link Deco, Netgear Orbi) via the Ethernet adapter. This often provides more features than Starlink's mesh nodes."
       }
     },
     {
@@ -90,7 +90,7 @@ Step 1: Purchase mesh nodes from the Starlink shop (allow 1-2 weeks for delivery
       "name": "Does Starlink mesh support wired backhaul?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes — Starlink mesh nodes support wired Ethernet backhaul. Connect the mesh node to your network using the Starlink Ethernet adapter or a network switch. Wired backhaul provides the highest throughput and lowest latency."
+        "text": "Yes   Starlink mesh nodes support wired Ethernet backhaul. Connect the mesh node to your network using the Starlink Ethernet adapter or a network switch. Wired backhaul provides the highest throughput and lowest latency."
       }
     },
     {

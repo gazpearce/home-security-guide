@@ -17,7 +17,7 @@ Tilting mounts are recommended when the TV centre sits above 115cm from the floo
 
 ## Installation Guide for UK Walls
 
-Determine the correct TV height first — measure from floor to TV centre. For above-fireplace, position the bracket so the TV bottom clears the fireplace surround by at least 50mm. Wall preparation follows standard steps: identify wall type, locate studs, mark bracket position with a laser level, drill pilot holes. Use masonry anchors for brick, coach screws for timber studs, cavity fixings for plasterboard. Attach the wall plate first, ensuring it is level in both planes. Tilting mounts weigh 2-4kg — ensure fixings are rated for mount plus TV weight. Attach VESA brackets to the TV, lift onto the wall plate, and engage the locking mechanism. Adjust the tilt angle and tighten tilt adjustment screws. Cable management is easier with tilting mounts because you can tilt forward for rear access.
+Determine the correct TV height first   measure from floor to TV centre. For above-fireplace, position the bracket so the TV bottom clears the fireplace surround by at least 50mm. Wall preparation follows standard steps: identify wall type, locate studs, mark bracket position with a laser level, drill pilot holes. Use masonry anchors for brick, coach screws for timber studs, cavity fixings for plasterboard. Attach the wall plate first, ensuring it is level in both planes. Tilting mounts weigh 2-4kg   ensure fixings are rated for mount plus TV weight. Attach VESA brackets to the TV, lift onto the wall plate, and engage the locking mechanism. Adjust the tilt angle and tighten tilt adjustment screws. Cable management is easier with tilting mounts because you can tilt forward for rear access.
 
 ---
 
@@ -38,10 +38,10 @@ Determine the correct TV height first — measure from floor to TV centre. For a
 <dl>
 
 <dt>When should I choose a tilting mount over fixed?</dt>
-<dd>Choose a tilting mount when your TV centre will exceed 115cm from the floor — above a fireplace, high bedroom wall, kitchen standing height, or conservatory with glare. At comfortable eye level a fixed mount is simpler and cheaper.</dd>
+<dd>Choose a tilting mount when your TV centre will exceed 115cm from the floor   above a fireplace, high bedroom wall, kitchen standing height, or conservatory with glare. At comfortable eye level a fixed mount is simpler and cheaper.</dd>
 
 <dt>Can I tilt on a full-motion mount instead?</dt>
-<dd>Yes — most full-motion mounts include tilt in addition to swivel and extension. If you only need tilt, a dedicated tilting mount is cheaper, slimmer, and has fewer mechanical failure points.</dd>
+<dd>Yes   most full-motion mounts include tilt in addition to swivel and extension. If you only need tilt, a dedicated tilting mount is cheaper, slimmer, and has fewer mechanical failure points.</dd>
 
 <dt>How do I prevent TV sag on a tilting mount?</dt>
 <dd>Choose a mount with friction-grip tilt hinges rather than ratchet-only. Premium Vogel\'s, Sanus, and B-Tech mounts use spring-assisted or friction-hinge designs. Tighten tilt adjustment bolts firmly after setting the angle.</dd>
@@ -76,7 +76,7 @@ Determine the correct TV height first — measure from floor to TV centre. For a
       "name": "When should I choose a tilting mount over fixed?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Choose a tilting mount when your TV centre will exceed 115cm from the floor — above a fireplace, high bedroom wall, kitchen standing height, or conservatory with glare. At comfortable eye level a fixed mount is simpler and cheaper."
+        "text": "Choose a tilting mount when your TV centre will exceed 115cm from the floor   above a fireplace, high bedroom wall, kitchen standing height, or conservatory with glare. At comfortable eye level a fixed mount is simpler and cheaper."
       }
     },
     {
@@ -84,7 +84,7 @@ Determine the correct TV height first — measure from floor to TV centre. For a
       "name": "Can I tilt on a full-motion mount instead?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes — most full-motion mounts include tilt in addition to swivel and extension. If you only need tilt, a dedicated tilting mount is cheaper, slimmer, and has fewer mechanical failure points."
+        "text": "Yes   most full-motion mounts include tilt in addition to swivel and extension. If you only need tilt, a dedicated tilting mount is cheaper, slimmer, and has fewer mechanical failure points."
       }
     },
     {

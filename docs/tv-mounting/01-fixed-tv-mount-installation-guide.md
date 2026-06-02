@@ -17,7 +17,7 @@ Fixed mounts are the most popular choice in UK homes because they combine the lo
 
 ## Installation on UK Wall Types
 
-Step 1: Identify wall construction using a stud finder or tap test. UK brick walls use 102mm facing brick on 100mm blockwork. Stud walls have timber or metal studs at 400mm or 600mm centres. Plasterboard dot-dab walls need specialist cavity fixings. Step 2: Mark bracket position with TV centre at 105-115cm from the floor for living rooms. Use a laser level for accurate horizontal alignment. Step 3: Drill pilot holes with the appropriate bit: 6mm masonry for brick, 3mm wood for timber studs, 4mm HSS for metal studs, 12mm for cavity fixings. Step 4: Install wall fixings — Fischer UX wall plugs for brick, M8 coach screws for timber studs, Gripit fixings for dot-dab. Step 5: Attach VESA brackets to TV using supplied M4/M6/M8 screws. Step 6: With assistance for TVs over 55 inches, lift the TV onto the wall plate and engage the locking mechanism. Step 7: Verify level and tighten all locking screws. Step 8: Route and conceal cables using D-line trunking or an in-wall cable management box.
+Step 1: Identify wall construction using a stud finder or tap test. UK brick walls use 102mm facing brick on 100mm blockwork. Stud walls have timber or metal studs at 400mm or 600mm centres. Plasterboard dot-dab walls need specialist cavity fixings. Step 2: Mark bracket position with TV centre at 105-115cm from the floor for living rooms. Use a laser level for accurate horizontal alignment. Step 3: Drill pilot holes with the appropriate bit: 6mm masonry for brick, 3mm wood for timber studs, 4mm HSS for metal studs, 12mm for cavity fixings. Step 4: Install wall fixings   Fischer UX wall plugs for brick, M8 coach screws for timber studs, Gripit fixings for dot-dab. Step 5: Attach VESA brackets to TV using supplied M4/M6/M8 screws. Step 6: With assistance for TVs over 55 inches, lift the TV onto the wall plate and engage the locking mechanism. Step 7: Verify level and tighten all locking screws. Step 8: Route and conceal cables using D-line trunking or an in-wall cable management box.
 
 ---
 
@@ -47,7 +47,7 @@ Step 1: Identify wall construction using a stud finder or tap test. UK brick wal
 <dd>Fixed mounts restrict rear access so connect all cables before mounting. Use right-angle HDMI adapters (£5-£10) to reduce cable strain. Consider installing an in-wall cable management box with pass-through for future access.</dd>
 
 <dt>Does a fixed mount work with a soundbar?</dt>
-<dd>Yes — many fixed mounts include a soundbar bracket or allow the TV to sit higher to accommodate a soundbar underneath. Alternatively mount the soundbar separately on the wall below the TV.</dd>
+<dd>Yes   many fixed mounts include a soundbar bracket or allow the TV to sit higher to accommodate a soundbar underneath. Alternatively mount the soundbar separately on the wall below the TV.</dd>
 
 <dt>Is professional installation worth it for a fixed mount?</dt>
 <dd>Professional installation (£80-£180) is recommended for unusual wall types, TVs over 65 inches, or if you lack the correct tools. Most installers provide a 12-month guarantee on their work. For more information see our <a href="02-tilting-tv-mount-installation-guide.md">Tilting TV Mount Installation Guide</a>.</dd>
@@ -100,7 +100,7 @@ Step 1: Identify wall construction using a stud finder or tap test. UK brick wal
       "name": "Does a fixed mount work with a soundbar?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes — many fixed mounts include a soundbar bracket or allow the TV to sit higher to accommodate a soundbar underneath. Alternatively mount the soundbar separately on the wall below the TV."
+        "text": "Yes   many fixed mounts include a soundbar bracket or allow the TV to sit higher to accommodate a soundbar underneath. Alternatively mount the soundbar separately on the wall below the TV."
       }
     },
     {

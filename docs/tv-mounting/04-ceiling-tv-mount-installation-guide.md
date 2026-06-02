@@ -1,23 +1,23 @@
 ﻿---
 description: >-
-  Ceiling TV mounts suspend the television from the ceiling using a vertical pole or drop-down mechanism — ideal when wall mounting is impractical, in rental properties where wall drilling is restricted, or for space optimisation.
+  Ceiling TV mounts suspend the television from the ceiling using a vertical pole or drop-down mechanism   ideal when wall mounting is impractical, in rental properties where wall drilling is restricted, or for space optimisation.
 ---
 
 # Ceiling TV Mount Installation Guide
 
-Ceiling TV mounts suspend the television from the ceiling using a vertical pole or drop-down mechanism — ideal when wall mounting is impractical, in rental properties where wall drilling is restricted, or for space optimisation.
+Ceiling TV mounts suspend the television from the ceiling using a vertical pole or drop-down mechanism   ideal when wall mounting is impractical, in rental properties where wall drilling is restricted, or for space optimisation.
 
 ---
 
 ## When to Use a Ceiling Mount
 
-Ceiling mounts are the solution when wall mounting is impossible. Common UK scenarios: solid stone walls in listed buildings where drilling is prohibited, wall-to-wall windows or glass curtain walls, rental rooms with no-drill tenancy agreements, and narrow bedsits where wall-mounted TVs protrude into walking space. Two main types exist: fixed pole mounts (TV hangs at set height and angle) and drop-down mounts (gas-strut or crank mechanism lowers the TV from ceiling). Pole length varies from 300mm to 1500mm — 500-800mm suits standard UK 2.4m ceilings. Ceiling mounts require fixing to ceiling joists: 50x150mm timbers at 400mm or 600mm centres. The mount must span at least one joist, preferably two.
+Ceiling mounts are the solution when wall mounting is impossible. Common UK scenarios: solid stone walls in listed buildings where drilling is prohibited, wall-to-wall windows or glass curtain walls, rental rooms with no-drill tenancy agreements, and narrow bedsits where wall-mounted TVs protrude into walking space. Two main types exist: fixed pole mounts (TV hangs at set height and angle) and drop-down mounts (gas-strut or crank mechanism lowers the TV from ceiling). Pole length varies from 300mm to 1500mm   500-800mm suits standard UK 2.4m ceilings. Ceiling mounts require fixing to ceiling joists: 50x150mm timbers at 400mm or 600mm centres. The mount must span at least one joist, preferably two.
 
 ---
 
 ## Ceiling Mount Installation Procedure
 
-Step 1: Locate ceiling joists with a stud finder and mark positions. Step 2: Cut a ceiling hole for recessed or flush-mount base plates. Drop-down mounts need 200x200x150mm recess. Step 3: Drill pilot holes into joists with 5mm wood bit and insert M8 coach screws. For concrete ceilings in UK flats use M10 masonry shield anchors with SDS drill. Step 4: Assemble the pole or drop-down mechanism per manufacturer instructions. Step 5: Attach VESA brackets to the TV and lift overhead onto the mount — use a TV lift assist tool or helper. Secure with locking pins. Step 6: Run cables along the pole using cable ties, then across the ceiling to the nearest wall.
+Step 1: Locate ceiling joists with a stud finder and mark positions. Step 2: Cut a ceiling hole for recessed or flush-mount base plates. Drop-down mounts need 200x200x150mm recess. Step 3: Drill pilot holes into joists with 5mm wood bit and insert M8 coach screws. For concrete ceilings in UK flats use M10 masonry shield anchors with SDS drill. Step 4: Assemble the pole or drop-down mechanism per manufacturer instructions. Step 5: Attach VESA brackets to the TV and lift overhead onto the mount   use a TV lift assist tool or helper. Secure with locking pins. Step 6: Run cables along the pole using cable ties, then across the ceiling to the nearest wall.
 
 ---
 
@@ -38,7 +38,7 @@ Step 1: Locate ceiling joists with a stud finder and mark positions. Step 2: Cut
 <dl>
 
 <dt>Can a ceiling mount hold a heavy TV?</dt>
-<dd>Ceiling mounts are rated 15-50kg for standard models, up to 80kg for heavy-duty. The critical factor is ceiling structure — mounts fixed into timber joists support significantly more than plasterboard alone. Always verify ceiling construction.</dd>
+<dd>Ceiling mounts are rated 15-50kg for standard models, up to 80kg for heavy-duty. The critical factor is ceiling structure   mounts fixed into timber joists support significantly more than plasterboard alone. Always verify ceiling construction.</dd>
 
 <dt>Do ceiling mounts affect viewing angle?</dt>
 <dd>Ceiling-mounted TVs need downward tilt adjustment of 10-30 degrees. Some include swivel for multi-position viewing. The angle suits seated viewers but may not suit standing viewers.</dd>
@@ -58,7 +58,7 @@ Step 1: Locate ceiling joists with a stud finder and mark positions. Step 2: Cut
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Ceiling TV Mount Installation Guide",
-  "description": "Ceiling TV mounts suspend the television from the ceiling using a vertical pole or drop-down mechanism — ideal when wall mounting is impractical, in rental properties where wall drilling is restricted, or for space optimisation.",
+  "description": "Ceiling TV mounts suspend the television from the ceiling using a vertical pole or drop-down mechanism   ideal when wall mounting is impractical, in rental properties where wall drilling is restricted, or for space optimisation.",
   "author": { "@type": "Person", "name": "Gary Pearce" },
   "publisher": { "@type": "Organization", "name": "Home Security Guide" },
   "datePublished": "2026-05-31",
@@ -76,7 +76,7 @@ Step 1: Locate ceiling joists with a stud finder and mark positions. Step 2: Cut
       "name": "Can a ceiling mount hold a heavy TV?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Ceiling mounts are rated 15-50kg for standard models, up to 80kg for heavy-duty. The critical factor is ceiling structure — mounts fixed into timber joists support significantly more than plasterboard alone. Always verify ceiling construction."
+        "text": "Ceiling mounts are rated 15-50kg for standard models, up to 80kg for heavy-duty. The critical factor is ceiling structure   mounts fixed into timber joists support significantly more than plasterboard alone. Always verify ceiling construction."
       }
     },
     {

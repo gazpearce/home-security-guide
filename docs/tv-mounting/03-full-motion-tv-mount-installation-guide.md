@@ -17,7 +17,7 @@ Full motion mounts use articulated arms extending up to 600mm from the wall, swi
 
 ## Installation Considerations for Full Motion Mounts
 
-Wall strength is paramount for full motion mounts because the extended arm leverages pull-out force on fixings. For brick and concrete walls use 10mm resin anchors or expanding shield anchors rather than standard wall plugs. For stud walls mount directly into timber studs with M8 coach screws — never mount a full motion mount on plasterboard alone. The wall plate is wider than fixed mounts at 300-600mm. Locate at least two timber studs for secure attachment. Cable management is easier because the arms create rear space — run cables through arm channels. After installation adjust arm pivot tension using hex-key bolts so the TV moves smoothly without sagging. For corner installations choose a mount with corner-optimised wall plate design.
+Wall strength is paramount for full motion mounts because the extended arm leverages pull-out force on fixings. For brick and concrete walls use 10mm resin anchors or expanding shield anchors rather than standard wall plugs. For stud walls mount directly into timber studs with M8 coach screws   never mount a full motion mount on plasterboard alone. The wall plate is wider than fixed mounts at 300-600mm. Locate at least two timber studs for secure attachment. Cable management is easier because the arms create rear space   run cables through arm channels. After installation adjust arm pivot tension using hex-key bolts so the TV moves smoothly without sagging. For corner installations choose a mount with corner-optimised wall plate design.
 
 ---
 
@@ -44,7 +44,7 @@ Wall strength is paramount for full motion mounts because the extended arm lever
 <dd>When retracted 50-100mm remains between TV and wall. Extended the TV reaches 300-600mm from wall. Ensure at least 300mm walking clearance in extended position.</dd>
 
 <dt>Can I hide cables with a full motion mount?</dt>
-<dd>Yes — the extended arm creates rear space for routing. Run cables through arm channels or use cable ties along arms. Combine with an in-wall cable management box for the cleanest look.</dd>
+<dd>Yes   the extended arm creates rear space for routing. Run cables through arm channels or use cable ties along arms. Combine with an in-wall cable management box for the cleanest look.</dd>
 
 <dt>Do full motion mounts work with soundbars?</dt>
 <dd>Most allow a soundbar bracket to attach below the TV. Alternatively wall-mount the soundbar separately. Check the soundbar does not obstruct downward tilt when mounted together.</dd>
@@ -92,7 +92,7 @@ Wall strength is paramount for full motion mounts because the extended arm lever
       "name": "Can I hide cables with a full motion mount?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes — the extended arm creates rear space for routing. Run cables through arm channels or use cable ties along arms. Combine with an in-wall cable management box for the cleanest look."
+        "text": "Yes   the extended arm creates rear space for routing. Run cables through arm channels or use cable ties along arms. Combine with an in-wall cable management box for the cleanest look."
       }
     },
     {
