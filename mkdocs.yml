@@ -17,7 +17,28 @@ theme:
 
 nav:
   - Home: index.md
-  - CCTV Systems: cctv.md
+  - CCTV Systems:
+    - Overview: cctv.md
+    - Dome Camera Installation Guide UK: cctv/01-dome-camera-installation-guide-uk.md
+    - Bullet Camera Installation Guide UK: cctv/02-bullet-camera-installation-guide-uk.md
+    - PTZ Camera Installation Guide UK: cctv/03-ptz-camera-installation-guide-uk.md
+    - Wireless CCTV Camera Setup Guide UK: cctv/04-wireless-cctv-camera-setup-guide-uk.md
+    - CCTV Camera Placement Guide for UK Homes: cctv/05-cctv-camera-placement-guide-for-uk-homes.md
+    - CCTV DVR Setup and Configuration Guide: cctv/06-cctv-dvr-setup-and-configuration-guide.md
+    - CCTV NVR Setup and Configuration Guide: cctv/07-cctv-nvr-setup-and-configuration-guide.md
+    - Night Vision CCTV Camera Guide: cctv/08-night-vision-cctv-camera-guide.md
+    - CCTV Cable and Wiring Guide UK: cctv/09-cctv-cable-and-wiring-guide-uk.md
+    - CCTV Mobile App Remote Viewing Guide: cctv/10-cctv-mobile-app-remote-viewing-guide.md
+    - Solar-Powered CCTV Camera Guide UK: cctv/11-solar-powered-cctv-camera-guide-uk.md
+    - CCTV Hard Drive Storage Selection Guide: cctv/12-cctv-hard-drive-storage-selection-guide.md
+    - CCTV Privacy Masking and ICO Compliance Guide: cctv/13-cctv-privacy-masking-and-ico-compliance-guide.md
+    - 4K vs 1080p CCTV Resolution Guide: cctv/14-4k-vs-1080p-cctv-resolution-guide.md
+    - CCTV for Flats and Apartments UK: cctv/15-cctv-for-flats-and-apartments-uk.md
+    - CCTV Maintenance and Cleaning Guide: cctv/16-cctv-maintenance-and-cleaning-guide.md
+    - ANPR Camera Installation Guide UK: cctv/17-anpr-camera-installation-guide-uk.md
+    - Outdoor CCTV Camera Weatherproofing Guide: cctv/18-outdoor-cctv-camera-weatherproofing-guide.md
+    - CCTV Junction Box and Mounting Guide: cctv/19-cctv-junction-box-and-mounting-guide.md
+    - Multi-Camera CCTV System Design Guide: cctv/20-multi-camera-cctv-system-design-guide.md
   - Alarm Systems: alarms.md
   - Smart Locks: smart-locks.md
   - Security Tips:
