@@ -39,8 +39,50 @@ nav:
     - Outdoor CCTV Camera Weatherproofing Guide: cctv/18-outdoor-cctv-camera-weatherproofing-guide.md
     - CCTV Junction Box and Mounting Guide: cctv/19-cctv-junction-box-and-mounting-guide.md
     - Multi-Camera CCTV System Design Guide: cctv/20-multi-camera-cctv-system-design-guide.md
-  - Alarm Systems: alarms.md
-  - Smart Locks: smart-locks.md
+  - Alarm Systems:
+    - Overview: alarms.md
+    - Smart Alarm System Setup Guide UK: alarms/01-smart-alarm-system-setup-guide-uk.md
+    - PIR Motion Detector Placement Guide: alarms/02-pir-motion-detector-placement-guide.md
+    - Alarm Keypad Programming Guide: alarms/03-alarm-keypad-programming-guide.md
+    - Outdoor Siren Installation Guide UK: alarms/04-outdoor-siren-installation-guide-uk.md
+    - Pet-Friendly Alarm Sensor Guide: alarms/05-pet-friendly-alarm-sensor-guide.md
+    - Smoke Detector Alarm Integration Guide: alarms/06-smoke-detector-alarm-integration-guide.md
+    - Alarm Communicator and SIM Module Guide: alarms/07-alarm-communicator-and-sim-module-guide.md
+    - Wired Alarm Sensor Installation Guide: alarms/08-wired-alarm-sensor-installation-guide.md
+    - Glass Break Detector Installation Guide: alarms/09-glass-break-detector-installation-guide.md
+    - Alarm Battery Replacement Guide: alarms/10-alarm-battery-replacement-guide.md
+    - Alarm Zone Planning Guide: alarms/11-alarm-zone-planning-guide.md
+    - Dual-Tech Detector Guide UK: alarms/12-dual-tech-detector-guide-uk.md
+    - Alarm Panel Programming Guide: alarms/13-alarm-panel-programming-guide.md
+    - Alarm Lighting Integration Guide: alarms/14-alarm-lighting-integration-guide.md
+    - Holiday Home Alarm System Guide: alarms/15-holiday-home-alarm-system-guide.md
+    - New Build Alarm Installation Guide: alarms/16-new-build-alarm-installation-guide.md
+    - Shock Sensor Installation Guide: alarms/17-shock-sensor-installation-guide.md
+    - Alarm Keyholder Management Guide: alarms/18-alarm-keyholder-management-guide.md
+    - Commercial Alarm System Guide UK: alarms/19-commercial-alarm-system-guide-uk.md
+    - False Alarm Prevention Guide UK: alarms/20-false-alarm-prevention-guide-uk.md
+  - Smart Locks:
+    - Overview: smart-locks.md
+    - Keypad Smart Lock Installation Guide UK: smart-locks/01-keypad-smart-lock-installation-guide-uk.md
+    - Biometric Smart Lock Guide UK: smart-locks/02-biometric-smart-lock-guide-uk.md
+    - Bluetooth Smart Lock Setup Guide: smart-locks/03-bluetooth-smart-lock-setup-guide.md
+    - WiFi Smart Lock Configuration Guide: smart-locks/04-wifi-smart-lock-configuration-guide.md
+    - Zigbee Z-Wave Smart Lock Guide: smart-locks/05-zigbee-z-wave-smart-lock-guide.md
+    - Smart Lock for uPVC Doors Guide: smart-locks/06-smart-lock-for-upvc-doors-guide.md
+    - Smart Lock for Wooden Doors UK: smart-locks/07-smart-lock-for-wooden-doors-uk.md
+    - Smart Lock for Composite Doors Guide: smart-locks/08-smart-lock-for-composite-doors-guide.md
+    - Smart Lock Battery Replacement Guide: smart-locks/09-smart-lock-battery-replacement-guide.md
+    - Smart Lock App Setup and Configuration: smart-locks/10-smart-lock-app-setup-and-configuration.md
+    - Smart Lock Multi-User Access Guide: smart-locks/11-smart-lock-multi-user-access-guide.md
+    - Smart Lock Temporary Access Codes Guide: smart-locks/12-smart-lock-temporary-access-codes-guide.md
+    - Smart Lock Auto-Lock and Geofencing Guide: smart-locks/13-smart-lock-auto-lock-and-geofencing-guide.md
+    - Smart Lock Alexa Google Home Integration Guide: smart-locks/14-smart-lock-alexa-google-home-integration-guide.md
+    - Smart Lock Security Audit Guide: smart-locks/15-smart-lock-security-audit-guide.md
+    - Smart Lock for Holiday Lets and Airbnb UK: smart-locks/16-smart-lock-for-holiday-lets-and-airbnb-uk.md
+    - Smart Lock Firmware Update Guide: smart-locks/17-smart-lock-firmware-update-guide.md
+    - Smart Lock Emergency Override Guide: smart-locks/18-smart-lock-emergency-override-guide.md
+    - Smart Lock Tamper Alarm and Security Guide: smart-locks/19-smart-lock-tamper-alarm-and-security-guide.md
+    - Smart Lock Maintenance and Troubleshooting UK: smart-locks/20-smart-lock-maintenance-and-troubleshooting-uk.md
   - Security Tips:
     - Overview: tips.md
     - Holiday Home Security Checklist UK: tips/01-holiday-home-security-checklist-uk.md
@@ -149,7 +191,28 @@ nav:
     - Starlink WiFi Security Best Practices: starlink/28-starlink-wifi-security-best-practices.md
     - Starlink Cable Management and Concealment: starlink/29-starlink-cable-management-and-concealment.md
     - Starlink Network Switch Configuration Guide: starlink/30-starlink-network-switch-configuration-guide.md
-  - Smart Home: smart-home.md
+  - Smart Home:
+    - Overview: smart-home.md
+    - Smart Home Hub Setup Guide UK: smart-home/01-smart-home-hub-setup-guide-uk.md
+    - Smart Lighting Installation Guide: smart-home/02-smart-lighting-installation-guide.md
+    - Smart Thermostat Installation Guide UK: smart-home/03-smart-thermostat-installation-guide-uk.md
+    - Smart Plugs and Power Management Guide: smart-home/04-smart-plugs-and-power-management-guide.md
+    - Smart Sensors Door Window Motion Guide UK: smart-home/05-smart-sensors-door-window-motion-guide-uk.md
+    - Smart Blinds and Curtains Guide: smart-home/06-smart-blinds-and-curtains-guide.md
+    - Smart Doorbell Installation Guide UK: smart-home/07-smart-doorbell-installation-guide-uk.md
+    - Smart Speaker and Display Setup Guide: smart-home/08-smart-speaker-and-display-setup-guide.md
+    - Smart Home WiFi Network Requirements Guide: smart-home/09-smart-home-wifi-network-requirements-guide.md
+    - Smart Home Automation Routines Guide: smart-home/10-smart-home-automation-routines-guide.md
+    - Smart Home Geofencing and Location Guide: smart-home/11-smart-home-geofencing-and-location-guide.md
+    - Smart Home Energy Monitoring Guide: smart-home/12-smart-home-energy-monitoring-guide.md
+    - Smart Home Voice Control Setup Guide: smart-home/13-smart-home-voice-control-setup-guide.md
+    - Smart Home Multi-Room Audio Guide: smart-home/14-smart-home-multi-room-audio-guide.md
+    - Smart Home Security Camera Integration Guide: smart-home/15-smart-home-security-camera-integration-guide.md
+    - Smart Home Matter Protocol Setup Guide: smart-home/16-smart-home-matter-protocol-setup-guide.md
+    - Smart Home Vacation Mode Guide: smart-home/17-smart-home-vacation-mode-guide.md
+    - Smart Home Guest Access Control Guide: smart-home/18-smart-home-guest-access-control-guide.md
+    - Smart Home Child Safety and Parental Controls Guide: smart-home/19-smart-home-child-safety-and-parental-controls-guide.md
+    - Smart Home Fire and CO Detection Integration Guide: smart-home/20-smart-home-fire-and-co-detection-integration-guide.md
 
 extra:
   social:

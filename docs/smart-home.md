@@ -207,4 +207,29 @@ For official guidance, refer to the [Matter smart home standard](https://csa-iot
 
 ---
 
+## Smart Home Guides
+
+Browse our complete collection of smart home installation and setup guides for UK homes:
+
+1. [Smart Home Hub Setup Guide UK](smart-home/01-smart-home-hub-setup-guide-uk.md)
+2. [Smart Lighting Installation Guide](smart-home/02-smart-lighting-installation-guide.md)
+3. [Smart Thermostat Installation Guide UK](smart-home/03-smart-thermostat-installation-guide-uk.md)
+4. [Smart Plugs and Power Management Guide](smart-home/04-smart-plugs-and-power-management-guide.md)
+5. [Smart Sensors Door Window Motion Guide UK](smart-home/05-smart-sensors-door-window-motion-guide-uk.md)
+6. [Smart Blinds and Curtains Guide](smart-home/06-smart-blinds-and-curtains-guide.md)
+7. [Smart Doorbell Installation Guide UK](smart-home/07-smart-doorbell-installation-guide-uk.md)
+8. [Smart Speaker and Display Setup Guide](smart-home/08-smart-speaker-and-display-setup-guide.md)
+9. [Smart Home WiFi Network Requirements Guide](smart-home/09-smart-home-wifi-network-requirements-guide.md)
+10. [Smart Home Automation Routines Guide](smart-home/10-smart-home-automation-routines-guide.md)
+11. [Smart Home Geofencing and Location Guide](smart-home/11-smart-home-geofencing-and-location-guide.md)
+12. [Smart Home Energy Monitoring Guide](smart-home/12-smart-home-energy-monitoring-guide.md)
+13. [Smart Home Voice Control Setup Guide](smart-home/13-smart-home-voice-control-setup-guide.md)
+14. [Smart Home Multi-Room Audio Guide](smart-home/14-smart-home-multi-room-audio-guide.md)
+15. [Smart Home Security Camera Integration Guide](smart-home/15-smart-home-security-camera-integration-guide.md)
+16. [Smart Home Matter Protocol Setup Guide](smart-home/16-smart-home-matter-protocol-setup-guide.md)
+17. [Smart Home Vacation Mode Guide](smart-home/17-smart-home-vacation-mode-guide.md)
+18. [Smart Home Guest Access Control Guide](smart-home/18-smart-home-guest-access-control-guide.md)
+19. [Smart Home Child Safety and Parental Controls Guide](smart-home/19-smart-home-child-safety-and-parental-controls-guide.md)
+20. [Smart Home Fire and CO Detection Integration Guide](smart-home/20-smart-home-fire-and-co-detection-integration-guide.md)
+
 *Last updated: May 2026. Smart home technology evolves rapidly. Matter certification, platform compatibility, and device availability change frequently. Check current reviews and compatibility before purchasing.*

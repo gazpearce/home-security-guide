@@ -217,4 +217,29 @@ For official guidance, consult the [Master Locksmiths Association (MLA)](https:/
 
 ---
 
+## Smart Lock Guides
+
+Browse our complete collection of smart lock installation and setup guides for UK homes:
+
+1. [Keypad Smart Lock Installation Guide UK](smart-locks/01-keypad-smart-lock-installation-guide-uk.md)
+2. [Biometric Smart Lock Guide UK](smart-locks/02-biometric-smart-lock-guide-uk.md)
+3. [Bluetooth Smart Lock Setup Guide](smart-locks/03-bluetooth-smart-lock-setup-guide.md)
+4. [WiFi Smart Lock Configuration Guide](smart-locks/04-wifi-smart-lock-configuration-guide.md)
+5. [Zigbee Z-Wave Smart Lock Guide](smart-locks/05-zigbee-z-wave-smart-lock-guide.md)
+6. [Smart Lock for uPVC Doors Guide](smart-locks/06-smart-lock-for-upvc-doors-guide.md)
+7. [Smart Lock for Wooden Doors UK](smart-locks/07-smart-lock-for-wooden-doors-uk.md)
+8. [Smart Lock for Composite Doors Guide](smart-locks/08-smart-lock-for-composite-doors-guide.md)
+9. [Smart Lock Battery Replacement Guide](smart-locks/09-smart-lock-battery-replacement-guide.md)
+10. [Smart Lock App Setup and Configuration](smart-locks/10-smart-lock-app-setup-and-configuration.md)
+11. [Smart Lock Multi-User Access Guide](smart-locks/11-smart-lock-multi-user-access-guide.md)
+12. [Smart Lock Temporary Access Codes Guide](smart-locks/12-smart-lock-temporary-access-codes-guide.md)
+13. [Smart Lock Auto-Lock and Geofencing Guide](smart-locks/13-smart-lock-auto-lock-and-geofencing-guide.md)
+14. [Smart Lock Alexa Google Home Integration Guide](smart-locks/14-smart-lock-alexa-google-home-integration-guide.md)
+15. [Smart Lock Security Audit Guide](smart-locks/15-smart-lock-security-audit-guide.md)
+16. [Smart Lock for Holiday Lets and Airbnb UK](smart-locks/16-smart-lock-for-holiday-lets-and-airbnb-uk.md)
+17. [Smart Lock Firmware Update Guide](smart-locks/17-smart-lock-firmware-update-guide.md)
+18. [Smart Lock Emergency Override Guide](smart-locks/18-smart-lock-emergency-override-guide.md)
+19. [Smart Lock Tamper Alarm and Security Guide](smart-locks/19-smart-lock-tamper-alarm-and-security-guide.md)
+20. [Smart Lock Maintenance and Troubleshooting UK](smart-locks/20-smart-lock-maintenance-and-troubleshooting-uk.md)
+
 *Last updated: May 2026. Smart lock technology evolves rapidly. Check current TS 007 and Sold Secure certification registers for the latest rated products.*
