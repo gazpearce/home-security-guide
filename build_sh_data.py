@@ -1,0 +1,790 @@
+import json
+
+data = []
+
+# --- Entry 21 ---
+data.append({
+    "n": 21,
+    "t": "Smart Home Network Security Guide UK",
+    "s": "Guide to securing your smart home network in the UK covering router security, separate IoT network, device segmentation, firewall rules, and protection against smart home vulnerabilities.",
+    "h1": "Smart Home Network Security Fundamentals",
+    "p1": "Securing your smart home network is the single most important step in protecting your connected devices. In the UK, the average household now has 15 connected devices, from smart speakers and thermostats to security cameras and kitchen appliances. Each device represents a potential entry point for attackers. The foundation of smart home security starts with your router, which is typically provided by your ISP. BT Smart Hub, Sky Q Hub, Virgin Media Hub 5, and TalkTalk routers all have different security interfaces but share common configuration options. The first step is changing the default admin password, which many UK ISP routers still ship with printed on a sticker on the side of the device. This is the most common attack vector, exploited by automated bots scanning for default credentials across UK broadband IP addresses.",
+    "h2": "Setting Up IoT Network Segmentation",
+    "p2": "Network segmentation is the practice of separating your IoT devices onto a different network from your main computers and phones. Most modern UK dual-band routers support this feature, often labelled as Guest Network, IoT Network, or Secondary SSID. When properly configured, your smart devices can still access the internet for firmware updates and cloud functionality, but they cannot communicate with your main network. This means that if a vulnerable smart camera is compromised, the attacker cannot reach your laptop or phone. For advanced users, routers from ASUS, TP-Link, and Ubiquiti support VLAN-based segmentation with configurable firewall rules. You can restrict IoT devices to only communicate with their cloud servers, blocking peer-to-peer communication and local network discovery. This is particularly important for devices with known vulnerabilities, such as certain IP cameras and smart plugs sold on UK high streets.",
+    "tb": "Security Measure | Purpose | Implementation | UK Router Support | Difficulty",
+    "tr": [
+        "Change default admin password | Prevent unauthorised router access | Admin panel > Change Password | All UK ISP routers | Easy",
+        "WPA3 encryption | Strongest WiFi security | WiFi Settings > Security > WPA3 | BT Smart Hub, Sky Q, Virgin Hub 5 | Easy",
+        "Guest/IoT network | Isolate smart devices from main network | WiFi Settings > Guest Network | Most dual-band routers | Medium",
+        "Disable WPS | Close brute-force vulnerability | WiFi Settings > WPS > Off | All routers | Easy",
+        "Firewall rules | Block IoT internet access | Advanced > Firewall > Rules | Asus, TP-Link, Ubiquiti | Hard"
+    ],
+    "fq": [
+        ["Do I need a separate network for smart home devices?", "Recommended but not essential. A separate IoT network isolates vulnerable smart devices from your computers and phones. Most modern UK routers support this."],
+        ["What is the most important smart home security step?", "Change the default admin password on your router. Many UK ISP routers ship with the password printed on a sticker - this is the most common attack vector."],
+        ["Can smart home devices be hacked?", "Yes - poorly secured smart devices can be entry points. Regular firmware updates and network segmentation significantly reduce risk. Disable unnecessary features like remote access."]
+    ],
+    "rt": "Smart Home Fire and CO Detection Integration Guide, Smart Home Lighting Scene Setup Guide",
+    "rf": "../smart-home/20-smart-home-fire-and-co-detection-integration-guide.md, ../smart-home/22-smart-home-lighting-scene-setup-guide.md"
+})
+
+# --- Entry 22 ---
+data.append({
+    "n": 22,
+    "t": "Smart Home Lighting Scene Setup Guide",
+    "s": "Guide to creating and configuring smart lighting scenes for UK homes covering pre-set moods, room-by-room scenes, voice activation, and automation triggers for different times of day.",
+    "h1": "Understanding Smart Lighting Scenes",
+    "p1": "Smart lighting scenes transform how you experience your home by allowing you to set multiple lights to specific brightness levels and colours with a single command. For UK homes, scenes are particularly useful during the darker months when natural light is limited between November and February. A scene captures the state of every light in a room or zone, including brightness, colour temperature in Kelvin, and specific hue for colour bulbs. Popular UK smart lighting brands including Philips Hue, WiZ, IKEA TRADFRI, and TP-Link Tapo all support scenes through their respective apps. The magic happens when you combine scenes with voice assistants like Alexa, Google Assistant, or Siri. Saying Alexa, movie time can dim your living room lights to 20% warm white, trigger the TV to turn on, and close the blinds, all from a single voice command. Scenes can be triggered by schedules, motion sensors, or geofencing.",
+    "h2": "Creating and Activating Lighting Scenes",
+    "p2": "To create a lighting scene in the Philips Hue app, first ensure all desired bulbs are grouped into a room within the app. Navigate to the scene tab, select create new, and adjust each bulb to your preferred brightness and colour. Save with a memorable name like Evening Wind Down or Movie Time. The same process works in WiZ, IKEA Home Smart, and TP-Link Kasa apps. Once created, scenes appear in your Alexa or Google Home app as routines. For example, you can create an Alexa routine called Good Morning that triggers at 7am Monday to Friday, setting the bedroom lights to a gradual 30-minute sunrise simulation from warm to cool daylight, and your kitchen lights to 100% cool white for breakfast preparation. Advanced users can layer scenes with other devices: Good Morning could also start the smart kettle, open the bedroom blinds, and set the thermostat to 21C. The scene becomes part of a larger routine that coordinates multiple aspects of your morning.",
+    "tb": "Scene | Rooms | Bulb Colours | Brightness | Trigger",
+    "tr": [
+        "Morning | Kitchen, Bathroom | Cool daylight (4000K) | 100% | Schedule 7am or sunrise",
+        "Daytime | Living room, Office | Natural white (3500K) | 80% | Geofencing arrive home",
+        "Evening | Living room, Dining | Warm white (2700K) | 60% | Schedule sunset",
+        "Movie | Living room | Dim warm (2200K) | 20% | Alexa movie time",
+        "Night | Hallway, Bathroom | Amber (1800K) | 5% | Motion sensor 10pm-6am"
+    ],
+    "fq": [
+        ["What is the difference between a scene and a routine?", "A scene sets device states (lights at 50%, warm white). A routine triggers scenes plus other actions (lock doors, set thermostat). Routines contain scenes."],
+        ["Can scenes work with B22 UK bulbs?", "Yes - Philips Hue, WiZ, IKEA TRADFRI, and TP-Link all offer B22 bayonet bulbs that support colour temperature and brightness scenes."],
+        ["How do I activate scenes without voice?", "Use motion sensors, schedules, or geofencing. Hallway light scene triggered by motion after sunset, Good Morning scene triggered by alarm time."]
+    ],
+    "rt": "Smart Home Network Security Guide UK, Smart Home Outdoor Lighting Automation Guide",
+    "rf": "../smart-home/21-smart-home-network-security-guide-uk.md, ../smart-home/23-smart-home-outdoor-lighting-automation-guide.md"
+})
+
+# --- Entry 23 ---
+data.append({
+    "n": 23,
+    "t": "Smart Home Outdoor Lighting Automation Guide",
+    "s": "Guide to automating outdoor lighting for UK homes covering weatherproof IP ratings, dusk-to-dawn scheduling, motion-activated security lighting, and smart outdoor light selection for British weather.",
+    "h1": "Outdoor Smart Lighting Options for UK Homes",
+    "p1": "Outdoor smart lighting extends your smart home beyond the front door, improving security and curb appeal while withstanding the UK's notoriously wet climate. The key specification to check is the Ingress Protection (IP) rating. For UK outdoor use, IP44 is the minimum standard, offering protection against splashing water from any direction. IP65-rated lights are sealed against powerful water jets and are recommended for floodlights and lights in exposed positions facing the prevailing south-westerly rain. Popular UK options include Ring Smart Lighting, Philips Hue outdoor range, and IKEA outdoor solar lights. The British climate means lights must tolerate temperatures from -10C to 40C, consistent rain, and occasional snow. Smart outdoor lights can be hardwired by a qualified electrician for permanent installation, or battery and solar powered for easy retrofitting without professional help.",
+    "h2": "Outdoor Lighting Automation Configuration",
+    "p2": "Configuring outdoor lighting automation in the UK requires consideration of seasonal daylight variations. In June, sunset is after 9pm in southern England; in December, it is before 4pm. Smart lights with astronomic scheduling adjust automatically based on your location and the time of year, turning on at sunset and off at sunrise without manual adjustment. Motion-activated floodlights are ideal for security, illuminating driveways and garden paths when movement is detected. Ring Floodlight Cam combines smart lighting with a security camera, recording when motion triggers the light. For path illumination, dusk-to-dawn mode is preferred, keeping pathways softly lit throughout the night. Battery-powered lights need regular recharging, particularly in winter when solar panels receive minimal sunlight. South-facing gardens in southern England get 3-5 effective daylight hours in summer but as little as 1 hour in December, making solar-only lights impractical for winter use.",
+    "tb": "Outdoor Light Type | Best For | IP Rating | UK Price | Power",
+    "tr": [
+        "Smart floodlight (Ring, Philips) | Security, driveway | IP65 | \u00a360-\u00a3120 | Hardwired",
+        "Smart path light (Ring, Philips) | Garden paths | IP44 | \u00a350-\u00a3100 | Battery/solar",
+        "Smart wall light (Philips Hue) | Front/rear door | IP44 | \u00a360-\u00a390 | Hardwired",
+        "Smart bollard light (IKEA) | Garden borders | IP44 | \u00a325-\u00a350 | Solar/battery",
+        "Smart string lights (Philips) | Patio, pergola | IP44 | \u00a340-\u00a380 | Mains plug"
+    ],
+    "fq": [
+        ["What IP rating do I need for UK outdoor lights?", "Minimum IP44 for splashing water. IP65 for exposed locations (floodlights, wall lights facing prevailing rain). IP65 for ground-level path lights."],
+        ["Can outdoor lights work on solar in the UK?", "Yes but with limitations. South-facing gardens get 3-5 hours effective daylight in summer. Winter solar charging is minimal (1-2 hours). Battery-only lights need mains charging in winter."],
+        ["Should outdoor lights be motion-activated or dusk-to-dawn?", "Motion for security (deters intruders, saves battery). Dusk-to-dawn for pathway illumination and welcome lighting. Combine both: dim dusk-to-dawn, bright on motion."]
+    ],
+    "rt": "Smart Home Lighting Scene Setup Guide, Smart Home EV Charger Scheduling Guide",
+    "rf": "../smart-home/22-smart-home-lighting-scene-setup-guide.md, ../smart-home/24-smart-home-ev-charger-scheduling-guide.md"
+})
+
+# --- Entry 24 ---
+data.append({
+    "n": 24,
+    "t": "Smart Home EV Charger Scheduling Guide",
+    "s": "Guide to scheduling and automating EV charging in UK smart homes covering Octopus Agile/Go tariff integration, solar surplus charging, off-peak scheduling, and smart charger setup with Zappi, Ohme, and Tesla.",
+    "h1": "EV Charger Smart Home Integration",
+    "p1": "Integrating your electric vehicle charger with your smart home unlocks significant cost savings, particularly when combined with UK smart electricity tariffs. The average UK EV driver covers 6,700 miles per year and with smart scheduling can save hundreds of pounds annually. Octopus Go offers 7.5p per kWh between 00:30 and 04:30, compared to the standard rate of approximately 24p per kWh. Octopus Agile goes further with half-hourly wholesale prices that can dip to 5p per kWh or less during periods of low demand. Smart chargers like the Zappi from myenergi and the Ohme Home Pro can automatically schedule charging to align with these cheap periods. They also support solar surplus charging, diverting excess generation from your solar panels to the car battery rather than exporting it to the grid at the 15p per kWh Smart Export Guarantee rate.",
+    "h2": "Setting Up Charging Schedules and Automations",
+    "p2": "To set up smart EV charging, you will need a SMETS2 smart meter installed by your energy supplier. The charger connects to your home WiFi or communicates via the DCC network. Open the charger's app and navigate to the scheduling section. For Zappi owners, the myenergi app allows you to set Boost timers for off-peak charging, Eco mode for solar-only charging, and Fast mode for maximum rate charging. The p+ function prioritises solar surplus, automatically adjusting charging speed based on generation. Ohme Home Pro integrates directly with Octopus Intelligent Go, allowing the octopus energy platform to control when your car charges based on grid conditions. Tesla Wall Connector owners can use the Tesla app to schedule departure times, and the car calculates when to start charging to reach the target state of charge by the set time. Home Assistant integration via APIs provides the ultimate flexibility, allowing you to create automations that charge your car only when solar generation exceeds 2kW or when Octopus Agile rates fall below 10p per kWh.",
+    "tb": "EV Charger | Smart Features | Tariff Integration | UK Price | Installation",
+    "tr": [
+        "Zappi (myenergi) | Solar surplus, schedule, app | Octopus Agile, Go | \u00a3900-\u00a31,100 | Professional OZEV grant",
+        "Ohme Home Pro | Smart schedule, app, cable lock | Octopus Go, Intelligent | \u00a3850-\u00a31,050 | Professional OZEV grant",
+        "Tesla Wall Connector | Schedule, app, Powerwall | Octopus Go, Agile | \u00a3800-\u00a31,000 | Professional",
+        "EO Mini Pro 2 | Schedule, app, load balancing | Octopus Go | \u00a3700-\u00a3900 | Professional OZEV grant",
+        "Rolec EV Smart | Schedule, app, RFID | Octopus Go | \u00a3600-\u00a3800 | Professional OZEV grant"
+    ],
+    "fq": [
+        ["Which UK EV tariff is best for smart charging?", "Octopus Go (7.5p/kWh 00:30-04:30) saves 65% vs standard rate (24p). Octopus Agile (half-hourly wholesale) can achieve 5p/kWh with smart scheduling."],
+        ["Can my EV charger use solar power automatically?", "Yes - Zappi and Ohme support solar surplus charging. When your solar panels generate excess power, the charger diverts it to the car instead of exporting to the grid."],
+        ["Do I need a smart meter for smart EV charging?", "Yes - a SMETS2 smart meter is required for smart tariffs. The charger communicates with the meter via the DCC network or your WiFi."]
+    ],
+    "rt": "Smart Home Outdoor Lighting Automation Guide, Smart Home Garage Door Control Guide",
+    "rf": "../smart-home/23-smart-home-outdoor-lighting-automation-guide.md, ../smart-home/25-smart-home-garage-door-control-guide.md"
+})
+
+# --- Entry 25 ---
+data.append({
+    "n": 25,
+    "t": "Smart Home Garage Door Control Guide",
+    "s": "Guide to smart garage door control for UK homes covering smart openers, retrofitting existing doors, myQ integration, geofencing automation, and security considerations for attached and detached garages.",
+    "h1": "Smart Garage Door Opener Options for UK Homes",
+    "p1": "Smart garage door control is one of the most practical smart home upgrades for UK homeowners. Whether you have an attached garage with direct access to your kitchen or a detached brick garage at the back of the garden, smart control adds convenience and security. The UK's most common garage doors are up-and-over retractable doors, sectional doors, roller shutters, and side-hinged UPVC doors. Each type requires a different smart solution. Retrofit smart controllers from myQ, Meross, and Tailwind can be installed in 15 minutes with basic DIY tools and work with most existing garage door motors. These controllers replace your existing wall button with a WiFi-enabled module that connects to your home network. The average cost for a retrofit solution is between 30 and 80 pounds, making it one of the most cost-effective smart home upgrades available. For new installations, integrated smart openers from the major garage door manufacturers offer seamless compatibility.",
+    "h2": "Installation and Automation Setup",
+    "p2": "Installing a retrofit smart garage door controller is straightforward. Mount the controller near your existing garage door motor, connect the two signal wires to the same terminals as your current wall button, and power the unit via USB. Download the manufacturer's app and connect to your WiFi. Most controllers also include a magnetic tilt or door position sensor that reports whether the door is open or closed. This status feedback is critical for automation. You can set geofencing automation so your garage door opens automatically as you approach within 200 metres of your home and closes when you leave. For security, enable rolling code technology which generates a unique code for every open and close command, preventing replay attacks. Set up notifications for every door operation so you are always aware of activity. Test geofencing thoroughly before relying on it - set the geofence radius conservatively (200m) to prevent accidental opens while you are still at home.",
+    "tb": "Garage Door Type | Smart Solution | Retrofit Possible | UK Price | Security",
+    "tr": [
+        "Up-and-over (retractable) | Smart opener motor + myQ | Yes | \u00a3150-\u00a3300 | Rolling code + auto-close",
+        "Sectional door | Smart opener + tilt sensor | Yes | \u00a3200-\u00a3350 | Auto-close + notification",
+        "Roller shutter | Smart roller controller | Yes | \u00a3180-\u00a3280 | Lockout mode + alarm",
+        "Side-hinged (upvc) | Smart lock + door sensor | Yes | \u00a3200-\u00a3300 | Standard lock + sensor",
+        "Manual up-and-over | Smart actuator + sensor | Yes | \u00a3100-\u00a3200 | Retrofit actuator"
+    ],
+    "fq": [
+        ["Can I make my existing garage door smart?", "Yes - retrofit smart controllers work with most UK garage doors. myQ, Meross, and Tailwind offer universal smart controllers (\u00a330-\u00a380)."],
+        ["Is smart garage door control secure?", "Yes with rolling code technology. Each open/close command uses a unique code. Enable notifications for every door operation. Never use IFTTT for security-critical devices."],
+        ["Can geofencing automate my garage door?", "Yes - set arrival to open the garage door as you approach. Set departure to close and check status. Test thoroughly - false opens are a security risk."]
+    ],
+    "rt": "Smart Home EV Charger Scheduling Guide, Smart Home Irrigation and Garden Watering Guide",
+    "rf": "../smart-home/24-smart-home-ev-charger-scheduling-guide.md, ../smart-home/26-smart-home-irrigation-and-garden-watering-guide.md"
+})
+
+# --- Entry 26 ---
+data.append({
+    "n": 26,
+    "t": "Smart Home Irrigation and Garden Watering Guide",
+    "s": "Guide to smart garden irrigation and watering systems for UK homes covering hose timers, drip irrigation controllers, rain sensor integration, and water-saving automation for British gardens.",
+    "h1": "Smart Irrigation Options for UK Gardens",
+    "p1": "Smart garden irrigation systems bring the convenience of automation to UK gardens, saving time and water while keeping your plants healthy through the variable British climate. The UK receives between 600mm and 1,500mm of rainfall annually depending on region, but summer months can bring extended dry periods and even hosepipe bans in southern England. Smart irrigation controllers adapt to these conditions automatically. The simplest entry point is a smart hose end timer from Hozelock or Gardena, costing between 40 and 60 pounds and attaching directly to your outdoor tap. These battery-powered devices connect via WiFi and allow you to set watering schedules from your phone. More comprehensive systems from Gardena Smart and Orbit B-hyve include multiple zone control, rain sensors, and weather data integration. These systems automatically skip scheduled watering when rain is forecast, reducing water usage by 30 to 50 percent compared to standard timers.",
+    "h2": "Setting Up Water-Saving Automation",
+    "p2": "Configuring smart irrigation for a UK garden starts with mapping your watering zones. Typical zones include lawn (pop-up sprinklers), flower borders (drip irrigation), vegetable beds (drip or micro-sprinklers), and containers (individual drippers). Each zone has different water requirements and schedules. In the Gardena Smart app, you create zones by selecting valve type, plant type, soil type, and sun exposure. The app calculates watering duration based on these factors combined with local Met Office weather data. During the growing season (April to September), early morning watering between 5am and 7am is optimal, minimising evaporation and allowing foliage to dry before nightfall, reducing the risk of fungal diseases. In autumn (October-November), reduce watering frequency as plants enter dormancy. During winter, most gardens need no supplementary watering. Rain sensors or weather-data integration automatically pause schedules when the Met Office forecasts rainfall, ensuring compliance with any hosepipe restrictions that may be in place.",
+    "tb": "Irrigation Type | Smart Controller | Water Source | UK Price | Coverage",
+    "tr": [
+        "Hose end timer | Hozelock Smart Timer | Outdoor tap | \u00a340-\u00a360 | Single hose/zones",
+        "Drip irrigation | Gardena Smart System | Outdoor tap | \u00a380-\u00a3150 | Borders, veg beds",
+        "Pop-up sprinkler | Orbit B-hyve | Mains supply | \u00a3100-\u00a3200 | Lawn, large gardens",
+        "Micro sprinkler | Rain Bird ST8 | Mains supply | \u00a3150-\u00a3250 | Greenhouses, beds",
+        "Rainwater harvesting | Smart pump + timer | Water butt | \u00a350-\u00a3100 | Small gardens"
+    ],
+    "fq": [
+        ["Can smart irrigation save water in UK gardens?", "Yes - smart controllers with rain sensors and weather data reduce water usage by 30-50%. They skip watering when rain is forecast and adjust for UK seasons."],
+        ["Do I need a hosepipe ban-compatible system?", "Most smart irrigation uses drip or timed watering which is permitted during UK hosepipe bans (check your water company rules). Rainwater harvesting systems are always exempt."],
+        ["How do I protect smart irrigation from UK frost?", "Drain the system before first frost (typically October in Scotland, November in England). Remove and store hose timers indoors. Use frost-proof outdoor taps."]
+    ],
+    "rt": "Smart Home Garage Door Control Guide, Smart Home Pet Care Automation Guide",
+    "rf": "../smart-home/25-smart-home-garage-door-control-guide.md, ../smart-home/27-smart-home-pet-care-automation-guide.md"
+})
+
+# --- Entry 27 ---
+data.append({
+    "n": 27,
+    "t": "Smart Home Pet Care Automation Guide",
+    "s": "Guide to smart home pet care automation for UK homes covering smart pet feeders, water fountains, pet doors, activity monitoring, and routines for dog and cat care during working hours.",
+    "h1": "Smart Pet Care Devices for UK Homes",
+    "p1": "Smart pet care devices are transforming how UK pet owners manage their animals' daily needs, particularly for the growing number of people returning to office work after the pandemic. With 35% of UK households owning a dog and 24% owning a cat, the market for smart pet technology has expanded rapidly. Smart pet feeders dispense programmed portions of dry food at set times, ideal for cats who need small, frequent meals, and dogs who need consistent feeding schedules while their owners are at work. Brands including Sure Petcare, PetSafe, and Catit offer WiFi-connected feeders with app control and portion accuracy. Smart water fountains with continuous circulation and filtration encourage pets to drink more, reducing the risk of urinary tract problems common in cats. Activity monitors attached to collars track movement, sleep, and behaviour patterns, alerting you to changes that might indicate health issues. Secure SureFlap pet doors with microchip reading prevent other animals from entering your home.",
+    "h2": "Automation Routines for Pet Care",
+    "p2": "Creating effective pet care automation requires thinking through your pet's daily schedule. A typical cat routine might include breakfast dispensed at 7am from the smart feeder, the pet door unlocking at 8am for outdoor access, activity monitoring throughout the day, and dinner at 6pm followed by the pet door locking at 8pm curfew. For dogs, the feeder dispenses breakfast at 7am and dinner at 6pm, while a smart camera with treat tosser allows you to check in and dispense treats remotely during the day. The SureFlap dual-scan microchip pet door reads your pet's microchip or an RFID collar tag, ensuring only your pet can enter. It supports curfew mode, locking at night to prevent wildlife entry, and can be integrated with the Sure Petcare app for remote control. Notifications alert you when your pet uses the door, and the app records activity patterns over time. Battery backup on all devices ensures operation during UK power cuts, which is crucial for timed feeding.",
+    "tb": "Pet Device | Smart Feature | Best For | UK Price | Power",
+    "tr": [
+        "Smart pet feeder | Scheduled meals, portion control, app | Cats, small dogs | \u00a350-\u00a3120 | Mains + battery backup",
+        "Smart water fountain | Filtered, flow monitoring, low-level alert | Cats, dogs | \u00a330-\u00a360 | USB/mains",
+        "Smart pet door | Microchip/RFID access, curfew | Cats, dogs | \u00a3120-\u00a3250 | Battery + mains",
+        "Activity monitor | Movement, sleep, behaviour tracking | Dogs, cats | \u00a380-\u00a3150 | Rechargeable battery",
+        "Smart camera + treat tosser | Remote treat dispensing, two-way audio | Dogs | \u00a360-\u00a3100 | Mains + WiFi"
+    ],
+    "fq": [
+        ["Can I monitor my pet while at work in the UK?", "Yes - smart cameras with two-way audio and treat dispensing let you check in and interact. Activity monitors track sleep and movement patterns."],
+        ["Are smart pet doors secure?", "Microchip-reading pet doors only allow your pet entry. Some have curfew mode (locked at night). Installation in a UPVC door or wall is required - professional fitting recommended."],
+        ["Can I automate feeding schedules?", "Yes - smart feeders dispense programmed portions at set times (breakfast 7am, dinner 6pm). App notifications confirm feeding. Battery backup ensures operation during power cuts."]
+    ],
+    "rt": "Smart Home Irrigation and Garden Watering Guide, Smart Home Entertainment System Integration Guide",
+    "rf": "../smart-home/26-smart-home-irrigation-and-garden-watering-guide.md, ../smart-home/28-smart-home-entertainment-system-integration-guide.md"
+})
+
+# --- Entry 28 ---
+data.append({
+    "n": 28,
+    "t": "Smart Home Entertainment System Integration Guide",
+    "s": "Guide to integrating entertainment systems with UK smart homes covering TV control, soundbar/AV receiver automation, streaming device voice control, and creating cinema and music scenes.",
+    "h1": "Smart Entertainment Device Integration",
+    "p1": "Integrating your entertainment system with your smart home creates seamless experiences that rival professional home cinema installations. The key enabler is HDMI-CEC (Consumer Electronics Control), which allows devices connected via HDMI to control each other. When you say Alexa, turn on the TV, the command travels via WiFi to your smart TV or streaming stick, which then uses HDMI-CEC to power on your AV receiver and soundbar automatically. The UK's most popular smart TVs from Samsung, LG, and Sony all support this feature, though the implementation varies between brands. Samsung calls it Anynet+, LG uses Simplink, and Sony calls it Bravia Sync. For the best experience, connect your TV to your home network via Ethernet rather than WiFi, as 4K streaming content needs reliable bandwidth. Streaming sticks like Amazon Fire TV Stick and Google Chromecast with Google TV are excellent entry points, adding voice control to older TVs that lack built-in smart features.",
+    "h2": "Creating Entertainment Scenes and Routines",
+    "p2": "Entertainment scenes coordinate multiple devices to create the perfect viewing or listening environment. A home cinema scene might: dim the lights to 20% warm white, close the smart blinds, turn on the TV, switch the AV receiver to the correct HDMI input, and set the soundbar to movie mode. This can all be triggered with a single voice command or a button press. In the Alexa app, create a routine called Movie Time with the trigger Alexa, movie time. Add actions for each device: lights (set scene), blinds (close), TV (turn on and set input), and AV receiver (turn on and set input). Philips Hue's entertainment area feature syncs your smart bulbs with on-screen content, pulsing lights to match the colours on screen. This works with compatible TVs and the Hue Play HDMI Sync Box. For music, Sonos multi-room audio systems integrate with Alexa and AirPlay 2, allowing whole-home synchronised audio. Create different zones: Kitchen for morning radio, Living room for evening listening, and Garden for summer parties.",
+    "tb": "Entertainment Device | Smart Integration | Voice Control | UK Price | Protocol",
+    "tr": [
+        "Smart TV (Samsung, LG, Sony) | WiFi, Alexa, Google, HomeKit | Yes - power, input, volume | \u00a3300-\u00a32,000 | WiFi + HDMI-CEC",
+        "Streaming stick (Fire TV, Chromecast) | Alexa, Google | Yes - content, power | \u00a325-\u00a380 | WiFi + HDMI",
+        "AV receiver (Denon, Yamaha) | HEOS, MusicCast, Alexa | Yes - input, volume, power | \u00a3300-\u00a31,500 | WiFi + Ethernet",
+        "Soundbar (Sonos, Samsung) | Sonos app, Alexa, AirPlay 2 | Yes - volume, source | \u00a3150-\u00a3900 | WiFi + HDMI ARC",
+        "Games console (Xbox, PS5) | Alexa, Google, HDMI-CEC | Limited - power, input | \u00a3250-\u00a3500 | WiFi + HDMI"
+    ],
+    "fq": [
+        ["Can voice control turn on my TV and change inputs?", "Yes - Alexa and Google can power on TVs with HDMI-CEC. Change inputs via voice: Alexa, switch to PlayStation. Requires compatible TV and skill setup."],
+        ["How do I create a home cinema scene?", "One routine dims lights to 20%, closes blinds, turns on TV, switches AV receiver to correct input. Trigger: Alexa, movie time. Works with Philips Hue and smart blinds."],
+        ["Can multi-room audio sync with my TV?", "Sonos supports TV audio sync with Sonos Arc + One surrounds. Amazon Echo Studio can pair with Fire TV. Google Nest Audio does not support TV audio."]
+    ],
+    "rt": "Smart Home Pet Care Automation Guide, Smart Home Morning and Bedtime Routine Guide",
+    "rf": "../smart-home/27-smart-home-pet-care-automation-guide.md, ../smart-home/29-smart-home-morning-and-bedtime-routine-guide.md"
+})
+
+# --- Entry 29 ---
+data.append({
+    "n": 29,
+    "t": "Smart Home Morning and Bedtime Routine Guide",
+    "s": "Guide to creating smart home morning and bedtime routines for UK homes covering gradual wake-up, departure sequences, evening wind-down, and overnight security automation.",
+    "h1": "Morning Routine Automation",
+    "p1": "A well-designed smart home morning routine transforms how you start your day, gradually waking you instead of jarring you awake with a traditional alarm. The key is a gradual sunrise simulation using smart bulbs in the bedroom. Philips Hue bulbs can be programmed to slowly brighten over 30 minutes, starting at 1% warm white (2200K) and transitioning to 100% cool daylight (4000K) by the time your alarm would traditionally sound. This mimics a natural sunrise and has been shown to improve morning alertness and mood, particularly during the UK's dark winter months when sunrise can be as late as 8am in December. The routine should progress to your kitchen, where lights turn on at 80% cool white as you enter, detected by a motion sensor or geofencing. Your smart kettle can start boiling at 7.25am so fresh tea or coffee is ready exactly when you need it. By the time you leave for work or school, the thermostat can drop to 16C to save energy while you are out.",
+    "h2": "Bedtime Routine Automation",
+    "p2": "The bedtime routine begins a wind-down process starting around 9pm with a gradual lighting change. Living room lights shift to warm white (2700K) at 60% at 9pm, then dim further to 20% at 9.30pm as a visual cue to prepare for bed. Smart blinds close at sunset or at 9pm, whichever comes first, providing privacy and thermal insulation. In winter, closed blinds can reduce heat loss through windows by up to 25%. At 10pm, a Goodnight routine triggered by voice (Alexa, goodnight) or schedule performs multiple actions: lock all smart locks, turn off all lights, set the thermostat to 16C for overnight energy saving, arm the security alarm, turn off entertainment system smart plugs to eliminate standby power, and confirm all doors are closed via smart sensors. For families with children, the bedtime routine can include a child-specific sequence: dim nursery lights, start a white noise machine via a smart plug, and set the thermostat to 18C in the nursery for safe infant sleeping temperature.",
+    "tb": "Routine | Trigger | Time | Devices | Actions",
+    "tr": [
+        "Wake-up | Schedule | 7am Mon-Fri | Bedroom lamp, thermostat | Gradually brighten light over 30 min, heat to 21C",
+        "Breakfast | Schedule + motion | 7.30am | Kitchen lights, kettle | Kitchen lights 80% cool, smart kettle on",
+        "School run | Voice: Alexa school run | 8.15am | Locks, alarm, thermostat, plugs | Lock door, arm alarm, 16C, plugs off",
+        "Wind-down | Schedule | 9pm | Lights, thermostat, blinds | Dim lights warm, 18C, close blinds",
+        "Bedtime | Voice: Alexa goodnight | 10pm | All locks, lights, alarm, plugs | Lock all, lights off, 16C, plugs off, arm alarm"
+    ],
+    "fq": [
+        ["Can I create a gradual wake-up routine?", "Yes - smart bulbs (Philips Hue) can gradually brighten over 30 minutes simulating sunrise. Set temperature to warm (2200K) initially, transitioning to cool (4000K)."],
+        ["What is the best bedtime routine for energy saving?", "Goodnight routine: lock doors, turn off all lights, set thermostat to 16C, turn off entertainment plugs. Estimated savings: \u00a3100-\u00a3200 per year."],
+        ["Can routines adapt to sunrise/sunset times?", "Yes - Alexa and Google routines support sunrise/sunset triggers. Bedtime blinds close at sunset. Wake-up light adjusts seasonally with sunrise time."]
+    ],
+    "rt": "Smart Home Entertainment System Integration Guide, Smart Home Energy Saving Configuration Guide",
+    "rf": "../smart-home/28-smart-home-entertainment-system-integration-guide.md, ../smart-home/30-smart-home-energy-saving-configuration-guide.md"
+})
+
+# --- Entry 30 ---
+data.append({
+    "n": 30,
+    "t": "Smart Home Energy Saving Configuration Guide",
+    "s": "Guide to configuring smart home energy saving features for UK homes covering thermostat scheduling, standby power elimination, smart tariff optimisation, and energy monitoring dashboards.",
+    "h1": "Smart Home Energy Saving Strategies",
+    "p1": "Configuring your smart home for energy efficiency can significantly reduce your UK household energy bills, which have risen dramatically in recent years. The average UK home spends approximately 1,800 pounds annually on electricity and gas. Smart home automation can reduce this by 200 to 500 pounds per year through a combination of strategies. The largest savings come from smart heating control, with Nest, Hive, and Tado smart thermostats saving 100 to 300 pounds annually by learning your schedule and only heating rooms when needed. Smart TRVs (Thermostatic Radiator Valves) from Tado and Drayton Wiser extend this by providing room-by-room temperature control, avoiding heating empty bedrooms. Standby power elimination through smart plugs on entertainment systems, computers, and kitchen appliances saves a further 30 to 80 pounds per year. The UK average home has 20 devices on standby consuming phantom loads that can account for 10% of electricity use.",
+    "h2": "Configuring Energy Saving Automations",
+    "p2": "Setting up energy saving automations requires identifying which devices consume power and when they can be safely turned off. Start with an energy monitoring smart plug measuring your baseline consumption. The Loop Energy Monitor or a Shelly PM connected to your consumer unit provides whole-home visibility. Create automations in your platform of choice: when nobody is home (geofencing), set heating to frost protection (7C), turn off all entertainment plugs, and disable always-on displays. For heating, Tado's geofencing feature automatically sets the home to Away mode when the last person leaves. The bright feature detects open windows and turns off the heating in that room. Smart TRVs in bedrooms can be set to 16C overnight (safe but economical) and 21C in living areas during waking hours. For Octopus Agile customers, Home Assistant integration allows you to automate heavy appliances to run only when electricity prices drop below your threshold, typically late at night between 11pm and 5am when wholesale prices are lowest.",
+    "tb": "Energy Saving Measure | Device | Saving per Year | Setup Difficulty | Payback Period",
+    "tr": [
+        "Smart thermostat scheduling | Nest/Hive/Tado | \u00a3100-\u00a3300 | Medium | 1-2 years",
+        "Standby power elimination | Smart plugs on entertainment | \u00a330-\u00a380 | Easy | 3-6 months",
+        "Smart TRV zone control | Tado/Drayton Wiser TRVs | \u00a350-\u00a3150 | Medium | 2-3 years",
+        "Solar surplus EV charging | Zappi/Ohme | \u00a3100-\u00a3300 | Professional | 2-4 years",
+        "Smart tariff automation | Octopus Agile + Home Asst | \u00a350-\u00a3200 | Hard | 3-6 months"
+    ],
+    "fq": [
+        ["How much can smart home automation actually save?", "Typical UK 3-bed home saves \u00a3200-\u00a3500/year: heating \u00a3100-300, standby \u00a330-80, smart tariff \u00a350-200, solar optimisation \u00a3100-300."],
+        ["What is the quickest energy saving win?", "Smart plugs on entertainment systems with an auto-off routine at 11pm. \u00a330-\u00a380/year saved from eliminating standby power. Payback in 3-6 months."],
+        ["Can I automate to avoid peak electricity rates?", "Yes - Octopus Agile has half-hourly wholesale rates. Automate washing machines, dishwashers, and EV charging to run during cheap periods (typically 11pm-5am)."]
+    ],
+    "rt": "Smart Home Morning and Bedtime Routine Guide, Smart Home Solar Panel Integration Guide",
+    "rf": "../smart-home/29-smart-home-morning-and-bedtime-routine-guide.md, ../smart-home/31-smart-home-solar-panel-integration-guide.md"
+})
+
+# --- Entry 31 ---
+data.append({
+    "n": 31,
+    "t": "Smart Home Solar Panel Integration Guide",
+    "s": "Guide to integrating solar PV systems with UK smart homes covering inverter monitoring, solar surplus automation, battery charging optimisation, and energy dashboard integration with Octopus Agile.",
+    "h1": "Solar Panel Smart Home Integration Options",
+    "p1": "Solar panel installations have surged across the UK, with over 190,000 installations in 2023 alone. Integrating your solar PV system with your smart home unlocks the full potential of your renewable energy generation. The key components are the solar inverter with WiFi connectivity, a SMETS2 smart meter, and your smart home hub. Most modern inverters from SolarEdge, Sofar, and GivEnergy include WiFi modules that connect to manufacturer apps for real-time generation monitoring. However, the real power of integration comes from connecting this data to Home Assistant via APIs or Modbus, enabling automated actions based on generation levels. For example, when your solar generation exceeds 2kW, an automation can turn on the dishwasher, start the washing machine, and divert surplus to the immersion heater via a myenergi Eddi diverter. The Octopus Agile tariff integration adds another layer, automatically deciding whether to use solar power, grid power, or battery storage based on half-hourly pricing.",
+    "h2": "Solar Surplus Automation Strategies",
+    "p2": "Solar surplus automation ensures you use every kilowatt-hour your panels generate rather than exporting it to the grid at the Smart Export Guarantee rate of 5 to 15p per kWh. The myenergi ecosystem offers the most comprehensive solution: the Zappi EV charger automatically adjusts charging speed based on solar surplus, the Eddi diverter sends excess power to heat your hot water tank, and the myenergi app provides a unified dashboard. In Home Assistant, the GivTCP integration connects your GivEnergy inverter and battery, exposing real-time generation, consumption, battery state of charge, and grid import/export data. Create automations: if solar generation exceeds 3kW and battery is above 80%, start the tumble dryer. If generation drops below 1.5kW and the appliance cycle is complete, turn it off. This level of optimisation can increase self-consumption from the typical 40% without automation to over 80% with smart control, dramatically improving your solar payback period.",
+    "tb": "Solar Component | Smart Integration | Monitoring | UK Price | Best For",
+    "tr": [
+        "Solar inverter (Sofar, SolarEdge) | WiFi + app | Real-time generation | Included with panels | Generation monitoring",
+        "Smart meter (SMETS2) | DCC connected | Export/import tracking | Free from supplier | Tariff optimisation",
+        "Solar diverter (myenergi Eddi) | WiFi + app | Export to immersion heater | \u00a3400-\u00a3600 | Using surplus for hot water",
+        "Battery inverter (GivEnergy) | WiFi + GivTCP/Home Asst | SOC, charge/discharge | \u00a32,000-\u00a35,000 | Home Assistant integration",
+        "Energy dashboard (Home Asst) | RTSP, API, Modbus | Full system view | \u00a3100-\u00a3150 (RPi5) | Complete visibility"
+    ],
+    "fq": [
+        ["Can my smart home automations use solar generation data?", "Yes - Home Assistant with APIs from your inverter or GivTCP provides real-time generation data. Automate appliances to run when generation exceeds 2kW."],
+        ["How do I maximise solar self-consumption?", "Automate dishwasher, washing machine, and immersion heater to run 10am-3pm when solar generation peaks. Zappi EV charger auto-uses surplus for car charging."],
+        ["Do I need a smart meter for solar export?", "Yes - SMETS2 smart meter tracks export for the Smart Export Guarantee (SEG) payments. Octopus Outgoing Agile pays variable rates. Rates: 5-15p/kWh exported."]
+    ],
+    "rt": "Smart Home Energy Saving Configuration Guide, Smart Home Battery Storage Integration Guide",
+    "rf": "../smart-home/30-smart-home-energy-saving-configuration-guide.md, ../smart-home/32-smart-home-battery-storage-integration-guide.md"
+})
+
+# --- Entry 32 ---
+data.append({
+    "n": 32,
+    "t": "Smart Home Battery Storage Integration Guide",
+    "s": "Guide to integrating home battery storage with UK smart homes covering Tesla Powerwall, GivEnergy, and Huawei battery systems, smart charging from solar and grid, and time-of-use tariff optimisation.",
+    "h1": "Home Battery Storage Smart Integration",
+    "p1": "Home battery storage is transforming how UK homeowners use energy, storing cheap off-peak electricity and solar generation for use during expensive peak hours. The UK's leading home batteries include the Tesla Powerwall 2, GivEnergy 9.5kWh, and Huawei Luna 2000 module system. A typical 10kWh battery costs between 4,000 and 9,500 pounds installed, but with Octopus Agile or Go tariffs, the savings can deliver payback within 6 to 10 years. The fundamental strategy is charge cheap, discharge dear. During the Octopus Go window (00:30 to 04:30 at 7.5p/kWh), the battery charges fully. During peak evening hours (4pm to 7pm) when standard rates reach 30p/kWh or more, the battery discharges to power your home. Smart integration with Home Assistant takes this further by incorporating weather forecasts, solar predictions, and half-hourly Agile pricing to optimise charging strategy day by day.",
+    "h2": "Battery Automation for Tariff Optimisation",
+    "p2": "Home Assistant with the GivTCP integration provides complete control over GivEnergy batteries. The integration exposes entities for charge power, discharge power, battery state of charge, and grid export/import. Create automations that maximise tariff arbitrage. A basic automation: at 00:30 set battery to charge from grid at full power (typically 2.5kW to 3.5kW) until 04:30 or until battery reaches 100%. At 16:00 start discharging at the same rate to power the home during peak rates. More advanced automations incorporate the Octopus Agile integration: fetch today's half-hourly rates, identify the cheapest 6-hour window for charging and the most expensive 4-hour window for discharging. The automation then adjusts battery schedules accordingly. For solar homes, the automation prioritises solar charging during the day (10am to 3pm) and reserves grid charging for overnight. Storm Watch in Tesla Powerwall pre-charges the battery when severe weather is forecast, ensuring backup power during UK storms.",
+    "tb": "Battery System | Capacity | Smart Features | UK Price (inc install) | Warranty",
+    "tr": [
+        "Tesla Powerwall 2 | 13.5kWh | App, time-based control, storm watch | \u00a38,000-\u00a39,500 | 10 years",
+        "GivEnergy 9.5kWh | 9.5kWh | GivTCP, Home Asst, Modbus | \u00a34,000-\u00a35,500 | 10 years",
+        "Huawei Luna 2000 | 5-15kWh modular | FusionSolar app, Modbus | \u00a33,000-\u00a36,000 | 10 years",
+        "Moixa Smart Battery | 4.8kWh | GridShare, Smart Tariff | \u00a33,000-\u00a34,000 | 10 years",
+        "SolarEdge Home Battery | 9.7kWh | SolarEdge app, Modbus | \u00a35,000-\u00a37,000 | 12 years"
+    ],
+    "fq": [
+        ["Can home battery storage pay for itself in the UK?", "With Octopus Agile/Go tariffs, battery storage saves \u00a3300-\u00a3700/year by charging cheap overnight and using stored power during peak (16-30p/kWh). Payback: 6-10 years."],
+        ["Can smart home automation optimise battery charging?", "Yes - Home Assistant with GivTCP or Tesla API charges battery when rates are low (11.30pm) and discharges during peak (4-7pm). This maximises tariff arbitrage savings."],
+        ["Do I need solar panels with a home battery?", "No - batteries can charge from the grid only (Pure Storage). However, solar + battery is more cost-effective as the battery stores excess solar generation for evening use."]
+    ],
+    "rt": "Smart Home Solar Panel Integration Guide, Smart Home Leak Detection and Prevention Guide",
+    "rf": "../smart-home/31-smart-home-solar-panel-integration-guide.md, ../smart-home/33-smart-home-leak-detection-and-prevention-guide.md"
+})
+
+# --- Entry 33 ---
+data.append({
+    "n": 33,
+    "t": "Smart Home Leak Detection and Prevention Guide",
+    "s": "Guide to smart water leak detection and prevention for UK homes covering sensor placement, automatic shut-off valves, flood prevention automation, and integration with home insurance approved systems.",
+    "h1": "Water Leak Detection Technology for UK Homes",
+    "p1": "Water leaks cause an estimated 50 billion pounds of damage to UK homes each year, with the average insurance claim for escape of water exceeding 10,000 pounds. Smart leak detection systems provide early warning and automated prevention, reducing both damage and insurance premiums. The fundamental setup includes water leak sensors placed in high-risk locations and a motorised shut-off valve at the main water intake. Zigbee sensors from Aqara and Samsung SmartThings cost as little as 15 to 30 pounds each and provide instant notifications when water is detected. The Eve Water Guard (45 to 55 pounds) uses Thread for Apple HomeKit and includes an integrated shut-off valve controller. For whole-home prevention, the Tado Flood Free system (200 to 250 pounds) combines a Thread-based water sensor with a motorised valve that shuts off the mains supply when a leak is detected. This prevents the flow of water even if the leak continues, limiting damage to the source area.",
+    "h2": "Automated Leak Prevention Configuration",
+    "p2": "Setting up automated leak prevention requires a strategic approach to sensor placement and automation logic. Install sensors at every potential leak point: under the kitchen sink, behind the washing machine, under the boiler or in the airing cupboard, in the loft near the cold water tank, under the dishwasher, behind the toilet, and under sinks in bathrooms. For a typical 3-bedroom UK home, you need a minimum of 6 to 8 sensors. Create automations in your smart home platform: when any water sensor detects moisture, trigger the shut-off valve to close the mains supply immediately. This stops water flow within 2 to 5 seconds of detection, preventing the vast majority of flood damage. Additionally, the automation can announce the leak location via smart speakers, flash smart lights to alert occupants, and send a push notification to your phone with the sensor location. For insurance purposes, maintain logs of sensor activations and valve closures. Several UK insurers including Aviva, Direct Line, and Admiral offer premium discounts for approved smart leak detection systems.",
+    "tb": "Device Type | Smart Feature | Placement | UK Price | Battery Life",
+    "tr": [
+        "Leak sensor (Aqara) | Zigbee, app alert, 95dB alarm | Under sinks, near boiler, washing machine | \u00a315-\u00a320 | 2 years CR2032",
+        "Leak sensor (Eve Water Guard) | Thread, app alert, 100dB alarm + auto-shutoff | Kitchen, utility, bathroom | \u00a345-\u00a355 | 2 years CR123A",
+        "Leak sensor (Samsung SmartThings) | Zigbee, app alert | Leak-prone areas | \u00a320-\u00a330 | 2 years CR2032",
+        "Motorised shut-off valve (Tado Flood Free) | Thread, auto mains shut-off | Main water intake | \u00a3200-\u00a3250 | Mains powered",
+        "Water meter monitor (Flume) | WiFi, clamp-on mains pipe, real-time flow | Outside meter box | \u00a3200-\u00a3250 | Battery 2-3 years"
+    ],
+    "fq": [
+        ["Where should I place water leak sensors in a UK home?", "Priority locations: under kitchen sink, near washing machine, under boiler/airing cupboard, in the loft (water tank), under dishwasher. Minimum 4 sensors per home."],
+        ["Can leak detection prevent flood damage?", "Yes - when a sensor detects water, the smart shut-off valve closes the mains supply immediately. Combined alert + shut-off prevents 90% of flood damage."],
+        ["Is smart leak detection recognised by UK insurers?", "Yes - many insurers offer premium discounts for leak detection systems. Tado Flood Free and similar systems qualify. Check with your insurer for approved systems."]
+    ],
+    "rt": "Smart Home Battery Storage Integration Guide, Smart Home Vibration and Impact Sensor Guide",
+    "rf": "../smart-home/32-smart-home-battery-storage-integration-guide.md, ../smart-home/34-smart-home-vibration-and-impact-sensor-guide.md"
+})
+
+# --- Entry 34 ---
+data.append({
+    "n": 34,
+    "t": "Smart Home Vibration and Impact Sensor Guide",
+    "s": "Guide to vibration and impact sensors for UK smart homes covering glass break detection, fence vibration alerts, door/window impact sensing, and automation for burglary deterrence.",
+    "h1": "Vibration and Impact Sensor Technology",
+    "p1": "Vibration and impact sensors add a critical layer of security detection that traditional door and window contact sensors miss. While contact sensors detect when a door or window opens, vibration sensors detect attempts to break through the structure itself. The UK has one of the highest rates of home burglaries in Europe, with an estimated 267,000 household burglaries in England and Wales in 2023 alone. Many of these involve forced entry through UPVC doors, ground-floor windows, and garden fences. Vibration sensors from Aqara and Ring use 3-axis accelerometers to detect the unique vibration signature of breaking glass, drilling, or forceful impact. Glass break sensors use acoustic analysis, listening for the specific sound frequency of breaking glass (7 to 9kHz). Fence vibration sensors, using piezo-electric cable technology, detect when someone climbs or cuts through garden fencing, a common entry method for rear garden access.",
+    "h2": "Setting Up Impact Detection Automations",
+    "p2": "Configuring vibration and impact sensor automations requires careful sensitivity adjustment to balance detection against false alarms. In the Aqara app, vibration sensors have three sensitivity settings: high, medium, and low. Start with medium for internal windows and doors, and low for fence sensors in exposed positions. Create escalating automations: primary detection triggers an internal alert only (smart speaker chime, phone notification). Secondary detection within 30 seconds triggers a full alarm response: outdoor floodlights turn on, interior lights flash, the alarm siren sounds, and a smart camera begins recording. For deterrence automation, integrate vibration sensors with IFTTT or Home Assistant to simulate occupancy. When vibration is detected on a rear window or door, a smart light in the living room turns on immediately, followed by a TV simulator plug that cycles lights in a pattern suggesting someone is watching TV. Studies show visible occupancy simulation reduces burglary risk by up to 60%.",
+    "tb": "Sensor Type | Detection Method | Placement | UK Price | Integration",
+    "tr": [
+        "Glass break sensor (Aqara) | Sound frequency analysis | 3m from window | \u00a320-\u00a330 | Zigbee hub",
+        "Vibration sensor (Aqara) | 3-axis accelerometer | Window frame, fence, gate | \u00a315-\u00a320 | Zigbee hub",
+        "Impact sensor (Ring) | Piezo vibration | Door/window frame | \u00a320-\u00a325 | Ring Alarm",
+        "Fence vibration sensor | Piezo cable | Garden fence panels | \u00a330-\u00a350 | SmartThings, Home Asst",
+        "Multi-sensor (Aqara) | Vibration + tilt + drop | FP/picture frames, doors | \u00a320-\u00a325 | Zigbee hub"
+    ],
+    "fq": [
+        ["Can vibration sensors detect window breaking?", "Yes - glass break sensors detect the acoustic signature of breaking glass (7-9kHz). Vibration sensors detect the physical shock. Both work but glass break sensors are more accurate."],
+        ["Will fence vibration sensors false alarm in UK wind?", "Yes - high winds can trigger fence sensors. Adjust sensitivity and set conditional triggers (vibration + time window after sunset). Weather compensation reduces false alarms."],
+        ["Can impact sensors trigger security cameras?", "Yes - integrate with IFTTT or Home Assistant. When vibration sensor detects impact on rear window, trigger front door camera + floodlight + interior lights. Deterrent automation in under 2 seconds."]
+    ],
+    "rt": "Smart Home Leak Detection and Prevention Guide, Smart Home Air Quality Monitor Integration Guide",
+    "rf": "../smart-home/33-smart-home-leak-detection-and-prevention-guide.md, ../smart-home/35-smart-home-air-quality-monitor-integration-guide.md"
+})
+
+# --- Entry 35 ---
+data.append({
+    "n": 35,
+    "t": "Smart Home Air Quality Monitor Integration Guide",
+    "s": "Guide to integrating air quality monitors with UK smart homes covering PM2.5, VOCs, CO2, humidity sensors, and automation for ventilation, air purifiers, and dehumidifiers based on indoor air quality.",
+    "h1": "Air Quality Monitoring for UK Homes",
+    "p1": "Indoor air quality is a growing concern for UK homeowners, with the average person spending 90% of their time indoors. Poor air quality contributes to respiratory conditions including asthma, which affects 5.4 million people in the UK. Smart air quality monitors measure multiple pollutants: PM2.5 (particulate matter from traffic, wood burners, and candles), VOCs (volatile organic compounds from cleaning products, paint, and new furniture), CO2 (carbon dioxide as a proxy for ventilation adequacy), temperature, and humidity. The Aqara Air Monitor (60 to 80 pounds) connects via Zigbee and integrates with SmartThings and Home Assistant. The Eve Room (80 to 100 pounds) uses Thread for Apple HomeKit. For professional-grade monitoring, the IQAir AirVisual Pro (200 to 250 pounds) provides real-time AQI data and connects to a companion app. The Nabu Casa ESPHome platform offers a DIY option allowing you to build custom monitors with specific sensor combinations for 30 to 50 pounds.",
+    "h2": "Air Quality Automation Routines",
+    "p2": "Air quality automations create a healthier indoor environment by triggering ventilation and purification devices when conditions deteriorate. Typical thresholds for UK homes: trigger ventilation when CO2 exceeds 1000ppm (indicating inadequate fresh air), trigger an air purifier when PM2.5 exceeds 25 micrograms per cubic metre, and trigger a dehumidifier when relative humidity exceeds 70% to prevent mould growth. In Home Assistant, create automations that combine air quality data with occupancy status. When CO2 exceeds 1200ppm and someone is home, automatically open trickle vents via a smart actuator, or turn on a mechanical ventilation fan. Consider seasonal factors: UK homes have higher humidity in winter (67% average RH vs 55% in summer) due to reduced ventilation. Winter automation should prioritise dehumidification, while summer automation should prioritise ventilation. Air purifiers with smart capabilities from Dyson, Philips, and Levoit can be controlled via WiFi and integrated into these automations. Set the purifier to auto mode during the day and sleep mode at night.",
+    "tb": "Monitor Type | Sensors | Connectivity | UK Price | Best For",
+    "tr": [
+        "Aqara Air Monitor | PM2.5, temp, humidity, CO2 | Zigbee | \u00a360-\u00a380 | SmartThings, Home Asst",
+        "Eve Room | VOC, temp, humidity | Thread/Bluetooth | \u00a380-\u00a3100 | Apple HomeKit",
+        "Awair Element | PM2.5, VOC, CO2, temp, humidity | WiFi | \u00a3100-\u00a3150 | Alexa, Google",
+        "IQAir AirVisual Pro | PM2.5, VOC, CO2, AQI | WiFi | \u00a3200-\u00a3250 | Standalone + app",
+        "Nabu Casa ESPHome | Configurable sensors | WiFi | \u00a330-\u00a350 (DIY) | Home Assistant"
+    ],
+    "fq": [
+        ["What indoor air quality sensors matter most for UK homes?", "PM2.5 (particulate from traffic, wood burners), VOCs (from cleaning products, new furniture), CO2 (occupancy indicator), humidity (mould prevention). A combined monitor covers all."],
+        ["Can air quality readings automate ventilation?", "Yes - when CO2 exceeds 1000ppm, automate trickle vents or extractor fan. When PM2.5 exceeds 25ug/m3, turn on air purifier. When humidity exceeds 70%, turn on dehumidifier."],
+        ["Do I need multiple air quality monitors?", "At least one per floor. Place in bedroom (CO2 overnight), living room (PM2.5 from wood burner), and kitchen (VOCs from cooking)."]
+    ],
+    "rt": "Smart Home Vibration and Impact Sensor Guide, Smart Home Dehumidifier and Humidity Control Guide",
+    "rf": "../smart-home/34-smart-home-vibration-and-impact-sensor-guide.md, ../smart-home/36-smart-home-dehumidifier-and-humidity-control-guide.md"
+})
+
+# --- Entry 36 ---
+data.append({
+    "n": 36,
+    "t": "Smart Home Dehumidifier and Humidity Control Guide",
+    "s": "Guide to smart humidity control for UK homes covering smart dehumidifiers, humidistats, condensation prevention, mould prevention automation, and integration with heating and ventilation systems.",
+    "h1": "Smart Humidity Control for UK Climate",
+    "p1": "Controlling indoor humidity is a persistent challenge for UK homes, particularly during the damp autumn and winter months when outdoor humidity regularly exceeds 85% and homes are sealed against the cold. The UK's ageing housing stock, with many Victorian and Edwardian homes lacking cavity wall insulation or adequate ventilation, is particularly susceptible to condensation and mould. The NHS estimates that one in three UK homes has a damp or mould problem, contributing to respiratory illness and asthma. Smart dehumidifiers from Meaco, Ebberg, and Mitsubishi offer automatic humidity control, maintaining the ideal 40 to 60% relative humidity range. The Meaco Arete One 20L is the best-selling smart compressor dehumidifier in the UK, featuring an app with scheduling, humidity targeting, and a unique laundry mode that focuses airflow upwards for faster clothes drying. Smart humidity sensors from Aqara, Eve, and SwitchBot monitor conditions and trigger dehumidifiers or ventilation fans through automation.",
+    "h2": "Dehumidifier Automation and Configuration",
+    "p2": "Setting up smart humidity control involves placing sensors in key locations and creating automations that activate dehumidifiers or ventilation at specific thresholds. For maximum effectiveness, place a humidity sensor in the room with the most moisture issues - typically the bathroom, kitchen, or a north-facing bedroom. Connect the sensor via Zigbee (Aqara) or Thread (Eve) to your smart home hub. Create an automation in Home Assistant, Alexa, or Google Home: when humidity exceeds 65% in the bathroom, turn on the extractor fan smart switch or the dehumidifier smart plug. Turn off when humidity drops below 55%. This targeted approach is far more energy-efficient than running a dehumidifier 24/7, typically saving 30 to 50% in electricity costs. The average dehumidifier uses 200 to 400 watts, so running it for 6 hours daily costs approximately 30 to 70 pence per day at current UK electricity rates. For seasonal automation, the same system can use a smart plug to power a humidifier in winter when humidity drops below 40% due to central heating.",
+    "tb": "Dehumidifier | Capacity | Smart Features | UK Price | Coverage",
+    "tr": [
+        "Meaco ABC 12L | 12L/day | Meaco app, schedule, humidity target | \u00a3150-\u00a3200 | 2-3 bed flat",
+        "Meaco Arete One 20L | 20L/day | App, smart control, laundry mode | \u00a3200-\u00a3280 | 3-4 bed house",
+        "Ebberg Elite E60 | 12L/day | App, Wi-Fi, schedule | \u00a3120-\u00a3160 | 2-3 bed house",
+        "Mitsubishi MJ-E16V | 16L/day | I-Feel, Washable filter | \u00a3250-\u00a3350 | 3-4 bed house",
+        "Smart plug dimmer | N/A | Humidity-triggered socket | \u00a310-\u00a315 | Any dehumidifier"
+    ],
+    "fq": [
+        ["What humidity level should I maintain in a UK home?", "40-60% RH. Above 60% promotes dust mites and mould. Below 40% causes dry skin and respiratory irritation. Smart dehumidifiers auto-maintain the target."],
+        ["Can I automate dehumidifier based on humidity reading?", "Yes - use a smart humidity sensor (Aqara, Eve) to trigger a smart plug when humidity exceeds 65%. Turn off when below 55%. This saves energy vs running 24/7."],
+        ["Where is dehumidification most needed in UK homes?", "Basements, bathrooms (after showers), kitchens (after cooking), laundry rooms, bedrooms (nighttime respiration adds 0.5L per person), and north-facing rooms."]
+    ],
+    "rt": "Smart Home Air Quality Monitor Integration Guide, Smart Home Aging in Place and Assisted Living Guide",
+    "rf": "../smart-home/35-smart-home-air-quality-monitor-integration-guide.md, ../smart-home/37-smart-home-aging-in-place-and-assisted-living-guide.md"
+})
+
+# --- Entry 37 ---
+data.append({
+    "n": 37,
+    "t": "Smart Home Aging in Place and Assisted Living Guide",
+    "s": "Guide to using smart home technology for aging in place in UK homes covering fall detection, medication reminders, voice control, automated lighting, and connectivity with care services and the NHS.",
+    "h1": "Smart Home Technology for Independent Living",
+    "p1": "Smart home technology is increasingly recognised by UK health and social care services as a cost-effective way to support independent living for older adults. With over 12 million people aged 65 and over in the UK and the NHS facing growing pressures, technology-enabled care is becoming a key component of the adult social care strategy. Voice control using Amazon Alexa or Google Home eliminates the need to navigate complex interfaces, making it accessible for those with limited mobility or vision. Basic voice commands can control lights, heating, and entertainment without getting up. Smart lighting with automated schedules and motion sensors prevents nighttime falls, a leading cause of hospitalisation among over-65s, with the NHS treating 220,000 fall-related injuries annually in this age group. Video doorbells allow residents to see and speak to visitors without reaching the front door, while smart locks enable care workers and family to gain timed access remotely.",
+    "h2": "Safety and Health Monitoring Automations",
+    "p2": "Safety automations for aging-in-place focus on fall detection, medication compliance, and daily activity monitoring. The Apple Watch Series 9 and later models include fall detection and fall alerts, automatically calling emergency services if the wearer falls and does not respond within 60 seconds. For non-wearable solutions, motion sensors from Aqara or Eve can be programmed to monitor daily activity patterns. If no movement is detected in the kitchen by 10am (indicating the person has not had breakfast), an automation can alert a family member or care provider via push notification. Medication reminders on an Echo Show smart display provide both visual and audio prompts at scheduled times. For energy efficiency and safety, automations can turn off the hob via a smart plug if left on for more than 30 minutes, and can automatically turn off the heating if a room exceeds a safe temperature. The Disabled Facilities Grant (DFG) from your local UK council provides up to 30,000 pounds for home adaptations, which can include smart home technology when recommended by an occupational therapist.",
+    "tb": "Assistive Technology | Smart Device | Key Feature | UK Price | NHS/Funding",
+    "tr": [
+        "Fall detection | Smart watch (Apple Watch 9) | Fall detection + emergency SOS | \u00a3400-\u00a3500 | Some CCG funding",
+        "Medication reminder | Smart speaker (Echo Show) | Visual + audio reminder, timer | \u00a390-\u00a3130 | No (general purchase)",
+        "Voice control environment | Echo/Alexa system | Voice control lights, heating, locks | \u00a3200-\u00a3400 | DFG may cover",
+        "Motion-based monitoring | Aqara/Eve motion sensors | Movement patterns, inactivity alerts | \u00a330-\u00a350 | DFG may cover",
+        "Video doorbell + remote unlock | Ring/Eufy + smart lock | See + speak + unlock for visitors | \u00a3200-\u00a3350 | DFG may cover"
+    ],
+    "fq": [
+        ["Can smart home technology help older people stay in their own homes?", "Yes - voice control eliminates physical barriers, automated lighting prevents falls, motion monitoring provides family reassurance, and video doorbells allow safe visitor management."],
+        ["Is funding available for smart home adaptations?", "Disabled Facilities Grant (DFG) up to \u00a330,000 from your local UK council. NHS Continuing Healthcare may fund for eligible individuals. Social services OT assessments identify qualifying needs."],
+        ["Can motion sensors detect if someone has fallen?", "Advanced systems learn movement patterns. Extended inactivity in a room like bathroom triggers an alert. Dedicated fall detection watches are more reliable for actual falls."]
+    ],
+    "rt": "Smart Home Dehumidifier and Humidity Control Guide, Smart Home Holiday Lighting and Decoration Guide",
+    "rf": "../smart-home/36-smart-home-dehumidifier-and-humidity-control-guide.md, ../smart-home/38-smart-home-holiday-lighting-and-decoration-guide.md"
+})
+
+# --- Entry 38 ---
+data.append({
+    "n": 38,
+    "t": "Smart Home Holiday Lighting and Decoration Guide",
+    "s": "Guide to smart Christmas and holiday lighting for UK homes covering outdoor rated smart plugs, programmable LED strips, scene scheduling, and energy-efficient festive automation.",
+    "h1": "Smart Holiday Lighting Options for UK Homes",
+    "p1": "Christmas and holiday lighting is a cherished UK tradition, with the British seasonal lighting market worth over 300 million pounds annually. Smart technology transforms festive decorating from a manual daily chore into an automated display that turns on at dusk and off at bedtime without any intervention. The foundation is an outdoor-rated smart plug with IP44 or higher weatherproofing, available from Meross, TP-Link, and Hive for 15 to 25 pounds. These plugs connect to your WiFi and allow scheduling of any standard outdoor Christmas lights. For more advanced displays, programmable RGBIC LED strips from Govee and Twinkly offer app-controlled patterns, music synchronisation, and preset holiday scenes. The Govee Outdoor Strip Lights 2 (50 to 80 pounds) cover up to 30 metres and feature music sync via built-in microphone. Smart tree lights from Twinkly allow you to map each LED on the tree via your phone camera and program individual effects, creating a unique display that changes patterns throughout the evening.",
+    "h2": "Holiday Lighting Automation and Scheduling",
+    "p2": "Scheduling holiday lights requires balancing festive display time with energy costs and neighbourly consideration. A typical UK schedule: outdoor lights on at 4pm (dusk in December), off at 10pm (when most people go to bed). Smart plugs make this simple through app-based astronomic scheduling, which automatically adjusts to sunset time. In the Meross app, set your outdoor light plug to turn on at sunset and off at 10pm, with an optional second off period at midnight if you prefer later extinguishing. For the indoor tree, separate the tree lights into two smart plugs: one for daytime (9am to 10pm) and one for evening ambience (4pm to 11pm with reduced brightness if dimmable). Create an Alexa routine that says Alexa, Christmas on to activate all festive lights, and Alexa, Christmas off to power down. For energy monitoring, smart plugs with energy tracking reveal the cost. A typical LED Christmas tree running 6 hours daily costs approximately 7 to 10 pounds over the December period. Outdoor string lights add another 5 to 8 pounds. Consider sunset-triggered lights only, avoiding daytime operation when the display is less visible.",
+    "tb": "Holiday Light Type | Smart Control | IP Rating | UK Price | Energy Cost (30 days)",
+    "tr": [
+        "Outdoor LED string lights | Smart plug schedule | IP44 | \u00a320-\u00a340 | \u00a35-\u00a38",
+        "Smart LED strip (indoor) | WiFi controller, app | IP20 | \u00a315-\u00a330 | \u00a33-\u00a35",
+        "Smart LED strip (outdoor) | WiFi controller, IP65 | IP65 | \u00a330-\u00a350 | \u00a35-\u00a310",
+        "Smart projected lights | Smart plug + timer | IP44 | \u00a340-\u00a380 | \u00a310-\u00a315",
+        "Smart tree lights + app | WiFi controller, app scenes | IP20 (indoor) | \u00a330-\u00a360 | \u00a35-\u00a38"
+    ],
+    "fq": [
+        ["Can I schedule my Christmas lights with smart plugs?", "Yes - set a smart plug schedule: on at 4pm, off at 10pm. Use the smart plug without a hub for simple scheduling. Outdoor plug must be IP44+ rated."],
+        ["Can holiday lights sync to music?", "Yes - smart LED strips with music sync mode pulse to music via microphone. Philips Hue and TP-Link Kasa support this. Great for parties and seasonal displays."],
+        ["Are outdoor smart lights safe for UK winter weather?", "Yes if IP44+ rated. Outdoor smart plugs at \u00a315-\u00a325 (Meross, TP-Link) control standard outdoor lights. Protect plug connections from rain with the weatherproof cover."]
+    ],
+    "rt": "Smart Home Aging in Place and Assisted Living Guide, Smart Home Emergency Preparedness Automation Guide",
+    "rf": "../smart-home/37-smart-home-aging-in-place-and-assisted-living-guide.md, ../smart-home/39-smart-home-emergency-preparedness-automation-guide.md"
+})
+
+# --- Entry 39 ---
+data.append({
+    "n": 39,
+    "t": "Smart Home Emergency Preparedness Automation Guide",
+    "s": "Guide to emergency preparedness automation for UK smart homes covering fire, flood, power cut, and medical emergency automations that trigger life-saving responses across connected devices.",
+    "h1": "Emergency Automation Scenarios for UK Homes",
+    "p1": "Smart home automation can be a literal lifesaver when configured for emergency response. UK fire and rescue services attend approximately 160,000 home fires each year, while utility companies respond to 14,000 gas-related emergencies and 2 million water leaks. Smart home systems can automate detection and response to these emergencies in ways that traditional standalone alarms cannot. The key advantage is coordinated multi-device response: a single sensor can trigger lights, locks, announcements, and alerts simultaneously. Smart smoke alarms such as the Nest Protect, FireAngel W2-WiFi, and Aqara Smart Smoke Detector provide app notifications to your phone even when you are away from home. When combined with smart locks, automated evacuation becomes possible, unlocking all doors so you can exit quickly. Smart plugs can cut power to non-essential circuits, and smart gas valves can shut off the gas supply if a gas leak combined with CO detection is confirmed.",
+    "h2": "Setting Up Emergency Response Automations",
+    "p2": "Building emergency automations requires careful planning to avoid false triggers that could cause dangerous confusion. Each emergency type needs a dedicated automation with clear conditions. For fire: when any smart smoke alarm detects smoke, the automation should unlock all smart locks, turn on every light to maximum brightness to illuminate escape routes, open smart blinds for emergency services access, announce EVACUATE via every smart speaker, and send push notifications to all family members. For carbon monoxide: when a smart CO alarm sounds, open smart windows or vents, turn off the boiler via a smart thermostat, and announce CARBON MONOXIDE DETECTED LEAVE THE BUILDING via speakers. For floods: close the mains water shut-off valve, announce the leak location, and send alerts. For medical emergencies: when a fall detection sensor triggers and no movement follows for 60 seconds, unlock the front door for paramedics and auto-dial emergency contacts. Always test emergency automations monthly and ensure critical devices have battery backup for operation during power cuts.",
+    "tb": "Emergency Type | Trigger Sensor | Automated Response | Devices Involved | Alert Method",
+    "tr": [
+        "Fire | Smart smoke alarm | Unlock all doors, lights on, gas off, announce, alert | Locks, lights, smart plug, speaker | Push + auto-call (Guard Plus)",
+        "Carbon monoxide | Smart CO alarm | Open windows, turn off boiler, announce evacuation | Smart blinds, boiler, speaker | Push + gas emergency 0800 111 999",
+        "Flood | Water leak sensor | Close mains water valve, announce location | Smart valve, speaker | Push + SMS",
+        "Power cut | Smart plug UPS | Unlock doors (battery locks), emergency lights on UPS | Smart lock, UPS-powered light | Offline (pre-configure)",
+        "Medical emergency | Fall detector/watch | Unlock door for paramedics, alert emergency contacts | Smart lock, speaker | Auto-call 999 + contacts"
+    ],
+    "fq": [
+        ["Can my smart home automatically call 999 in an emergency?", "Alexa Guard Plus can call emergency services. Fall detection watches (Apple Watch) auto-call if no movement detected. Smart alarms alert your phone - you must dial 999."],
+        ["What happens to smart locks during a power cut?", "Battery-powered smart locks continue operating normally (3-12 month battery life). The internal thumb-turn opens without power. WiFi features are offline but local operation works."],
+        ["How do I set up an evacuation automation?", "Configure a routine: when smoke alarm detects fire, unlock all smart locks, turn on all lights at 100%, open smart blinds, announce EVACUATE via all speakers, turn off gas boiler."]
+    ],
+    "rt": "Smart Home Holiday Lighting and Decoration Guide, Smart Home with Ring Ecosystem Complete Guide",
+    "rf": "../smart-home/38-smart-home-holiday-lighting-and-decoration-guide.md, ../smart-home/40-smart-home-with-ring-ecosystem-complete-guide.md"
+})
+
+# --- Entry 40 ---
+data.append({
+    "n": 40,
+    "t": "Smart Home with Ring Ecosystem Complete Guide",
+    "s": "Complete guide to building a smart home with the Ring ecosystem for UK homes covering Ring Alarm, Ring doorbells, Ring cameras, smart lighting, and Alexa integration for whole-home security.",
+    "h1": "Ring Ecosystem Products for UK Homes",
+    "p1": "The Ring ecosystem has become the most widely adopted smart home security platform in the UK, with over 2 million UK households using Ring devices. The ecosystem includes video doorbells, security cameras, a Grade 2 certified alarm system, smart lighting, and a growing range of sensors. The central hub is the Ring Alarm Pro, which functions as both a 5-piece security system hub and a WiFi 6 router with built-in Eero mesh WiFi. This is particularly useful for UK homes where ISP-provided routers often struggle with the WiFi demands of multiple smart home devices. Ring Alarm Pro costs 280 to 350 pounds and provides the foundation for all Ring devices. The ecosystem thrives on integration: when a Ring Video Doorbell Pro 2 detects a person, it can trigger the Ring Smart Lighting to illuminate the path, and your Echo Show displays a live feed automatically. Alexa Guard Plus adds professional monitoring, automatically calling emergency services if the alarm triggers and you do not respond.",
+    "h2": "Building an Integrated Ring Smart Home",
+    "p2": "Building a complete Ring smart home starts with the Ring Alarm Pro as your hub, then adds devices in order of priority. The Video Doorbell Pro 2 is typically the first addition, offering 1536p HDR video with 3D motion detection that can distinguish between people, animals, and vehicles. Install it at your front door, wiring it into your existing doorbell chime wiring (common in UK homes). Next, add Stick Up Cam in key locations: the back garden, garage, and side passage. Each camera covers a specific vulnerability. Ring Smart Lighting Pathlights illuminate garden paths and can be set to activate on motion, creating a layered security perimeter. The Ring app provides a unified dashboard called the Ring Control Center, where you can arm or disarm the alarm, view camera feeds, check sensor status, and toggle lights. Alexa integration allows voice control: Alexa, arm Ring, or show the front door camera. For insurance purposes, Ring Alarm is Grade 2 certified to EN 50131 standard, meeting most UK home insurance requirements for alarm systems. Ring Protect subscription at 3.50 to 8 pounds per month enables video recording history and professional alarm monitoring.",
+    "tb": "Ring Product | Function | UK Price | Subscription | Grade",
+    "tr": [
+        "Ring Alarm Pro (5-piece) | Security system + WiFi 6 router | \u00a3280-\u00a3350 | Ring Protect \u00a38/mo | Grade 2",
+        "Ring Video Doorbell Pro 2 | Wired doorbell, 1536p HDR, 3D motion | \u00a3180-\u00a3250 | Ring Protect \u00a33.50/mo | N/A",
+        "Ring Stick Up Cam Pro | Indoor/outdoor camera, 1080p HDR | \u00a3130-\u00a3180 | Ring Protect \u00a33.50/mo | N/A",
+        "Ring Floodlight Cam Pro | Security camera + floodlight | \u00a3200-\u00a3280 | Ring Protect \u00a33.50/mo | N/A",
+        "Ring Smart Lighting Pathlight | Outdoor path light + motion | \u00a350-\u00a380 | Free (basic) | N/A"
+    ],
+    "fq": [
+        ["What is the best Ring starter kit for UK homes?", "Ring Alarm Pro (5-piece) at \u00a3280-\u00a3350 provides Grade 2 alarm, built-in WiFi 6 router, and the hub for all Ring devices. Add Video Doorbell Pro 2 for visual verification."],
+        ["Does Ring work without a subscription?", "Basic alarm monitoring and live view work without subscription. Recording, video history, and alarm professional monitoring require Ring Protect (\u00a33.50-\u00a38/month)."],
+        ["Is Ring alarm Grade 2 certified for UK insurance?", "Yes - Ring Alarm is Grade 2 certified (EN 50131 Grade 2). This meets most UK home insurance requirements for alarm systems. Provide certification to your insurer."]
+    ],
+    "rt": "Smart Home Emergency Preparedness Automation Guide, Smart Home with Google Nest Ecosystem Complete Guide",
+    "rf": "../smart-home/39-smart-home-emergency-preparedness-automation-guide.md, ../smart-home/41-smart-home-with-google-nest-ecosystem-complete-guide.md"
+})
+
+# --- Entry 41 ---
+data.append({
+    "n": 41,
+    "t": "Smart Home with Google Nest Ecosystem Complete Guide",
+    "s": "Complete guide to building a smart home with the Google Nest ecosystem for UK homes covering Nest Hub, Nest Thermostat, Nest Doorbell, Nest Cam, and Google Home automation.",
+    "h1": "Google Nest Products for UK Homes",
+    "p1": "The Google Nest ecosystem is the second most popular smart home platform in the UK, favoured by households already invested in Google services. The ecosystem centres on the Nest Learning Thermostat, which remains the flagship product despite its 2011 launch. The third-generation Nest Learning Thermostat (200 to 250 pounds) learns your schedule and automatically adjusts heating to save energy, with the Energy Saving Trust estimating savings of 10 to 30% on heating bills. The Nest Hub Max (190 to 220 pounds) serves as the central control panel for the ecosystem, with a 10-inch display, built-in Google Assistant, and a Nest Cam for home monitoring. It also functions as a Thread border router, essential for Matter and Thread device compatibility. The Nest Doorbell (battery) at 180 to 220 pounds and Nest Cam (battery) at 140 to 180 pounds provide video surveillance with intelligent alerts, familiar face detection, and activity zones through the Nest Aware subscription.",
+    "h2": "Google Home Automation Setup",
+    "p2": "Google Home automations are created in the Google Home app, which serves as the central control for all Nest and compatible third-party devices. To create a routine, open the Google Home app, tap Routines, and select the starter. Google offers preset routines like Good Morning, Leaving Home, and Bedtime, plus custom routines with any trigger and action combination. For example, the Good Morning routine can be triggered by saying Hey Google, good morning or by a schedule at 7am. Actions can include: turn on Nest Hub Max display showing weather and calendar, set Nest Thermostat to 21C, turn on smart lights gradually, read the news briefing, and start the smart coffee machine. The Nest Learning Thermostat's Auto-Schedule feature uses machine learning to adjust to your routine over 1 to 2 weeks. By default, it creates a heating schedule that matches when you are home, awake, and asleep. For advanced users, the Works with Nest program allows integration with Home Assistant via the Bad Nest driver, providing local API access for deeper automation.",
+    "tb": "Nest Product | Function | UK Price | Subscription | Integration",
+    "tr": [
+        "Nest Hub Max | Smart display, camera, Thread router | \u00a3190-\u00a3220 | Nest Aware \u00a35/mo | Google Home",
+        "Nest Learning Thermostat | Smart thermostat, auto-schedule | \u00a3200-\u00a3250 | Free | Google Home, Works with Nest",
+        "Nest Doorbell (battery) | Video doorbell, 960p HDR | \u00a3180-\u00a3220 | Nest Aware \u00a35/mo | Google Home",
+        "Nest Cam (battery) | Indoor/outdoor camera | \u00a3140-\u00a3180 | Nest Aware \u00a35/mo | Google Home",
+        "Nest Audio | Smart speaker, good sound | \u00a380-\u00a3100 | Free | Google Home"
+    ],
+    "fq": [
+        ["What is the best first Nest device for UK homes?", "Nest Learning Thermostat (\u00a3200-\u00a3250) - the signature Nest product with proven energy savings (10-30% per Energy Saving Trust). Works without subscription."],
+        ["Does Nest require a subscription?", "Nest Thermostat and basic camera live view are free. Nest Aware (\u00a35/month or \u00a330/year) adds intelligent alerts, familiar face detection, and 30-day video history."],
+        ["Can Nest devices work with non-Nest smart home products?", "Yes - Google Home supports thousands of third-party devices (Philips Hue, TP-Link, Yale, Nuki). The Matter protocol ensures future compatibility."]
+    ],
+    "rt": "Smart Home with Ring Ecosystem Complete Guide, Smart Home with Apple HomeKit Complete Guide",
+    "rf": "../smart-home/40-smart-home-with-ring-ecosystem-complete-guide.md, ../smart-home/42-smart-home-with-apple-homekit-complete-guide.md"
+})
+
+# --- Entry 42 ---
+data.append({
+    "n": 42,
+    "t": "Smart Home with Apple HomeKit Complete Guide",
+    "s": "Complete guide to building an Apple HomeKit smart home for UK users covering HomePod setup, Home app configuration, Secure Video, Thread/Matter compatibility, and privacy-focused automation.",
+    "h1": "Apple HomeKit Ecosystem for UK Homes",
+    "p1": "Apple HomeKit offers a fundamentally different approach to smart home technology, prioritising privacy and local processing over cloud dependence. For UK Apple users, the ecosystem provides seamless integration with iPhones, iPads, Apple Watches, and Macs, with all communication protected by end-to-end encryption. The heart of the system is the Home app on iOS, which organises all compatible devices into a single interface grouped by room. A HomeKit home requires a home hub: a HomePod mini (99 pounds), Apple TV 4K (169 to 179 pounds), or an iPad kept at home. The hub enables remote access, automation, and sharing with family members. HomePod mini and Apple TV 4K (2nd generation and later) include Thread border router functionality, which is crucial for Thread-based smart home devices. HomeKit Secure Video revolutionises smart camera security by processing video locally on the hub, detecting people, animals, and vehicles, then encrypting the footage before uploading to iCloud.",
+    "h2": "HomeKit Automation and Secure Video",
+    "p2": "HomeKit automations are created through the Home app on iOS or macOS. Navigate to the Automation tab and select Add Automation. Triggers include: time of day (with sunrise/sunset support), people arriving or leaving (geofencing), a sensor detecting something, or an accessory being controlled. For example, create an automation: when the Eve Door and Window sensor detects the front door opening after sunset, turn on the hall light. Or, when the last person leaves home, turn off all lights, set the thermostat to Away, and arm the security system. Eve is the premier HomeKit device manufacturer in the UK, offering Thread-based sensors (Eve Door and Window at 40 to 50 pounds, Eve Motion at 45 to 55 pounds) that communicate directly with the Home Hub without needing proprietary bridges or hubs. HomeKit Secure Video cameras like the Logitech Circle View (130 to 160 pounds) support 1080p HDR with night vision and record activity clips to iCloud (200GB iCloud plan or higher required). Camera footage never leaves your home network before being encrypted, a significant privacy advantage over cloud-dependent cameras.",
+    "tb": "HomeKit Device | Function | UK Price | Hub Required | Security",
+    "tr": [
+        "HomePod mini | Smart speaker, Thread border router, Siri | \u00a399 | Self | End-to-end encryption",
+        "Apple TV 4K | Home hub, Thread border router | \u00a3169-\u00a3179 | Self | End-to-end encryption",
+        "Eve Door & Window | Contact sensor, Thread | \u00a340-\u00a350 | HomePod mini | End-to-end encryption",
+        "Eve Motion | Motion sensor, Thread | \u00a345-\u00a355 | HomePod mini | End-to-end encryption",
+        "Logitech Circle View | Camera, HomeKit Secure Video | \u00a3130-\u00a3160 | Apple TV/HomePod | End-to-end encryption"
+    ],
+    "fq": [
+        ["What makes HomeKit different from Alexa or Google?", "Privacy - HomeKit uses end-to-end encryption. Local processing on Apple TV/HomePod. Camera feeds are encrypted and processed on device. No cloud dependency for basic automation."],
+        ["Do I need an Apple TV or HomePod for HomeKit?", "For remote access and automation, yes - you need a home hub (Apple TV, HomePod, or iPad). Thread border router is built into HomePod mini and Apple TV 4K (2nd gen+)."],
+        ["Which UK smart home devices are HomeKit compatible?", "Philips Hue, Eve, Nuki, Yale, IKEA TRADFRI (via hub), Aqara (via hub), and increasingly Matter-certified devices. Check the HomeKit sticker on packaging."]
+    ],
+    "rt": "Smart Home with Google Nest Ecosystem Complete Guide, Smart Home with Samsung SmartThings Complete Guide",
+    "rf": "../smart-home/41-smart-home-with-google-nest-ecosystem-complete-guide.md, ../smart-home/43-smart-home-with-samsung-smartthings-complete-guide.md"
+})
+
+# --- Entry 43 ---
+data.append({
+    "n": 43,
+    "t": "Smart Home with Samsung SmartThings Complete Guide",
+    "s": "Complete guide to building a smart home with Samsung SmartThings for UK homes covering SmartThings Hub, device compatibility, Zigbee and Z-Wave integration, and advanced automation with SmartThings Edge.",
+    "h1": "Samsung SmartThings Platform for UK Homes",
+    "p1": "Samsung SmartThings is the most open and device-agnostic smart home platform available in the UK, supporting Zigbee, Z-Wave, Thread, WiFi, and Matter protocols through a single hub. The SmartThings Hub v3 (100 to 130 pounds) is the cornerstone, providing local processing and cloud connectivity for over 20,000 compatible devices. Unlike Alexa or Google Home which primarily use WiFi, SmartThings natively supports Zigbee and Z-Wave out of the box. This is a significant advantage for UK smart homes because Zigbee and Z-Wave devices operate on low-power mesh networks that do not compete with WiFi bandwidth. The SmartThings Station (60 to 80 pounds) is a more compact hub that doubles as a wireless phone charger and includes a physical button for triggering scenes. It supports Zigbee, Matter, and WiFi, making it an excellent entry point for smaller setups. The Aeotec SmartThings Hub (130 to 150 pounds) offers the full Zigbee and Z-Wave radio stack for maximum compatibility.",
+    "h2": "SmartThings Advanced Automation",
+    "p2": "SmartThings automations are created in the SmartThings app or using the SmartThings Web dashboard for more complex logic. Basic automations follow If This Then That logic: if a sensor detects motion, turn on a light. SmartThings Edge allows these automations to run locally on the hub even when the internet is offline, providing sub-second response times and reliable operation. To create an Edge automation, use the SmartThings app, navigate to Automations, and create a new routine. Select the trigger device and condition, then choose the action device and state. For example: If SmartThings Motion Sensor detects motion between sunset and sunrise, turn on Hall Light at 50%. For advanced users, SmartThings supports WebCore automation via the community-developed SmartThings SmartApp. WebCore provides conditional logic, variables, timers, and complex triggers that exceed the built-in automation capabilities. To enable WebCore, install the SmartThings Classic app on the SmartThings Hub via the SmartThings Marketplace. Note that transitioning to SmartThings Edge from the legacy Groovy platform is essential as Samsung retired the Groovy backend in 2023.",
+    "tb": "SmartThings Device | Function | Protocol | UK Price | Hub Required",
+    "tr": [
+        "SmartThings Hub v3 | Zigbee + Z-Wave + wifi + Thread | Zigbee, Z-Wave, Thread | \u00a3100-\u00a3130 | Self",
+        "SmartThings Station | Hub + wireless charger + button | Zigbee, Matter, wifi | \u00a360-\u00a380 | Self",
+        "Aeotec SmartThings Hub | Zigbee + Z-Wave hub | Zigbee, Z-Wave | \u00a3130-\u00a3150 | Self",
+        "SmartThings Button | Scene controller button | Zigbee | \u00a320-\u00a330 | SmartThings Hub",
+        "SmartThings Motion Sensor | Motion + temp + light | Zigbee | \u00a325-\u00a335 | SmartThings Hub"
+    ],
+    "fq": [
+        ["Is SmartThings compatible with UK devices?", "Yes - SmartThings supports thousands of devices. Zigbee and Z-Wave compatibility means it works with Aqara, Philips Hue (via hub), Yale, Nuki, and many UK brands."],
+        ["Does SmartThings work offline?", "Local automation runs on the hub without internet (SmartThings Edge). Cloud-dependent features like voice control need internet. Edge is faster (sub-second response)."],
+        ["What is the difference between SmartThings Hub and Station?", "Hub v3 is the full smart home hub with Z-Wave and more processing power. Station is a compact hub for smaller setups with wireless charger and Matter support."]
+    ],
+    "rt": "Smart Home with Apple HomeKit Complete Guide, Smart Home with Home Assistant Advanced Guide",
+    "rf": "../smart-home/42-smart-home-with-apple-homekit-complete-guide.md, ../smart-home/44-smart-home-with-home-assistant-advanced-guide.md"
+})
+
+# --- Entry 44 ---
+data.append({
+    "n": 44,
+    "t": "Smart Home with Home Assistant Advanced Guide",
+    "s": "Guide to advanced smart home automation with Home Assistant for UK power users covering Raspberry Pi 5 setup, add-ons, integrations, YAML configuration, and local-only control.",
+    "h1": "Home Assistant Platform for UK Smart Homes",
+    "p1": "Home Assistant is the ultimate smart home platform for UK power users who want complete control over their automation without cloud dependency or brand lock-in. As an open-source platform running on a Raspberry Pi 5, Home Assistant Green, or an Intel NUC, it integrates with over 2,000 different devices and services through community-developed integrations. All processing happens locally, meaning automations continue working even when your broadband connection is down. The platform supports every major protocol: Zigbee via a USB dongle (Conbee II, ZHA, or Zigbee2MQTT), Z-Wave via a Z-Wave stick, Thread via a Home Assistant SkyConnect or HomePod mini, and WiFi via your existing network. The installation process uses Home Assistant OS, which is a complete operating system that runs on the Raspberry Pi 5 or Home Assistant Green. Once installed, the web-based dashboard provides real-time status, control, and automation configuration for every connected device.",
+    "h2": "Advanced Automation with Home Assistant",
+    "p2": "Home Assistant automations can be created either through the visual automation editor or directly in YAML for maximum flexibility. The automation engine supports complex conditions, triggers, and actions that exceed commercial platforms. A typical UK smart home automation might: when Octopus Agile electricity price drops below 10p/kWh and the battery state of charge is below 95%, start charging the battery at maximum rate. When the sun is shining (solar generation above 3kW) and the tumble dryer is not running, start the tumble dryer for a 60-minute cycle. These automations use the Octopus Energy integration for tariff data, the GivTCP integration for battery control, and the Met Office integration for weather data. Home Assistant add-ons extend functionality further: ESPHome for building custom sensors, Node-RED for visual flow-based automation, Frigate for AI object detection on camera feeds, and the Samba Share for easy backup management. The Nabu Casa subscription (6.50 pounds per month) supports the project and provides secure remote access without opening firewall ports, plus Alexa and Google Assistant integration.",
+    "tb": "Home Assistant Platform | Specs | Storage | UK Price | Best For",
+    "tr": [
+        "Raspberry Pi 5 + SSD | Cortex-A76, 8GB RAM | NVMe SSD 256GB | \u00a3100-\u00a3150 | Beginners to advanced",
+        "Home Assistant Green | Amlogic S905X2, 4GB RAM | 32GB eMMC | \u00a3110-\u00a3130 | Plug-and-play, beginners",
+        "Intel NUC | Core i5, 8-16GB RAM | NVMe SSD 512GB | \u00a3250-\u00a3500 | Power users, many cameras",
+        "ODROID N2+ | Cortex-A73, 4GB RAM | eMMC 64GB | \u00a3100-\u00a3130 | Mid-range alternative",
+        "Virtual Machine | VMware/Proxmox | Allocated storage | Free (existing hardware) | Developers, testing"
+    ],
+    "fq": [
+        ["Is Home Assistant better than commercial hubs?", "Home Assistant offers unlimited customisation, 2000+ integrations, local-only processing (no cloud), and supports every protocol. It requires more setup but offers maximum control."],
+        ["Can Home Assistant integrate with UK-specific services?", "Yes - Octopus Agile tariff integration, UK Bin Collection (local council schedule), UK Met Office weather, DAB radio streaming, and all major UK smart home brands."],
+        ["Does Home Assistant work with voice control?", "Yes - Amazon Alexa and Google Assistant integration via Nabu Casa subscription (\u00a36.50/month or free via DIY cloud). Assist is the built-in voice assistant."]
+    ],
+    "rt": "Smart Home with Samsung SmartThings Complete Guide, Smart Home Zigbee and Z-Wave Network Optimization Guide",
+    "rf": "../smart-home/43-smart-home-with-samsung-smartthings-complete-guide.md, ../smart-home/45-smart-home-zigbee-and-z-wave-network-optimization-guide.md"
+})
+
+# --- Entry 45 ---
+data.append({
+    "n": 45,
+    "t": "Smart Home Zigbee and Z-Wave Network Optimization Guide",
+    "s": "Guide to optimising Zigbee and Z-Wave mesh networks for UK smart homes covering channel selection, repeater placement, interference avoidance, network health monitoring, and device limits.",
+    "h1": "Zigbee and Z-Wave Mesh Network Fundamentals",
+    "p1": "Understanding the fundamentals of Zigbee and Z-Wave mesh networks is essential for building a reliable smart home in the UK. Both protocols create self-healing mesh networks where mains-powered devices act as repeaters, extending range and improving reliability. However, they operate on very different frequencies with distinct characteristics. Zigbee operates on the 2.4GHz ISM band, which is the same frequency used by WiFi and Bluetooth. In the typical UK home with 20 to 30 WiFi networks visible from neighbouring properties, the 2.4GHz band is heavily congested, particularly in urban areas and flats. This can cause Zigbee interference, dropped messages, and unreliable device responses. Z-Wave operates on 868.42MHz in the UK, a sub-GHz frequency that avoids WiFi congestion entirely and penetrates UK brick walls far more effectively. The trade-off is that Z-Wave devices are generally more expensive and the range is limited to 232 devices per controller chip. Many UK smart home enthusiasts use both protocols.",
+    "h2": "Network Optimisation and Troubleshooting",
+    "p2": "Optimising your Zigbee or Z-Wave mesh network requires careful planning and monitoring. For Zigbee, channel selection is critical. WiFi channels 1, 6, and 11 are most common in the UK. Zigbee channel 15 (2425MHz) or channel 20 (2450MHz) fall between these WiFi channels, minimising interference. Use a WiFi analyser app on your phone to identify the quietest Zigbee channel in your area. Place your Zigbee coordinator centrally in your home, ideally in a living room or hallway on the ground floor. Ensure at least half your devices are mains-powered (bulbs, plugs, switches) to serve as repeaters. Battery-powered sensors do not repeat. For Z-Wave, the single 868.42MHz channel has no channel selection issue, but range is affected by building materials. UK brick walls reduce Z-Wave range by 30 to 50%. Install Z-Wave repeaters (mains-powered plugs or switches) every 10 to 15 metres. Both networks should be monitored using network visualisation tools: Zigbee2MQTT provides a network graph, and the Z-Wave JS UI shows node status and routes. Remove problematic devices that consistently fail to communicate.",
+    "tb": "Network Aspect | Zigbee | Z-Wave (UK) | Key Difference | UK Consideration",
+    "tr": [
+        "Frequency | 2.4GHz | 868.42MHz | Z-Wave avoids WiFi congestion | Better through UK brick walls",
+        "Range (direct) | 10-20m | 30m | Z-Wave longer range | Need more Zigbee repeaters in UK homes",
+        "Max devices per network | 240 | 232 (per Z-Wave chip) | Similar limits | UK home typically 20-50 devices",
+        "Repeater type | Mains-powered Zigbee bulbs | Mains-powered Z-Wave plugs | Both need mains power | Light bulbs act as Zigbee repeaters",
+        "Channel selection | 11, 14, 17, 20, 23, 26 | 1 (fixed) | Zigbee must avoid WiFi 1,6,11 | Use Zigbee channel 15 or 20 to avoid UK WiFi"
+    ],
+    "fq": [
+        ["Which mesh protocol is better for UK homes?", "Z-Wave at 868MHz penetrates UK brick walls better than Zigbee at 2.4GHz and avoids WiFi congestion. Zigbee has cheaper, more diverse devices. Many UK homes use both."],
+        ["How do I improve Zigbee network reliability?", "Use mains-powered devices (bulbs, plugs) as repeaters. Avoid channel overlap with WiFi (use channel 15 or 20). Keep Zigbee coordinator centrally located. Max 4-6 router hops."],
+        ["What is the Z-Wave device limit for UK homes?", "Z-Wave supports 232 nodes per chip (typically 40-50 for reliability). For larger installations, use a second controller. Z-Wave LR (Long Range) extends to 2000+ devices."]
+    ],
+    "rt": "Smart Home with Home Assistant Advanced Guide, Smart Home Thread and Matter Network Setup Guide",
+    "rf": "../smart-home/44-smart-home-with-home-assistant-advanced-guide.md, ../smart-home/46-smart-home-thread-and-matter-network-setup-guide.md"
+})
+
+# --- Entry 46 ---
+data.append({
+    "n": 46,
+    "t": "Smart Home Thread and Matter Network Setup Guide",
+    "s": "Guide to setting up Thread mesh networks and Matter devices for UK smart homes covering Thread border routers, device onboarding, network topology, and troubleshooting for the next-generation protocol.",
+    "h1": "Thread and Matter Network Architecture",
+    "p1": "Thread and Matter represent the future of smart home connectivity, promising universal compatibility that eliminates the ecosystem fragmentation that has frustrated UK smart home users. Thread is a low-power, IPv6-based mesh networking protocol designed for IoT devices. It operates on the 2.4GHz band using 6LoWPAN (IPv6 over Low-Power Wireless Personal Area Networks) and creates a self-healing mesh similar to Zigbee but with native IPv6 addressing, meaning each Thread device has its own IP address on your home network. Matter is the application layer standard developed by the Connectivity Standards Alliance (CSA), which includes Apple, Google, Amazon, and Samsung. Matter devices can communicate over Thread, WiFi, or Ethernet, and they work with all major ecosystems simultaneously. A Matter-certified bulb can be controlled by Alexa, Google Assistant, Siri, and SmartThings out of the box, without needing multiple integrations or proprietary bridges.",
+    "h2": "Setting Up Thread and Matter Devices",
+    "p2": "Setting up a Thread and Matter network requires at least one Thread border router, which bridges the Thread mesh network to your home WiFi network. In the UK, the most common Thread border routers are the HomePod mini (99 pounds), Apple TV 4K 3rd generation (169 pounds), Nest Hub Max (190 to 220 pounds), and the Aqara Hub M3 (50 to 70 pounds). A single Thread border router can support up to 32 Thread devices within a 30-metre range, but for larger UK homes, add additional border routers to extend coverage. To set up a Matter device, scan the Matter pairing QR code or enter the 11-digit setup code in your preferred platform's app. If you use Apple HomeKit, open the Home app and tap Add Accessory. For Google Home, open the Google Home app and tap Add Device. For Alexa, use the Alexa app. The device automatically appears in all platforms that share the same Matter fabric. Troubleshooting: if a Matter device does not pair, ensure your Thread border router is on the latest firmware, reboot all border routers, and ensure the device is within 10 metres of a border router during initial pairing.",
+    "tb": "Thread/Matter Device | Function | Border Router | UK Price | Protocol",
+    "tr": [
+        "HomePod mini | Smart speaker + border router | Yes (Thread) | \u00a399 | Thread + Matter",
+        "Apple TV 4K (3rd gen) | Media streamer + border router | Yes (Thread) | \u00a3169 | Thread + Matter",
+        "Nest Hub Max | Smart display + border router | Yes (Thread) | \u00a3190-\u00a3220 | Thread + Matter",
+        "Eve Energy Smart Plug | Smart plug + Thread repeater | No (needs border router) | \u00a335-\u00a345 | Thread + Matter",
+        "Aqara Hub M3 | Zigbee + Matter hub + border router | Yes (Thread) | \u00a350-\u00a370 | Thread + Matter"
+    ],
+    "fq": [
+        ["What is the difference between Thread and Matter?", "Thread is the low-power mesh networking protocol (the pipe). Matter is the application standard (the language). Thread carries Matter traffic. WiFi and Ethernet also support Matter."],
+        ["Do I need a Thread border router for Matter?", "Only for Thread-based Matter devices. WiFi and Ethernet Matter devices work without a border router. Many UK homes have Thread border routers built into HomePod or Nest Hub."],
+        ["Is Matter worth upgrading to in 2026?", "Yes - Matter eliminates brand lock-in. A Matter-certified bulb works with Alexa, Google, and Apple simultaneously. No need to check compatibility before buying."]
+    ],
+    "rt": "Smart Home Zigbee and Z-Wave Network Optimization Guide, Smart Home Multi-User Access and Guest Management Guide",
+    "rf": "../smart-home/45-smart-home-zigbee-and-z-wave-network-optimization-guide.md, ../smart-home/47-smart-home-multi-user-access-and-guest-management-guide.md"
+})
+
+# --- Entry 47 ---
+data.append({
+    "n": 47,
+    "t": "Smart Home Multi-User Access and Guest Management Guide",
+    "s": "Guide to managing multiple users and guests in UK smart homes covering individual profiles, guest permissions, temporary access, privacy modes, and access auditing for households with visitors.",
+    "h1": "User Management in Smart Home Platforms",
+    "p1": "Managing multiple users in a smart home becomes essential as households grow and more people interact with connected devices. In the UK, the typical household has 2.4 people, but smart homes often need to accommodate cleaners, dog walkers, childminders, tradespeople, and house sitters. Each person needs appropriate access levels. Alexa supports household profiles with voice recognition, allowing each user to access their own music preferences, calendar, and shopping list. Google Home similarly supports multiple users with voice match. For security-sensitive devices like smart locks, thermostats, and cameras, granular permission control is crucial. The Yale Access system allows creation of multiple PIN codes with specific schedules: a cleaner's code works only on Tuesday between 10am and 12pm. Nuki Smart Lock extends this with time-limited and single-use codes perfect for Airbnb guests or emergency access. August Smart Locks (compatible with many UK doors) support digital keys that can be revoked at any time.",
+    "h2": "Guest Access Configuration and Privacy",
+    "p2": "Configuring guest access requires balancing convenience with privacy. For short-term guests like a dog walker or cleaner, create a time-limited guest code on your smart lock set to work only during the required hours and days. Disable interior cameras during guest stays using privacy modes or scheduling. HomeKit Secure Video cameras support activity zones that can exclude guest bedrooms and bathrooms from recording. For Airbnb or holiday let hosts, SmartThings and Yale systems provide features specifically for vacation rental management. Each guest receives a unique entry code that can be deleted after checkout. Thermostat access can be limited to a comfortable range (18 to 24C) to prevent guests from cranking the heating to maximum. Set up automations that detect when guests have left: if the smart lock detects the door has been locked for 30 minutes and no motion is detected inside, trigger the Away routine that sets heating to eco mode, checks all windows are closed via contact sensors, and arms the security system. Audit logs accessible to the homeowner show every code entry, thermostat change, and camera view.",
+    "tb": "User Type | Smart Lock | Thermostat | Cameras | Voice Assistant",
+    "tr": [
+        "Homeowner (admin) | Full control | Full control | Full view + settings | Full including purchases",
+        "Family member | Standard user | 18-24C range | View live only | Standard (no voice history)",
+        "Regular guest (cleaner) | Schedule-limited | 18-22C range | No cameras in work areas | Do Not Disturb",
+        "Short-term visitor | Time-limited PIN | Fixed 20C | Disabled in guest areas | Guest mode",
+        "Emergency services | Single-use code | N/A | Full unlock | N/A"
+    ],
+    "fq": [
+        ["Can I create different user permissions across devices?", "Yes - most platforms support per-device permissions. Give guests lock access but not camera access. Give children thermostat range limits (18-24C)."],
+        ["How do I ensure guest privacy with smart home cameras?", "Disable interior cameras in guest bedrooms and bathrooms. Use privacy zones on cameras that cover guest areas. Schedule camera disablement during guest stays."],
+        ["Can I see a log of all guest activity?", "Yes - smart lock activity logs show who used which code and when. Thermostat logs show temperature changes. Camera logs show viewing history. Review these after guests leave."]
+    ],
+    "rt": "Smart Home Thread and Matter Network Setup Guide, Smart Home Privacy and Data Security Guide UK",
+    "rf": "../smart-home/46-smart-home-thread-and-matter-network-setup-guide.md, ../smart-home/48-smart-home-privacy-and-data-security-guide-uk.md"
+})
+
+# --- Entry 48 ---
+data.append({
+    "n": 48,
+    "t": "Smart Home Privacy and Data Security Guide UK",
+    "s": "Guide to privacy and data security for UK smart homes covering ICO compliance, data minimisation, voice assistant privacy, camera data protection, and securing smart devices against unauthorised access.",
+    "h1": "Smart Home Privacy Risks and UK Regulations",
+    "p1": "As smart homes collect increasingly detailed data about your daily life, understanding privacy risks and UK data protection regulations becomes essential. The average UK smart home generates over 50GB of data per month through camera feeds, voice recordings, sensor readings, and device logs. This data reveals when you are home, your daily routines, your health patterns, and even your conversations. The Information Commissioner's Office (ICO) provides guidance on smart home data protection. For purely household use, you do not need to register with the ICO. However, if you have guests, tenants, or run an Airbnb, you may be processing personal data and require ICO registration (35 to 60 pounds per year). The UK GDPR applies to any smart home data that includes identifiable personal information. The Data Protection Act 2018 requires data minimisation: only collect the data you actually need for automation to function. Delete audio recordings, video footage, and device logs regularly using your platform's privacy settings.",
+    "h2": "Securing Smart Home Data and Devices",
+    "p2": "Securing your smart home data requires a multi-layered approach across devices, networks, and accounts. Start with your Amazon Alexa privacy settings: open the Alexa app, go to Settings > Privacy, and review voice history, manage skill permissions, and enable auto-delete recordings after 3 or 18 months. For Google Home, use the My Activity page to review and delete voice recordings. Enable two-factor authentication on your primary Amazon or Google account and on the account that controls your smart home hub. For cameras, choose devices that support end-to-end encryption. HomeKit Secure Video provides the strongest privacy, processing video locally before encrypting and uploading to iCloud. Eufy cameras store footage locally by default on the HomeBase 2 unit, avoiding cloud storage entirely. Ring footage is encrypted in transit and at rest on AWS servers, but Amazon staff have access to cloud footage under limited circumstances. Use unique, strong passwords for each device account and enable 2FA everywhere. Consider a password manager like 1Password or Bitwarden to manage credentials securely.",
+    "tb": "Data Security Concern | Risk Level | Mitigation | UK Compliance | Implementation",
+    "tr": [
+        "Voice assistant recording | Medium | Disable mic, review history, auto-delete | ICO guidance | Alexa: Settings > Privacy > Manage Voice History",
+        "Camera cloud storage | Medium-High | End-to-end encryption, local storage | ICO registration if shared | Eufy local storage, HomeKit Secure Video",
+        "Smart lock access logs | Low-Medium | Strong passwords, 2FA, audit | GDPR data minimisation | Delete logs after 90 days",
+        "WiFi network exposure | High | Separate IoT network, WPA3 | ICO guidance | Router: Guest network for IoT devices",
+        "Third-party skill access | Medium | Review permissions, revoke unused | ICO consent requirement | Alexa: Skills > Disable unused"
+    ],
+    "fq": [
+        ["Do I need to register with the ICO for my smart home?", "For purely household use - no. If you have visitors, guests, or tenants (Airbnb), you may need ICO registration (\u00a335-\u00a360/year) as you process personal data."],
+        ["How do I stop my smart speaker listening all the time?", "Physical mute button disables the microphone. Delete voice history periodically. Disable targeted ads. Use the privacy settings in Alexa or Google Home app."],
+        ["Is my smart home camera footage secure?", "It depends. Ring stores footage encrypted in the cloud. Eufy stores locally by default. HomeKit Secure Video provides end-to-end encryption. Local storage is most private."]
+    ],
+    "rt": "Smart Home Multi-User Access and Guest Management Guide, Smart Home Child Safety and Parental Controls Guide",
+    "rf": "../smart-home/47-smart-home-multi-user-access-and-guest-management-guide.md, ../smart-home/49-smart-home-child-safety-and-parental-controls-guide.md"
+})
+
+# --- Entry 49 ---
+data.append({
+    "n": 49,
+    "t": "Smart Home Child Safety and Parental Controls Guide",
+    "s": "Expanded guide to smart home child safety and parental controls for UK homes covering screen time management across devices, age-appropriate content filtering, bedroom device curfews, and online safety automation.",
+    "h1": "Comprehensive Child Safety Across Smart Home Devices",
+    "p1": "Protecting children in a smart home environment requires thoughtful configuration of parental controls across all connected devices. UK children aged 5 to 16 spend an average of 4.5 hours per day on screens, much of it on smart devices including tablets, smart speakers, and smart displays. The Amazon Echo Show with Amazon Kids provides a child-friendly interface with age-appropriate content, daily time limits, and a parent dashboard showing activity. Set up a Kids Profile in the Alexa app: go to Settings > Amazon Kids > Create Profile, select your child's age, and set daily screen time limits (recommended 1 to 2 hours for under-12s). The profile automatically filters explicit music, news, and web content. For Google Nest Hub, Google Family Link provides similar controls: set digital wellbeing rules, approve or block apps, and set device bedtime schedules. The NSPCC and Internet Matters UK provide excellent resources for setting age-appropriate online safety rules specific to UK families.",
+    "h2": "Screen Time and Online Safety Automation",
+    "p2": "Smart home automation can enforce screen time and online safety without constant parental nagging. Create a Homework routine triggered by a voice command or schedule at 4pm: Alexa will announce Homework time, set the Nest Hub to Do Not Disturb mode, and dim entertainment devices in the child's room. The Bedtime routine at 8.30pm runs on school nights: turn off smart lights in the child's bedroom gradually over 15 minutes (mimicking a natural wind-down), disable WiFi access to the child's devices via router parental controls, and set the smart plug powering the TV or games console to off. The router is a powerful parental control tool. BT Smart Hub, Sky Broadband Buddy, and Virgin Media Parental Controls all offer content filtering categories (adult, social media, gaming) and time-based internet schedules. For example, in BT Smart Hub, go to Advanced Settings > Parental Controls > Create Profile, select your child's devices, and set a WiFi curfew of 9pm to 7am on school nights. Smart cameras should never be placed in children's bedrooms or bathrooms to respect privacy and dignity.",
+    "tb": "Safety Area | Device | Parental Control Feature | Setup | UK Resources",
+    "tr": [
+        "Screen time | Smart display (Echo Show) | Amazon Kids, time limits | Alexa app > Kids Profile > Set daily limit | Internet Matters UK",
+        "Content filtering | Smart speaker | Explicit content filter, purchase PIN | Music Settings > Explicit Filter > On | NSPCC Online Safety",
+        "Bedtime curfew | Smart lights + plugs | Lights off, WiFi off at bedtime | Schedule routine 8.30pm: lights dim, plugs off | UK Safer Internet Centre",
+        "App downloads | Smartphone/tablet | App approval, purchase limits | Device Settings > Screen Time/Google Family Link | NSPCC",
+        "Online access | Router | Content filtering, time schedules | Router > Parental Controls > Filter categories | Get Safe Online"
+    ],
+    "fq": [
+        ["How can I limit my child's screen time across smart devices?", "Use Amazon Kids profiles on Echo Show with daily time limits. Set router parental controls for internet curfew (9pm bedtime). Smart plugs can disable entertainment devices at set times."],
+        ["Can I prevent my child from making voice purchases?", "Yes - require a 4-digit voice code for all purchases on Alexa (Settings > Voice Purchasing > Require Confirmation Code). Google also has purchase authentication."],
+        ["How do I create a child-safe smart home bedroom?", "Remove smart speakers with microphones from bedrooms. Use smart lights with warm dim night mode. Set WiFi curfew (off 9pm-7am). No cameras in children bedrooms."]
+    ],
+    "rt": "Smart Home Privacy and Data Security Guide UK, Smart Home Buyer's Guide UK 2026",
+    "rf": "../smart-home/48-smart-home-privacy-and-data-security-guide-uk.md, ../smart-home/50-smart-home-buyers-guide-uk-2026.md"
+})
+
+# --- Entry 50 ---
+data.append({
+    "n": 50,
+    "t": "Smart Home Buyer's Guide UK 2026",
+    "s": "Comprehensive smart home buyer's guide for UK consumers in 2026 covering ecosystem choices, device recommendations, installation options, budget planning, and future-proofing with Matter.",
+    "h1": "Smart Home Ecosystem Choices for UK Homes 2026",
+    "p1": "Choosing the right smart home ecosystem in 2026 is the most important decision for UK buyers, as it determines which devices work together and how you control them. Amazon Alexa remains the dominant platform with 45% UK market share, offering the broadest device compatibility, the most skills, and the most competitive pricing. Google Home (25% share) excels for households already using Gmail, Google Calendar, and YouTube, with deep Google service integration. Apple HomeKit (15% share) is the privacy champion, with all communication end-to-end encrypted and local processing that works without internet. Samsung SmartThings (10% share) offers the widest protocol support with native Zigbee, Z-Wave, and Thread. When choosing, consider which services your household already uses: if everyone has iPhones, HomeKit is the most natural choice. If you rely on Google services, Google Home is easiest. For maximum flexibility, start with a Thread border router (HomePod mini or Nest Hub Max) and buy Matter-certified devices that work across all platforms. This future-proofs your investment and prevents ecosystem lock-in.",
+    "h2": "Smart Home Recommendations by Room and Budget",
+    "p2": "Building a smart home in stages is the most budget-friendly approach. Start with the room you spend most time in and add devices that deliver the most noticeable convenience. For a starter budget of 200 to 400 pounds, equip your living room with an Echo Dot and two Philips Hue bulbs for voice-controlled lighting, plus a smart plug for the TV to eliminate standby power. In the kitchen, add an Echo Show 8 for recipe display, a smart kettle, and under-cabinet LED strip lighting. The hallway benefits most from a motion sensor and smart bulb combination, automatically lighting the way at night. For intermediate budgets of 500 to 1,500 pounds, add a smart thermostat (Nest, Hive, or Tado) for heating control, a video doorbell (Ring or Nest) for security, smart TRVs on radiators in bedrooms for zone heating, and a smart lock on the front door. For advanced budgets above 2,000 pounds, add smart blinds to living room and bedrooms, whole-home smart lighting with Philips Hue throughout, a smart alarm system (Ring or Yale), security cameras, and smart irrigation for the garden. Installation costs vary: lights and plugs are DIY, while thermostats, hardwired cameras, and smart locks may need professional electrician or locksmith installation.",
+    "tb": "Room/Area | Starter Device | Intermediate Setup | Advanced Setup | Typical Investment",
+    "tr": [
+        "Living room | Echo Dot + 2 Hue bulbs (\u00a3130) | Echo Studio + Hue bridge + 4 bulbs (\u00a3250) | Sonos Era 300 + Hue Sync + blinds (\u00a3800) | \u00a3130-\u00a3800",
+        "Kitchen | Smart plug + Wiz bulb (\u00a325) | Echo Show 8 + smart kettle + under-cabinet strip (\u00a3200) | Full Hue + smart appliances (\u00a3500) | \u00a325-\u00a3500",
+        "Hallway | Motion sensor + bulb (\u00a330) | Ring doorbell + motion light (\u00a3150) | Doorbell + alarm + smart lock (\u00a3500) | \u00a330-\u00a3500",
+        "Bedroom | Smart bulb + Echo Dot (\u00a3100) | Echo Dot + 2 bulbs + TRV (\u00a3200) | Full Hue + smart blinds + TRVs (\u00a3500) | \u00a3100-\u00a3500",
+        "Garden | Outdoor smart plug (\u00a315) | Ring path light (2-pack \u00a3100) | Smart irrigation + floodlight + musical (\u00a3300) | \u00a315-\u00a3300"
+    ],
+    "fq": [
+        ["Which smart home ecosystem should I choose in 2026?", "Alexa has the broadest UK support (45% market share). Apple HomeKit for privacy-focused users. Google Home for Google service users. Matter support means you can switch later."],
+        ["How much should I budget for a whole smart home?", "Starter: \u00a3200-\u00a3400 (hub, lights, plugs, one sensor). Intermediate: \u00a3500-\u00a31,500 (add thermostat, doorbell, more sensors). Advanced: \u00a32,000+ (add blinds, TRVs, cameras, alarm)."],
+        ["Should I wait for Matter before buying smart home devices?", "No - buy Matter-certified devices where available. Existing non-Matter devices continue working. Matter adds interoperability but does not make current devices obsolete."]
+    ],
+    "rt": "Smart Home Child Safety and Parental Controls Guide, Smart Home Hub Setup Guide UK",
+    "rf": "../smart-home/49-smart-home-child-safety-and-parental-controls-guide.md, ../smart-home/01-smart-home-hub-setup-guide-uk.md"
+})
+
+output_path = "C:\\Users\\Gary\\AppData\\Local\\Temp\\opencode\\read-the-docs\\sh_data.json"
+with open(output_path, "w", encoding="utf-8") as f:
+    json.dump(data, f, indent=2, ensure_ascii=False)
+
+print(f"File created: {output_path}")
+print(f"Total entries: {len(data)}")

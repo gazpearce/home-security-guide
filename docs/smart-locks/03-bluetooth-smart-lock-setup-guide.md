@@ -1,35 +1,34 @@
----
+﻿---
 description: >-
-  Guide to Bluetooth smart lock setup for UK homes covering proximity auto-unlock, app configuration, bridge requirements for remote access, and battery optimisation.
+  How to install, pair, and configure a Bluetooth smart lock in your UK home  -  compatible with uPVC, composite, and timber doors.
 ---
 
 # Bluetooth Smart Lock Setup Guide
 
-Guide to Bluetooth smart lock setup for UK homes covering proximity auto-unlock, app configuration, bridge requirements for remote access, and battery optimisation.
+How to install, pair, and configure a Bluetooth smart lock in your UK home  -  compatible with uPVC, composite, and timber doors.
 
 ---
 
-## Understanding Bluetooth Smart Lock Technology
+## Choosing a Bluetooth Smart Lock for UK Doors
 
-Bluetooth smart locks use BLE (Bluetooth Low Energy) to communicate with your smartphone within 5-10 metre range. They provide hands-free auto-unlock when your phone approaches the door. Popular UK models include Nuki Smart Lock 2.0 (£200-£280 from Screwfix), August Smart Lock (£200-£300 from Amazon UK), and Level Lock (£250-£350). Bluetooth locks do not require internet connection for basic operation - unlocking works even if your WiFi is down. Range is typically 8-10 metres through one UK internal wall but reduces through brick external walls to 5 metres. Most Bluetooth locks include a keypad or physical key override. Remote access requires a bridge or hub (Nuki Bridge £70, August Connect £60). Without a bridge, you must be within Bluetooth range to unlock. Battery life is 6-12 months on 4x AA batteries.
+Bluetooth smart locks connect directly to your smartphone via BLE 5.0 or 5.1, offering hands-free unlock within 2 - 5 metres. The Nuki Smart Lock 3.0 Pro (£179) and Yale Linus (£129) are the two best-selling models in the UK. Both fit Euro-profile cylinders common on uPVC and composite doors. Nuki supports auto-unlock via geofencing, while Yale Linus integrates with the Yale Home app for remote access when paired with a WiFi bridge (£49 extra). Battery life averages 8 - 12 months on 4   AA alkaline cells. Over 1.2 million UK households now use Bluetooth smart locks, driven by the growth of smart home ecosystems.
 
 ---
 
-## Setup and Pairing Procedure
+## Step-by-Step Bluetooth Pairing and Calibration
 
-Step 1: Install the Bluetooth lock following euro cylinder replacement procedure. Step 2: Insert batteries and wait for the LED to flash indicating pairing mode. Step 3: Download the manufacturer app and create an account. Step 4: Enable Bluetooth on your phone and follow the in-app pairing wizard. Step 5: Calibrate the lock by running a full lock cycle - the app learns the resistance and end-stop positions. Step 6: Set up auto-unlock by walking away from the door with the app open. The app learns your departure pattern. Step 7: Configure lock settings: auto-lock timer (30-60 seconds), unlock distance (3-8 metres), and notification preferences. Step 8: For remote access, install a bridge or hub connected to your WiFi router within 5 metres of the lock. Step 9: Test the system thoroughly - walk to and from the door to verify auto-unlock triggers correctly. For UK terraced houses, Bluetooth range through multiple party walls may be reduced.
+After mounting the lock body, open the manufacturer's app  -  Nuki uses the Nuki Smart Lock app, Yale uses the Yale Home app. Hold the smartphone within 1 metre of the lock, ensure Bluetooth is enabled, and press the pairing button on the lock (usually on the side or under the battery cover). The app will scan and discover the device within 10 seconds. Follow the calibration wizard: the lock will cycle through open and closed positions to learn the door's throw distance. Calibration takes approximately 2 minutes. Test the lock manually from both inside and outside. If the lock binds or makes excessive noise, adjust the mounting ring using the supplied shims  -  a common issue on doors that are slightly out of square.
 
 ---
 
 ## Specifications and Comparison
 
-| Bluetooth Lock Feature | Specification | UK Consideration |
+| Feature | Nuki 3.0 Pro | Yale Linus |
 | ---|---|--- |
-| Range | 5-10 metres through walls | Reduced in brick UK homes |
-| Remote Access | Requires bridge/hub £60-70 | Essential for Airbnb and holiday lets |
-| Auto-Unlock | Geofencing + BLE proximity | Works via smartphone Bluetooth |
-| Battery Life | 6-12 months (4x AA) | Use high-quality alkaline batteries |
-| Compatibility | Euro cylinder doors | uPVC, composite, timber doors |
+| Bluetooth version | BLE 5.1 | BLE 5.0 |
+| Range | Up to 10 m | Up to 8 m |
+| Auto-unlock | Yes (geofence) | Yes (geofence) |
+| Price (£) | 179 | 129 |
 
 ---
 
@@ -37,15 +36,14 @@ Step 1: Install the Bluetooth lock following euro cylinder replacement procedure
 
 <dl>
 
-<dt>Can I unlock my Bluetooth lock from anywhere?</dt>
-<dd>Only if you have a bridge or hub connected to your WiFi. Without a bridge, you must be within 5-10 metres Bluetooth range.</dd>
+<dt>Do I need WiFi if my smart lock uses Bluetooth?</dt>
+<dd>No  -  Bluetooth handles local unlocking. However, if you want remote access or voice control via Alexa, you will need a WiFi bridge such as the Nuki Fob or Yale WiFi Bridge (£49).</dd>
 
-<dt>What happens if my phone battery dies?</dt>
-<dd>Most Bluetooth locks include a keypad backup or physical key override. Always carry a backup key fob or learn the backup PIN code.</dd>
+<dt>Will a Bluetooth lock work on my uPVC door?</dt>
+<dd>Yes  -  all major brands support UK Euro-profile cylinders found on uPVC, composite, and timber doors. Verify the door thickness is between 38 mm and 80 mm.</dd>
 
-<dt>Is Bluetooth secure for door locks?</dt>
-<dd>Yes - BLE uses AES-128 encryption with secure pairing. Each unlock request uses a rotating session key. For more information see our <a href="../smart-locks/04-wifi-smart-lock-configuration-guide.md">WiFi Smart Lock Configuration Guide</a>.</dd>
-
+<dt>Can multiple phones connect to one Bluetooth lock?</dt>
+<dd>Yes  -  most apps allow up to 10 authorised users. Each person installs the app and receives an invitation from the primary account holder. For more information see our <a href="04-wifi-smart-lock-installation-guide.md">WiFi Smart Lock Installation Guide</a>.</dd>
 </dl>
 
 <script type="application/ld+json">
@@ -53,7 +51,7 @@ Step 1: Install the Bluetooth lock following euro cylinder replacement procedure
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Bluetooth Smart Lock Setup Guide",
-  "description": "Guide to Bluetooth smart lock setup for UK homes covering proximity auto-unlock, app configuration, bridge requirements for remote access, and battery optimisation.",
+  "description": "How to install, pair, and configure a Bluetooth smart lock in your UK home  -  compatible with uPVC, composite, and timber doors.",
   "author": { "@type": "Person", "name": "Gary Pearce" },
   "publisher": { "@type": "Organization", "name": "Home Security Guide" },
   "datePublished": "2026-05-31",
@@ -68,31 +66,30 @@ Step 1: Install the Bluetooth lock following euro cylinder replacement procedure
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Can I unlock my Bluetooth lock from anywhere?",
+      "name": "Do I need WiFi if my smart lock uses Bluetooth?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Only if you have a bridge or hub connected to your WiFi. Without a bridge, you must be within 5-10 metres Bluetooth range."
+        "text": "No  -  Bluetooth handles local unlocking. However, if you want remote access or voice control via Alexa, you will need a WiFi bridge such as the Nuki Fob or Yale WiFi Bridge (£49)."
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if my phone battery dies?",
+      "name": "Will a Bluetooth lock work on my uPVC door?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Most Bluetooth locks include a keypad backup or physical key override. Always carry a backup key fob or learn the backup PIN code."
+        "text": "Yes  -  all major brands support UK Euro-profile cylinders found on uPVC, composite, and timber doors. Verify the door thickness is between 38 mm and 80 mm."
       }
     },
     {
       "@type": "Question",
-      "name": "Is Bluetooth secure for door locks?",
+      "name": "Can multiple phones connect to one Bluetooth lock?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes - BLE uses AES-128 encryption with secure pairing. Each unlock request uses a rotating session key."
+        "text": "Yes  -  most apps allow up to 10 authorised users. Each person installs the app and receives an invitation from the primary account holder."
       }
     }
   ]
-}
-</script>
+}</script>
 
 ---
 
@@ -102,10 +99,11 @@ Step 1: Install the Bluetooth lock following euro cylinder replacement procedure
 
 ## Related Guides
 
-- [Smart-Locks Overview](../smart-locks.md)
-- [WiFi Smart Lock Configuration Guide](../smart-locks/04-wifi-smart-lock-configuration-guide.md)
-- [Zigbee Z-Wave Smart Lock Guide](../smart-locks/05-zigbee-z-wave-smart-lock-guide.md)
+- [smart-locks Overview](../smart-locks.md)
+- [WiFi Smart Lock Installation Guide](04-wifi-smart-lock-installation-guide.md)
+- [Keyless Entry Door Lock Guide UK](02-keyless-entry-door-lock-guide-uk.md)
 
 ### External Resources
 
 For further information consult authority guidelines at the [Information Commissioner's Office](https://ico.org.uk/).
+
